@@ -2,8 +2,8 @@
 - 👀 I’m interested in AI and Copilot
 - 🌱 I’m currently a 4th-year B.Tech CSE student at Kalasalingam Academy of Research and Education, Tamil Nadu
 - 💞️ I’m looking to collaborate on innovative AI/ML projects
-- 📫 How to reach me:
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)
+- 📫 How to reach me: ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)  [![Medium](https://img.shields.io/badge/Medium-Read%20My%20Articles-black?logo=medium)](https://medium.com/@bjaswant2005) [![Facebook](https://img.shields.io/badge/Facebook-Follow%20Me-1877F2?logo=facebook&logoColor=white)](https://facebook.com/jaswantvathanam) [![Threads](https://img.shields.io/badge/Threads-Let's%20Connect-black?logo=threads)](https://www.threads.net/@jaswantvathanam)
+
 
 - 😄 Pronouns: He or Him.
 - ⚡ Fun fact: I am dedicated to developing innovative solutions to problems and eager to excel in my field
