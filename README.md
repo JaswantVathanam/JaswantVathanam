@@ -4,6 +4,22 @@
 - 💞️ I’m looking to collaborate on innovative AI/ML projects
 - 📫 How to reach me: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/jaswant-b-vathanam) [![Medium](https://img.shields.io/badge/Medium-Read%20My%20Articles-black?logo=medium)](https://medium.com/@bjaswant2005) [![Facebook](https://img.shields.io/badge/Facebook-Follow%20Me-1877F2?logo=facebook&logoColor=white)](https://facebook.com/jaswantvathanam) [![Threads](https://img.shields.io/badge/Threads-Let's%20Connect-black?logo=threads)](https://www.threads.net/@jaswantvathanam)
 
+## 🛠️ Tech Stack & Tools
+**Languages & Frameworks:**  
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)  
+![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
+HTML5 | CSS3 | JavaScript | Bootstrap  
+
+**Cloud & Platforms:**  
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)  
+Git & GitHub | SQL 
+---
+
+## 🎯 Areas of Focus
+- 🤖 **Artificial Intelligence & Machine Learning**
+- 🖥 **.NET Development** (C# & Modern Web Apps)
+- ☁ **Cloud Integration with Azure**
 
 - 😄 Pronouns: He or Him.
 - ⚡ Fun fact: I am dedicated to developing innovative solutions to problems and eager to excel in my field
