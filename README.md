@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @JaswantVathanam
+- 👋 Hi, I’m Jaswant B
 - 👀 I’m interested in AI and Copilot
 - 🌱 I’m currently a 4th-year B.Tech CSE student at Kalasalingam Academy of Research and Education, Tamil Nadu
 - 💞️ I’m looking to collaborate on innovative AI/ML projects
