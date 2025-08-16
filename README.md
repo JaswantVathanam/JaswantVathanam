@@ -2,7 +2,7 @@
 - 👀 I’m interested in AI and Copilot
 - 🌱 I’m currently a 3rd-year B.Tech CSE student at Kalasalingam Academy of Research and Education, Tamil Nadu
 - 💞️ I’m looking to collaborate on innovative AI/ML projects
-- 📫 How to reach me: https://www.linkedin.com/in/jaswant-b-07022005-vathanam
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/jaswant-b-07022005-vathanam)
 - 😄 Pronouns: He or Him.
 - ⚡ Fun fact: I am dedicated to developing innovative solutions to problems and eager to excel in my field
 - 🏡 Native place: Ramanathapuram, Tamil Nadu, India - 623504
