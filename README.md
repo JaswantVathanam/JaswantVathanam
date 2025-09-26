@@ -40,6 +40,11 @@
 - ⚡ Fun fact: I am dedicated to developing innovative solutions to problems and eager to excel in my field
 - 🏡 Native place: Ramanathapuram, Tamil Nadu, India - 623504
 - 🎂 Date of Birth: February 7, 2005
+---
+
+🧭 Why I Build
+I build to make systems trustworthy—especially where reliability is assumed but rarely designed. I build to teach resilience, not just results. I build to help others think clearly, document deeply, and feel seen in the process. I build because clarity is a form of care—and every well-placed module, caption, or lab question is a quiet act of leadership. And with every build, I gain deeper knowledge of what I’m doing—because learning through doing is how I grow.
+---
 
 ## 🌐 Connect with Me
 
