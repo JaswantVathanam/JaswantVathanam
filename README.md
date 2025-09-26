@@ -58,6 +58,7 @@
 [![Medium](https://img.shields.io/badge/Medium-Read%20My%20Articles-black?logo=medium)](https://medium.com/@bjaswant2005)
 [![Facebook](https://img.shields.io/badge/Facebook-Follow%20Me-1877F2?logo=facebook&logoColor=white)](https://facebook.com/jaswantvathanam)
 [![Threads](https://img.shields.io/badge/Threads-Let's%20Connect-black?logo=threads)](https://www.threads.net/@jaswantvathanam)
+[![Microsoft Tech Community](https://img.shields.io/badge/Microsoft-Tech%20Community-blue?logo=microsoft)](https://techcommunity.microsoft.com/users/jaswant_b/2061692)
 
 
 <!---
