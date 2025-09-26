@@ -13,7 +13,8 @@ HTML5 | CSS3 | JavaScript | Bootstrap
 
 **Cloud & Platforms:**  
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)  
-Git & GitHub | SQL 
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) & ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) | ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?logo=microsoft-sql-server&logoColor=white)
+
 ---
 
 ## 🎯 Areas of Focus
