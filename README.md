@@ -43,6 +43,7 @@
 ---
 
 🧭 Why I Build
+
 I build to make systems trustworthy—especially where reliability is assumed but rarely designed. I build to teach resilience, not just results. I build to help others think clearly, document deeply, and feel seen in the process. I build because clarity is a form of care—and every well-placed module, caption, or lab question is a quiet act of leadership. And with every build, I gain deeper knowledge of what I’m doing—because learning through doing is how I grow.
 ---
 
