@@ -1,67 +1,24 @@
-# 👋 Hi, I’m Jaswant B
+# 💫 About Me:
+Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Developer  <br>💡 Passionate about building resilient labs, bridging institutional gaps, and crafting digital spaces that feel trustworthy.  <br><br>---<br><br>🔭 I’m currently working on<br>- Cognitive Rehabilitation Platform with AI — designing adaptive recovery tools for neurodiverse users  <br>- AI Legal Assistant — building intelligent support systems for legal research and document automation  <br><br><br>👯 I’m looking to collaborate on<br>- AI/ML projects with real-world impact  <br>- .NET web applications  <br>- Educational and institutional systems  <br><br>🤝 I’m looking for help with<br>- Cloud-native deployment strategies  <br>- Legal domain modeling for AI  <br><br>🌱 I’m currently learning<br>- Cognitive science integration with AI  <br>- Legal ontology and NLP for law  <br>- Cloud Computing<br>- .NET<br><br>💬 Ask me about<br>- Academic portals (SIS/EDU)  <br>- .NET development  <br>- AI/ML applications in education, healthcare, and law  <br><br>⚡ Fun fact<br>Clarity is my form of care — every module or document I create is a quiet act of leadership.
 
-🎓 Final-year B.Tech CSE (AI/ML) at Kalasalingam Academy of Research and Education, Tamil Nadu  
-🧠 Student with a modular mindset and a passion for building clarity into systems
-🚀 Passionate about building resilient labs, bridging institutional gaps, and crafting emotionally resonant digital spaces  
-🤝 Open to collaboration on AI/ML, .NET web apps, and educational systems that last
 
-## 🛠️ Tech Stack & Tools
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/jaswantvathanam) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jaswantvathanam) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/jaswant-b-vathanam/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@bjaswant2005.medium.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:JaswantVathanam@outlook.com) 
 
-### 💡 Core Strengths  
-![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
+# 💻 Tech Stack:
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=JaswantVathanam&theme=transparent&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=JaswantVathanam&theme=transparent&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=JaswantVathanam&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### 🧩 Supporting Technologies  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=JaswantVathanam&theme=transparent&no-frame=false&no-bg=false&margin-w=4)
 
-### ☁️ Cloud & Integration  
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
-
-### 🗄️ Data & Storage  
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?logo=microsoft-sql-server&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
-
-### 🔗 Collaboration & Versioning  
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=JaswantVathanam&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=JaswantVathanam&icon=0&color=12)](https://visitcount.itsvg.in)
 
-## 🎯 Areas of Focus
-- 🤖 **Artificial Intelligence & Machine Learning**
-- 🖥 **.NET Development** (C# & Modern Web Apps)
-- ☁ **Cloud Integration with Azure**
-
-- 😄 Pronouns: He or Him.
-- ⚡ Fun fact: I am dedicated to developing innovative solutions to problems and eager to excel in my field
-- 🏡 Native place: Ramanathapuram, Tamil Nadu, India - 623504
-- 🎂 Date of Birth: February 7, 2005
----
-
-
-## 🧭 Why I Build
-
-- I build to make systems trustworthy—especially where reliability is assumed but rarely designed.  
-- I build to teach resilience, not just results.  
-- I build to help others think clearly, document deeply, and feel seen in the process.  
-- I build because clarity is a form of care—and every well-placed module, caption, or lab question is a quiet act of leadership.  
-- And with every build, I gain deeper knowledge of what I’m doing—because learning through doing is how I grow.
-
----
-## 🌐 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/jaswant-b-vathanam)
-[![Medium](https://img.shields.io/badge/Medium-Read%20My%20Articles-black?logo=medium)](https://medium.com/@bjaswant2005)
-[![Facebook](https://img.shields.io/badge/Facebook-Follow%20Me-1877F2?logo=facebook&logoColor=white)](https://facebook.com/jaswantvathanam)
-[![Threads](https://img.shields.io/badge/Threads-Let's%20Connect-black?logo=threads)](https://www.threads.net/@jaswantvathanam)
-[![Microsoft Tech Community](https://img.shields.io/badge/Microsoft-Tech%20Community-blue?logo=microsoft)](https://techcommunity.microsoft.com/users/jaswant_b/2061692)
-
-
-<!---
-JaswantVathanam/JaswantVathanam is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
