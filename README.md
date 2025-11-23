@@ -23,3 +23,6 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=JaswantVathanam&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:87ceeb,100:ff7eb9&height=150&section=footer)
+
+
