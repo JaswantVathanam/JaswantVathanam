@@ -41,7 +41,7 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ![](https://github-contributor-stats.vercel.app/api?username=JaswantVathanam&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ## 🎧 Now Playing
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true)](https://open.spotify.com/user/6hvrswydlsml56lgma1om9y3a)
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=6hvrswydlsml56lgma1om9y3a&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true)](https://open.spotify.com/user/6hvrswydlsml56lgma1om9y3a)
 
 ## 🎶 Recently Played
 ![Spotify Recently Played](https://spotify-recently-played-readme.vercel.app/api?user=6hvrswydlsml56lgma1om9y3a&count=5)
