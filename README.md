@@ -1,5 +1,6 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20I'm%20Jaswant%20👋&fontSize=40)
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=F75C7E&width=435&lines=Final-year+B.Tech+CSE+(AI%2FML);+Web+Developer;AI+Legal+Assistant+%7C+Cognitive+Rehabilitation+Platform)
 
 
 # 💫 About Me:
