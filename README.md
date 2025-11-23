@@ -10,15 +10,6 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/jaswantvathanam) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jaswantvathanam) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/jaswant-b-vathanam/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@bjaswant2005.medium.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:JaswantVathanam@outlook.com) 
 
-## 🚀 Project
-
-[![IoT Sensors and Devices](https://github-readme-stats.vercel.app/api/pin/?username=JaswantVathanam&repo=IOT-Sensors-and-Devices&theme=tokyonight)](https://github.com/JaswantVathanam/IOT-Sensors-and-Devices)
-[![Pea Plant Disease Prediction](https://github-readme-stats.vercel.app/api/pin/?username=JaswantVathanam&repo=Pea-Plant-Disease-Prediction&theme=tokyonight)](https://github.com/JaswantVathanam/Pea-Plant-Disease-Prediction)
-
-[![GrowNet](https://github-readme-stats.vercel.app/api/pin/?username=JaswantVathanam&repo=GrowNet&theme=tokyonight)](https://github.com/JaswantVathanam/GrowNet)
-[![BuildForBharat Project](https://github-readme-stats.vercel.app/api/pin/?username=JaswantVathanam&repo=BuildForBharat-Project&theme=tokyonight)](https://github.com/JaswantVathanam/BuildForBharat-Project)
-
-
 # 💻 Tech Stack:
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
