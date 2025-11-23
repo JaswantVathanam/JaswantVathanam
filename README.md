@@ -1,4 +1,5 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff7eb9,100:87ceeb&height=200&section=header&text=Jaswant%20B%20%7C%20AI%20%26%20Web%20Developer&fontSize=40&fontColor=ffffff&animation=twinkling)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20I'm%20Jaswant%20👋&fontSize=40)
+
 
 
 # 💫 About Me:
