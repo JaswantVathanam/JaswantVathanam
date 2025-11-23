@@ -20,6 +20,9 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=JaswantVathanam&theme=transparent&no-frame=false&no-bg=false&margin-w=4)
 
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JaswantVathanam&theme=tokyo-night)
+
+
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=JaswantVathanam&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
