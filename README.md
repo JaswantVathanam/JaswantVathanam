@@ -16,11 +16,12 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ![](https://github-readme-stats.vercel.app/api?username=JaswantVathanam&theme=transparent&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=JaswantVathanam&theme=transparent&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=JaswantVathanam&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JaswantVathanam&theme=tokyo-night)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=JaswantVathanam&theme=transparent&no-frame=false&no-bg=false&margin-w=4)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JaswantVathanam&theme=tokyo-night)
+
 
 
 ### 🔝 Top Contributed Repo
