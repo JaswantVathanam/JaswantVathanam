@@ -19,11 +19,13 @@ jobs:
       - name: Ensure tiles folder
         run: mkdir -p tiles
 
+      - name: Install Node dependencies
+        run: npm install node-fetch@2
+
       # =========================
       # SYSTEM & ACTIVITY TILES
       # =========================
 
-      # COMMITS (WEEK)
       - name: Commits tile
         run: |
           COMMITS=$(git log --since="7 days ago" --pretty=oneline | wc -l)
@@ -37,7 +39,6 @@ jobs:
           </svg>
           EOF
 
-      # PROJECTS ACTIVE
       - name: Projects tile
         run: |
           PROJECTS=$(find . -maxdepth 1 -type d | wc -l)
@@ -51,7 +52,6 @@ jobs:
           </svg>
           EOF
 
-      # LINES OF CODE — CLEAN, NO BARS
       - name: LOC tile
         run: |
           STATS=$(git log --since="7 days ago" --numstat --pretty="%H" | awk 'NF==3 {add+=$1; del+=$2} END {print add,del}')
@@ -70,7 +70,6 @@ jobs:
           </svg>
           EOF
 
-      # CONTRIBUTION STREAK
       - name: Streak tile
         run: |
           STREAK=0
@@ -96,7 +95,6 @@ jobs:
       # PERSONAL & FOCUS TILES
       # =========================
 
-      # LEARNING FOCUS
       - name: Learning tile
         run: |
           cat > tiles/learning.svg << 'EOF'
@@ -108,7 +106,6 @@ jobs:
           </svg>
           EOF
 
-      # ENERGY LEVEL
       - name: Energy tile
         run: |
           ENERGY=$(( ( RANDOM % 5 )  + 1 ))
@@ -122,7 +119,6 @@ jobs:
           </svg>
           EOF
 
-      # STATUS TILE — FADE ONLY
       - name: Status tile
         run: |
           cat > tiles/status.svg << 'EOF'
@@ -150,7 +146,6 @@ jobs:
           </svg>
           EOF
 
-      # ROTATE-TEXT TILE — FADE ONLY
       - name: Rotating text tile
         run: |
           cat > tiles/rotateText.svg << 'EOF'
@@ -182,7 +177,6 @@ jobs:
       # TIME & CONTEXT TILES
       # =========================
 
-      # CALENDAR TILE — FIXED TIMEZONE
       - name: Calendar tile
         run: |
           export TZ="Asia/Kolkata"
@@ -205,7 +199,6 @@ jobs:
           </svg>
           EOF
 
-      # WEATHER TILE — LIVE, DAY/NIGHT
       - name: Weather tile
         run: |
           LAT=9.37
@@ -246,50 +239,7 @@ jobs:
           EOF
 
       # =========================
-      # MAP TILE — BIRD'S EYE + COMPASS
-      # =========================
-      - name: Map tile
-        run: |
-          LAT=9.37
-          LON=78.83
-
-          # Azure Maps Static Image API (STATIC ONLY)
-          MAP_URL="https://atlas.microsoft.com/map/static/png?api-version=1.0&layer=basic&style=main&zoom=12&center=${LON},${LAT}&width=300&height=140&subscription-key=${{ secrets.AZURE_MAPS_KEY }}"
-
-          # Download the map snapshot
-          curl -s "$MAP_URL" --output tiles/map.png
-
-          # Create SVG with relative PNG path (CSP-safe)
-          cat > tiles/map.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="140"
-               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-
-            <!-- Background -->
-            <rect width="300" height="140" fill="#000000"/>
-
-            <!-- Map image (relative path avoids CSP block) -->
-            <image href="map.png" x="0" y="0" width="300" height="140" />
-
-            <!-- Title -->
-            <text x="20" y="30" fill="white" font-size="18"
-                  style="text-shadow: 0px 0px 4px #000;">
-              Ramanathapuram District
-            </text>
-
-            <!-- Compass overlay -->
-            <g transform="translate(240,35)">
-              <circle cx="0" cy="0" r="18" fill="rgba(0,0,0,0.45)" stroke="white" stroke-width="2"/>
-              <polygon points="0,-14 4,0 -4,0" fill="white" />
-              <polygon points="0,14 4,0 -4,0" fill="#D32F2F" />
-              <text x="0" y="-20" fill="white" font-size="10" text-anchor="middle">N</text>
-            </g>
-
-          </svg>
-          EOF
-
-      # =========================
-      # SLIDE TILE — PUBLIC REPOS + FADE ONLY
+      # SLIDE TILE
       # =========================
 
       - name: Slide tile
@@ -329,9 +279,10 @@ jobs:
 
           </svg>
           EOF
-      # =========================
+            # =========================
       # SPOTIFY TILES (REAL API)
       # =========================
+
       - name: Spotify Now Playing
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
@@ -351,6 +302,7 @@ jobs:
       # =========================
       # GITHUB INSIGHTS TILE
       # =========================
+
       - name: GitHub Insights Tile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
