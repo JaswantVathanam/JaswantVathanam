@@ -41,6 +41,51 @@ Hi there 👋, I'm Jaswant B<br><br>🎓 Final-year B.Tech CSE (AI/ML) | Web Dev
 ![](https://github-contributor-stats.vercel.app/api?username=JaswantVathanam&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 
+<table>
+<tr>
+<td>
+
+### 🔷 System & Activity  
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/commits.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/projects.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/loc.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/streak.svg" width="300">
+
+</td>
+<td>
+
+### 🔷 Personal & Focus  
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/learning.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/energy.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/status.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/rotateText.svg" width="300">
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🔷 Time & Context  
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/calendar.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/weather.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/slide.svg" width="300">
+
+</td>
+<td>
+
+### 🔷 Spotify (Real‑Time)  
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/spotify-now-playing.svg" width="300">
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/spotify-recently-played.svg" width="300">
+
+### 🔷 GitHub Insights  
+<img src="https://raw.githubusercontent.com/JaswantVathanam/JaswantVathanam/main/tiles/github-insights.svg" width="300">
+
+</td>
+</tr>
+</table>
+
+
 
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:87ceeb,100:ff7eb9&height=150&section=footer)
