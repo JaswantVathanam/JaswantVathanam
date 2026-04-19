@@ -11,14 +11,4 @@
     Ramanathapuram District
   </text>
 
-  <g transform="translate(240,35)">
-    <circle cx="0" cy="0" r="18" fill="rgba(0,0,0,0.45)" stroke="white" stroke-width="2"/>
-
-    <polygon points="0,-14 4,0 -4,0" fill="white" />
-    <polygon points="0,14 4,0 -4,0" fill="#D32F2F" />
-
-    <text x="0" y="-20" fill="white" font-size="10"
-          text-anchor="middle">N</text>
-  </g>
-
 </svg>
