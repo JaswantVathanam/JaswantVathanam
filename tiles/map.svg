@@ -2,13 +2,24 @@
      width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
+  <!-- Background -->
   <rect width="300" height="140" fill="#000000"/>
 
+  <!-- Map image (relative path avoids CSP block) -->
   <image href="map.png" x="0" y="0" width="300" height="140" />
 
+  <!-- Title -->
   <text x="20" y="30" fill="white" font-size="18"
         style="text-shadow: 0px 0px 4px #000;">
     Ramanathapuram District
   </text>
+
+  <!-- Compass overlay -->
+  <g transform="translate(240,35)">
+    <circle cx="0" cy="0" r="18" fill="rgba(0,0,0,0.45)" stroke="white" stroke-width="2"/>
+    <polygon points="0,-14 4,0 -4,0" fill="white" />
+    <polygon points="0,14 4,0 -4,0" fill="#D32F2F" />
+    <text x="0" y="-20" fill="white" font-size="10" text-anchor="middle">N</text>
+  </g>
 
 </svg>
