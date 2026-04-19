@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="300" height="140"
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#0078D4"/>
 
@@ -8,13 +7,7 @@
   <text x="20" y="110" fill="white" font-size="16">Partly Cloudy • 5.0 km/h</text>
 
   <circle cx="240" cy="60" r="18" fill="#808080">
-    <animate attributeName="r"
-             from="14" to="18"
-             dur="3s"
-             repeatCount="indefinite" />
-    <animate attributeName="opacity"
-             values="0.7;1;0.7"
-             dur="3s"
-             repeatCount="indefinite" />
+    <animate attributeName="r" from="14" to="18" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
   </circle>
 </svg>
