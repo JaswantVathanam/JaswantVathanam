@@ -23,10 +23,16 @@ function writeSvg(svg) {
 
   const svg = `
 <svg width="300" height="140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { fill:#00B4FF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:18px; font-weight:600; }
+    .line { fill:#FFFFFF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:16px; }
+    .meta { fill:#CCCCCC; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:14px; }
+  </style>
+
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" fill="#00B4FF" font-size="18">GitHub Insights</text>
-  <text x="20" y="75" fill="#fff" font-size="16">${profile.public_repos} repos • ${profile.followers} followers</text>
-  <text x="20" y="105" fill="#ccc" font-size="14">${stars} stars • ${forks} forks</text>
+  <text x="20" y="35" class="title">GitHub Insights</text>
+  <text x="20" y="75" class="line">${profile.public_repos} repos • ${profile.followers} followers</text>
+  <text x="20" y="105" class="meta">${stars} stars • ${forks} forks</text>
 </svg>`;
 
   writeSvg(svg);
