@@ -18,12 +18,14 @@ async function getSpotifyAccessToken() {
   return json.access_token;
 }
 
-function writeSvg(path, svg) {
-  fs.writeFileSync(`tiles/${path}`, svg, 'utf8');
+function writeSvg(filename, svg) {
+  fs.writeFileSync(`tiles/${filename}`, svg, 'utf8');
 }
 
-function escape(str) {
-  return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+function escapeXml(str) {
+  return (str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;');
 }
 
-module.exports = { getSpotifyAccessToken, writeSvg, escape };
+module.exports = { getSpotifyAccessToken, writeSvg, escapeXml };
