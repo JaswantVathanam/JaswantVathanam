@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="300" height="140"
+     style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+  <g id="tileGroup">
+
+    <!-- Frame 1 -->
+    <g id="frame1">
+      <rect width="300" height="140" fill="#4C4A72"/>
+      <text x="20" y="35" fill="white" font-size="18">STATUS</text>
+      <text x="20" y="80" fill="white" font-size="16">
+        Clarity is my form of care.
+      </text>
+    </g>
+
+    <!-- Frame 2 -->
+    <g id="frame2" transform="translate(300,0)">
+      <rect width="300" height="140" fill="#4C4A72"/>
+      <text x="20" y="35" fill="white" font-size="18">STATUS</text>
+      <text x="20" y="80" fill="white" font-size="16">
+        Building resilient labs &amp; systems.
+      </text>
+    </g>
+
+  </g>
+
+  <!-- Whole tile swipe -->
+  <animateTransform
+      xlink:href="#tileGroup"
+      attributeName="transform"
+      type="translate"
+      values="0 0; -300 0; 0 0"
+      keyTimes="0; 0.5; 1"
+      dur="8s"
+      repeatCount="indefinite" />
+
+</svg>
