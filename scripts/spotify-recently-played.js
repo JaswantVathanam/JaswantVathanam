@@ -7,6 +7,15 @@ async function getLastPlayed(token) {
   });
 
   const json = await res.json();
+
+  // SAFETY CHECK
+  if (!json.items || json.items.length === 0) {
+    return {
+      name: 'No recent tracks',
+      artist: '—'
+    };
+  }
+
   const t = json.items[0].track;
 
   return {
