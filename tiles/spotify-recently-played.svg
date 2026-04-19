@@ -1,7 +1,13 @@
 
 <svg width="300" height="140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { fill:#00B4FF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:18px; font-weight:600; }
+    .name { fill:#FFFFFF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:20px; font-weight:600; }
+    .artist { fill:#CCCCCC; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:14px; }
+  </style>
+
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" fill="#00B4FF" font-size="18">Recently Played</text>
-  <text x="20" y="75" fill="#fff" font-size="20">No recent tracks</text>
-  <text x="20" y="105" fill="#ccc" font-size="14">—</text>
+  <text x="20" y="35" class="title">Recently Played</text>
+  <text x="20" y="75" class="name">No recent tracks</text>
+  <text x="20" y="105" class="artist">—</text>
 </svg>
