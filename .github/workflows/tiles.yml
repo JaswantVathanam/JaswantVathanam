@@ -2,7 +2,7 @@ name: Update Live Tiles
 
 on:
   schedule:
-    - cron: "*/5 * * * *"     # every 5 minutes (activity + calendar)
+    - cron: "*/5 * * * *"     # every 5 minutes (all tiles except weather)
     - cron: "0 * * * *"       # hourly (weather)
   workflow_dispatch:
 
@@ -99,7 +99,7 @@ jobs:
             <text x="20" y="80" fill="white" font-size="26">$STREAK days</text>
             <circle cx="260" cy="60" r="10" fill="#FFFFFF" opacity="0.7">
               <animate attributeName="r" from="6" to="12" dur="1.5s" repeatCount="indefinite" />
-              <animate attributeName="opacity" from="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite" />
             </circle>
           </svg>
           EOF
@@ -136,7 +136,7 @@ jobs:
           </svg>
           EOF
 
-      # STATUS TILE — WHOLE TILE SWIPE (WINDOWS 10 STYLE)
+      # STATUS TILE — FADE BETWEEN TEXTS
       - name: Status tile
         run: |
           cat > tiles/status.svg << 'EOF'
@@ -145,38 +145,89 @@ jobs:
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
-            <!-- Two frames placed side-by-side -->
-            <g id="swipeGroup">
+            <rect width="300" height="140" fill="#4C4A72"/>
+            <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-              <!-- Frame 1 -->
-              <g>
-                <rect width="300" height="140" fill="#4C4A72"/>
-                <text x="20" y="35" fill="white" font-size="18">STATUS</text>
-                <text x="20" y="80" fill="white" font-size="16">
-                  Clarity is my form of care.
-                </text>
-              </g>
+            <text id="s1" x="20" y="80" fill="white" font-size="16" opacity="1">
+              Clarity is my form of care.
+            </text>
 
-              <!-- Frame 2 (shifted right by 300px) -->
-              <g transform="translate(300,0)">
-                <rect width="300" height="140" fill="#4C4A72"/>
-                <text x="20" y="35" fill="white" font-size="18">STATUS</text>
-                <text x="20" y="80" fill="white" font-size="16">
-                  Building resilient labs &amp; systems.
-                </text>
-              </g>
+            <text id="s2" x="20" y="80" fill="white" font-size="16" opacity="0">
+              Building resilient labs &amp; systems.
+            </text>
 
-            </g>
+            <text id="s3" x="20" y="80" fill="white" font-size="16" opacity="0">
+              AI for education, health &amp; law.
+            </text>
 
-            <!-- Whole tile swipe animation -->
-            <animateTransform
-                xlink:href="#swipeGroup"
-                attributeName="transform"
-                type="translate"
-                values="0 0; -300 0; -300 0; 0 0"
-                keyTimes="0; 0.45; 0.55; 1"
-                dur="10s"
-                repeatCount="indefinite" />
+            <animate xlink:href="#s1"
+                     attributeName="opacity"
+                     values="1;1;0;0"
+                     keyTimes="0;0.33;0.42;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
+
+            <animate xlink:href="#s2"
+                     attributeName="opacity"
+                     values="0;0;1;1;0;0"
+                     keyTimes="0;0.33;0.42;0.66;0.75;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
+
+            <animate xlink:href="#s3"
+                     attributeName="opacity"
+                     values="0;0;0;0;1;1;0"
+                     keyTimes="0;0.66;0.75;0.83;0.92;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
+
+          </svg>
+          EOF
+
+      # ROTATE-TEXT TILE — FADE BETWEEN TEXTS
+      - name: Rotating text tile
+        run: |
+          cat > tiles/rotateText.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+            <rect width="300" height="140" fill="#4C4A72"/>
+            <text x="20" y="35" fill="white" font-size="18">THOUGHTS</text>
+
+            <text id="r1" x="20" y="80" fill="white" font-size="16" opacity="1">
+              Designing resilient systems.
+            </text>
+
+            <text id="r2" x="20" y="80" fill="white" font-size="16" opacity="0">
+              Cognitive AI for real people.
+            </text>
+
+            <text id="r3" x="20" y="80" fill="white" font-size="16" opacity="0">
+              Maps, mobility &amp; intelligence.
+            </text>
+
+            <animate xlink:href="#r1"
+                     attributeName="opacity"
+                     values="1;1;0;0"
+                     keyTimes="0;0.33;0.42;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
+
+            <animate xlink:href="#r2"
+                     attributeName="opacity"
+                     values="0;0;1;1;0;0"
+                     keyTimes="0;0.33;0.42;0.66;0.75;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
+
+            <animate xlink:href="#r3"
+                     attributeName="opacity"
+                     values="0;0;0;0;1;1;0"
+                     keyTimes="0;0.66;0.75;0.83;0.92;1"
+                     dur="12s"
+                     repeatCount="indefinite" />
 
           </svg>
           EOF
@@ -266,7 +317,7 @@ jobs:
       # MOTION & ANIMATION TILES
       # =========================
 
-      # SLIDE TILE — WHOLE TILE SWIPE
+      # SLIDE TILE — SUBTLE WHOLE TILE SLIDE
       - name: Slide tile
         run: |
           cat > tiles/slide.svg << 'EOF'
