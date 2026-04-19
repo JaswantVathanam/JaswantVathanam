@@ -14,6 +14,7 @@ function writeSvg(svg) {
 
 (async () => {
   const user = 'JaswantVathanam';
+
   const profile = await get(`https://api.github.com/users/${user}`);
   const repos = await get(`https://api.github.com/users/${user}/repos?per_page=100`);
 
