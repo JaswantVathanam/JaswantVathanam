@@ -4,8 +4,8 @@
   <rect width="300" height="140" fill="#2B88D8"/>
   <g opacity="0">
     <text x="20" y="35" fill="white" font-size="18">LINES OF CODE (7 DAYS)</text>
-    <text x="20" y="70" fill="white" font-size="16">+ 790 added</text>
-    <text x="20" y="100" fill="white" font-size="16">- 305 removed</text>
+    <text x="20" y="70" fill="white" font-size="16">+ 853 added</text>
+    <text x="20" y="100" fill="white" font-size="16">- 329 removed</text>
     <animate attributeName="opacity"
              from="0" to="1"
              dur="1.2s"
