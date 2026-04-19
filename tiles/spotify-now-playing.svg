@@ -1,0 +1,7 @@
+
+<svg width="300" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="140" fill="#000"/>
+  <text x="20" y="35" fill="#00B4FF" font-size="18">Last Played</text>
+  <text x="20" y="75" fill="#fff" font-size="20">No recent tracks</text>
+  <text x="20" y="105" fill="#ccc" font-size="14">—</text>
+</svg>
