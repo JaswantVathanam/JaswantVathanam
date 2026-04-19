@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#2B88D8"/>
   <text x="20" y="35" fill="white" font-size="18">LINES OF CODE (7 DAYS)</text>
-  <text x="20" y="70" fill="white" font-size="16">+ 303 added</text>
-  <text x="20" y="100" fill="white" font-size="16">- 25 removed</text>
+  <text x="20" y="70" fill="white" font-size="16">+ 494 added</text>
+  <text x="20" y="100" fill="white" font-size="16">- 73 removed</text>
   <rect x="200" y="55" width="80" height="10" fill="#50E6FF">
-    <animate attributeName="width" from="0" to="80" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="width"
+             from="0" to="80"
+             dur="1.5s"
+             repeatCount="1"
+             fill="freeze" />
   </rect>
 </svg>

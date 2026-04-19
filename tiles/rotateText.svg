@@ -1,13 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#4C4A72"/>
   <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">Clarity is my form of care.</text>
-  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">Building resilient labs & systems.</text>
-  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">AI for education, health & law.</text>
+  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
+    Clarity is my form of care.
+  </text>
+  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
+    Building resilient labs &amp; systems.
+  </text>
+  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">
+    AI for education, health &amp; law.
+  </text>
 
-  <animate xlink:href="#t1" attributeName="opacity" values="1;0;0" dur="9s" repeatCount="indefinite" />
-  <animate xlink:href="#t2" attributeName="opacity" values="0;1;0" dur="9s" begin="3s" repeatCount="indefinite" />
-  <animate xlink:href="#t3" attributeName="opacity" values="0;0;1" dur="9s" begin="6s" repeatCount="indefinite" />
+  <animate xlink:href="#t1"
+           attributeName="opacity"
+           values="1;0;0"
+           dur="9s"
+           repeatCount="indefinite" />
+  <animate xlink:href="#t2"
+           attributeName="opacity"
+           values="0;1;0"
+           dur="9s"
+           begin="3s"
+           repeatCount="indefinite" />
+  <animate xlink:href="#t3"
+           attributeName="opacity"
+           values="0;0;1"
+           dur="9s"
+           begin="6s"
+           repeatCount="indefinite" />
 </svg>

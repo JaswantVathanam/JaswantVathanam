@@ -1,9 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#2D2D30"/>
   <text id="front" x="20" y="70" fill="white" font-size="18">DEV DASHBOARD</text>
   <text id="back" x="20" y="70" fill="white" font-size="18" opacity="0">Windows 10 Live Tile</text>
-
-  <animate xlink:href="#front" attributeName="opacity" values="1;0;0" dur="6s" repeatCount="indefinite" />
-  <animate xlink:href="#back" attributeName="opacity" values="0;0;1" dur="6s" begin="3s" repeatCount="indefinite" />
+  <animate xlink:href="#front"
+           attributeName="opacity"
+           values="1;0;0"
+           dur="6s"
+           repeatCount="indefinite" />
+  <animate xlink:href="#back"
+           attributeName="opacity"
+           values="0;0;1"
+           dur="6s"
+           begin="3s"
+           repeatCount="indefinite" />
 </svg>
