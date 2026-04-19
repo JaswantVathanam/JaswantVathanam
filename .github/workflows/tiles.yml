@@ -254,7 +254,8 @@ jobs:
           LAT=9.37
           LON=78.83
 
-          MAP_URL="https://atlas.microsoft.com/map/static/png?api-version=1.0&layer=basic&style=birdseye&zoom=18&center=${LON},${LAT}&width=300&height=140&subscription-key=${{ secrets.AZURE_MAPS_KEY }}"
+          # Azure Maps Static Image API (STATIC ONLY)
+          MAP_URL="https://atlas.microsoft.com/map/static/png?api-version=1.0&layer=basic&style=main&zoom=12&center=${LON},${LAT}&width=300&height=140&subscription-key=${{ secrets.AZURE_MAPS_KEY }}"
 
           curl -s "$MAP_URL" --output tiles/map.png
 
@@ -271,16 +272,6 @@ jobs:
                   style="text-shadow: 0px 0px 4px #000;">
               Ramanathapuram District
             </text>
-
-            <g transform="translate(240,35)">
-              <circle cx="0" cy="0" r="18" fill="rgba(0,0,0,0.45)" stroke="white" stroke-width="2"/>
-
-              <polygon points="0,-14 4,0 -4,0" fill="white" />
-              <polygon points="0,14 4,0 -4,0" fill="#D32F2F" />
-
-              <text x="0" y="-20" fill="white" font-size="10"
-                    text-anchor="middle">N</text>
-            </g>
 
           </svg>
           EOF
