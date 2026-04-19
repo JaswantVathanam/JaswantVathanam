@@ -2,7 +2,7 @@ name: Update Live Tiles
 
 on:
   schedule:
-    - cron: "*/5 * * * *"     # every 5 minutes (activity tiles)
+    - cron: "*/5 * * * *"     # every 5 minutes (activity + calendar)
     - cron: "0 * * * *"       # hourly (weather)
   workflow_dispatch:
 
@@ -53,7 +53,7 @@ jobs:
           </svg>
           EOF
 
-      # LINES OF CODE ADDED / REMOVED (LAST 7 DAYS) — NO BARS
+      # LINES OF CODE — CLEAN, NO BARS
       - name: LOC tile
         run: |
           STATS=$(git log --since="7 days ago" --numstat --pretty="%H" | awk 'NF==3 {add+=$1; del+=$2} END {print add,del}')
@@ -77,7 +77,7 @@ jobs:
           </svg>
           EOF
 
-      # CONTRIBUTION STREAK (APPROX)
+      # CONTRIBUTION STREAK
       - name: Streak tile
         run: |
           STREAK=0
@@ -99,7 +99,7 @@ jobs:
             <text x="20" y="80" fill="white" font-size="26">$STREAK days</text>
             <circle cx="260" cy="60" r="10" fill="#FFFFFF" opacity="0.7">
               <animate attributeName="r" from="6" to="12" dur="1.5s" repeatCount="indefinite" />
-              <animate attributeName="opacity" from="0.3" to="0.9" dur="1.5s" repeatCount="indefinite" />
+              <animate attributeName="opacity" from="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite" />
             </circle>
           </svg>
           EOF
@@ -136,57 +136,47 @@ jobs:
           </svg>
           EOF
 
-      # STATUS / ROTATING TEXT TILE — SLOWER, TILE ROTATION
+      # STATUS TILE — WHOLE TILE SWIPE (WINDOWS 10 STYLE)
       - name: Status tile
         run: |
-          cat > tiles/rotateText.svg << 'EOF'
+          cat > tiles/status.svg << 'EOF'
           <svg xmlns="http://www.w3.org/2000/svg"
                xmlns:xlink="http://www.w3.org/1999/xlink"
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-            <g id="tile" transform="translate(0,0)">
-              <rect width="300" height="140" fill="#4C4A72"/>
-              <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-              <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
-                Clarity is my form of care.
-              </text>
-              <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
-                Building resilient labs &amp; systems.
-              </text>
-              <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">
-                AI for education, health &amp; law.
-              </text>
+            <g id="tileGroup">
+
+              <!-- Frame 1 -->
+              <g id="frame1">
+                <rect width="300" height="140" fill="#4C4A72"/>
+                <text x="20" y="35" fill="white" font-size="18">STATUS</text>
+                <text x="20" y="80" fill="white" font-size="16">
+                  Clarity is my form of care.
+                </text>
+              </g>
+
+              <!-- Frame 2 -->
+              <g id="frame2" transform="translate(300,0)">
+                <rect width="300" height="140" fill="#4C4A72"/>
+                <text x="20" y="35" fill="white" font-size="18">STATUS</text>
+                <text x="20" y="80" fill="white" font-size="16">
+                  Building resilient labs &amp; systems.
+                </text>
+              </g>
+
             </g>
 
-            <!-- Text fades with time to read -->
-            <animate xlink:href="#t1"
-                     attributeName="opacity"
-                     values="1;1;0;0"
-                     keyTimes="0;0.4;0.5;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-            <animate xlink:href="#t2"
-                     attributeName="opacity"
-                     values="0;0;1;1;0;0"
-                     keyTimes="0;0.4;0.5;0.9;1;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-            <animate xlink:href="#t3"
-                     attributeName="opacity"
-                     values="0;0;0;1;1;0"
-                     keyTimes="0;0.7;0.8;0.9;1;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
+            <!-- Whole tile swipe -->
+            <animateTransform
+                xlink:href="#tileGroup"
+                attributeName="transform"
+                type="translate"
+                values="0 0; -300 0; 0 0"
+                keyTimes="0; 0.5; 1"
+                dur="8s"
+                repeatCount="indefinite" />
 
-            <!-- Whole tile slow rotation with pause -->
-            <animateTransform xlink:href="#tile"
-                              attributeName="transform"
-                              type="rotate"
-                              values="0 150 70; 360 150 70; 360 150 70"
-                              keyTimes="0;0.8;1"
-                              dur="12s"
-                              repeatCount="indefinite" />
           </svg>
           EOF
 
@@ -194,7 +184,7 @@ jobs:
       # TIME & CONTEXT TILES
       # =========================
 
-      # CALENDAR TILE (+5:30 GMT at bottom)
+      # CALENDAR TILE — TIMEZONE AT BOTTOM RIGHT
       - name: Calendar tile
         run: |
           DAY=$(date +'%a')
@@ -203,7 +193,6 @@ jobs:
           TZSTR="(+5:30 GMT)"
           cat > tiles/calendar.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg"
-               xmlns:xlink="http://www.w3.org/1999/xlink"
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#C239B3"/>
@@ -221,7 +210,7 @@ jobs:
           </svg>
           EOF
 
-      # LIVE WEATHER TILE (RAMANATHAPURAM, DAY/NIGHT ICON)
+      # WEATHER TILE — LIVE, DAY/NIGHT, YOUR STYLE
       - name: Weather tile
         run: |
           LAT=9.37
@@ -244,14 +233,13 @@ jobs:
           esac
 
           if [ "$ISDAY" -eq 1 ]; then
-            ICON_COLOR="#B0B0B0"   # light gray (partly cloudy style)
+            ICON_COLOR="#B0B0B0"
           else
-            ICON_COLOR="#808080"   # darker gray for night
+            ICON_COLOR="#808080"
           fi
 
           cat > tiles/weather.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg"
-               xmlns:xlink="http://www.w3.org/1999/xlink"
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#0078D4"/>
@@ -277,33 +265,7 @@ jobs:
       # MOTION & ANIMATION TILES
       # =========================
 
-      # FLIP TILE (simple text flip)
-      - name: Flip tile
-        run: |
-          cat > tiles/flip.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
-               xmlns:xlink="http://www.w3.org/1999/xlink"
-               width="300" height="140"
-               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-            <rect width="300" height="140" fill="#2D2D30"/>
-            <text id="front" x="20" y="70" fill="white" font-size="18">DEV DASHBOARD</text>
-            <text id="back" x="20" y="70" fill="white" font-size="18" opacity="0">Windows 10 Live Tile</text>
-
-            <animate xlink:href="#front"
-                     attributeName="opacity"
-                     values="1;0;0"
-                     dur="6s"
-                     repeatCount="indefinite" />
-            <animate xlink:href="#back"
-                     attributeName="opacity"
-                     values="0;0;1"
-                     dur="6s"
-                     begin="3s"
-                     repeatCount="indefinite" />
-          </svg>
-          EOF
-
-      # SLIDE TILE — WHOLE TILE SLIDE
+      # SLIDE TILE — WHOLE TILE SWIPE
       - name: Slide tile
         run: |
           cat > tiles/slide.svg << 'EOF'
@@ -311,20 +273,22 @@ jobs:
                xmlns:xlink="http://www.w3.org/1999/xlink"
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
             <g id="slideTile">
               <rect width="300" height="140" fill="#0078D4"/>
               <text x="20" y="60" fill="white" font-size="18">Cognitive Rehab Platform</text>
               <text x="20" y="90" fill="white" font-size="16">AI Legal Assistant</text>
             </g>
 
-            <!-- Whole tile subtle slide like Windows 10 -->
-            <animateTransform xlink:href="#slideTile"
-                              attributeName="transform"
-                              type="translate"
-                              values="0 0; -20 0; 0 0"
-                              keyTimes="0;0.5;1"
-                              dur="4s"
-                              repeatCount="indefinite" />
+            <animateTransform
+                xlink:href="#slideTile"
+                attributeName="transform"
+                type="translate"
+                values="0 0; -20 0; 0 0"
+                keyTimes="0;0.5;1"
+                dur="4s"
+                repeatCount="indefinite" />
+
           </svg>
           EOF
 
