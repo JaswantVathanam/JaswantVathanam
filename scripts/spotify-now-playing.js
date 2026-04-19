@@ -25,7 +25,6 @@ async function getTrack(token) {
 
   const json = await res.json();
 
-  // SAFETY CHECK
   if (!json.items || json.items.length === 0) {
     return {
       title: 'Last Played',
@@ -46,10 +45,16 @@ async function getTrack(token) {
 function svg(track) {
   return `
 <svg width="300" height="140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { fill:#00B4FF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:18px; font-weight:600; }
+    .name { fill:#FFFFFF; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:20px; font-weight:600; }
+    .artist { fill:#CCCCCC; font-family:"Segoe UI Variable","Segoe UI",sans-serif; font-size:14px; }
+  </style>
+
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" fill="#00B4FF" font-size="18">${escapeXml(track.title)}</text>
-  <text x="20" y="75" fill="#fff" font-size="20">${escapeXml(track.name)}</text>
-  <text x="20" y="105" fill="#ccc" font-size="14">${escapeXml(track.artist)}</text>
+  <text x="20" y="35" class="title">${escapeXml(track.title)}</text>
+  <text x="20" y="75" class="name">${escapeXml(track.name)}</text>
+  <text x="20" y="105" class="artist">${escapeXml(track.artist)}</text>
 </svg>`;
 }
 
