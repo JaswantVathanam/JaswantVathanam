@@ -3,19 +3,29 @@
      width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
-  <g id="slideTile">
-    <rect width="300" height="140" fill="#0078D4"/>
-    <text x="20" y="60" fill="white" font-size="18">Cognitive Rehab Platform</text>
-    <text x="20" y="90" fill="white" font-size="16">AI Legal Assistant</text>
-  </g>
+  <rect width="300" height="140" fill="#0078D4"/>
+  <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-  <animateTransform
-      xlink:href="#slideTile"
-      attributeName="transform"
-      type="translate"
-      values="0 0; -20 0; 0 0"
-      keyTimes="0;0.5;1"
-      dur="4s"
-      repeatCount="indefinite" />
+  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
+    Cognitive Rehab Platform
+  </text>
+
+  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
+    AI Legal Assistant
+  </text>
+
+  <animate xlink:href="#t1"
+           attributeName="opacity"
+           values="1;1;0;0"
+           keyTimes="0;0.5;0.6;1"
+           dur="8s"
+           repeatCount="indefinite" />
+
+  <animate xlink:href="#t2"
+           attributeName="opacity"
+           values="0;0;1;1;0;0"
+           keyTimes="0;0.5;0.6;1"
+           dur="8s"
+           repeatCount="indefinite" />
 
 </svg>
