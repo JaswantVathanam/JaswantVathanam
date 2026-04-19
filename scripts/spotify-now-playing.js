@@ -1,7 +1,8 @@
 const fetch = require('node-fetch');
-const { getSpotifyAccessToken, writeSvg, escape } = require('./spotify-common');
+const { getSpotifyAccessToken, writeSvg, escapeXml } = require('./spotify-common');
 
 async function getTrack(token) {
+  // Try now playing
   let res = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
     headers: { Authorization: `Bearer ${token}` }
   });
@@ -17,6 +18,7 @@ async function getTrack(token) {
     }
   }
 
+  // Fallback: recently played
   res = await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=1', {
     headers: { Authorization: `Bearer ${token}` }
   });
@@ -35,9 +37,9 @@ function svg(track) {
   return `
 <svg width="300" height="140" xmlns="http://www.w3.org/2000/svg">
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" fill="#00B4FF" font-size="18">${escape(track.title)}</text>
-  <text x="20" y="75" fill="#fff" font-size="20">${escape(track.name)}</text>
-  <text x="20" y="105" fill="#ccc" font-size="14">${escape(track.artist)}</text>
+  <text x="20" y="35" fill="#00B4FF" font-size="18">${escapeXml(track.title)}</text>
+  <text x="20" y="75" fill="#fff" font-size="20">${escapeXml(track.name)}</text>
+  <text x="20" y="105" fill="#ccc" font-size="14">${escapeXml(track.artist)}</text>
 </svg>`;
 }
 
