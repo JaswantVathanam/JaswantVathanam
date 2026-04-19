@@ -29,8 +29,7 @@ jobs:
           COMMITS=$(git log --since="7 days ago" --pretty=oneline | wc -l)
           BAR=$(printf "%0.s█" $(seq 1 $((COMMITS>0 ? (COMMITS/5+1) : 1))))
           cat > tiles/commits.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="120"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="120" fill="#0078D4"/>
             <text x="20" y="40" fill="white" font-size="20">COMMITS (WEEK)</text>
@@ -44,8 +43,7 @@ jobs:
           PROJECTS=$(find . -maxdepth 1 -type d | wc -l)
           BAR=$(printf "%0.s█" $(seq 1 $((PROJECTS>0 ? PROJECTS : 1))))
           cat > tiles/projects.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="120"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="120" fill="#00B7C3"/>
             <text x="20" y="40" fill="white" font-size="20">PROJECTS ACTIVE</text>
@@ -60,19 +58,14 @@ jobs:
           ADDED=$(echo "$STATS" | awk '{print $1+0}')
           REMOVED=$(echo "$STATS" | awk '{print $2+0}')
           cat > tiles/loc.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="140"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#2B88D8"/>
             <g opacity="0">
               <text x="20" y="35" fill="white" font-size="18">LINES OF CODE (7 DAYS)</text>
               <text x="20" y="70" fill="white" font-size="16">+ $ADDED added</text>
               <text x="20" y="100" fill="white" font-size="16">- $REMOVED removed</text>
-              <animate attributeName="opacity"
-                       from="0" to="1"
-                       dur="1.2s"
-                       repeatCount="1"
-                       fill="freeze" />
+              <animate attributeName="opacity" from="0" to="1" dur="1.2s" repeatCount="1" fill="freeze"/>
             </g>
           </svg>
           EOF
@@ -84,22 +77,17 @@ jobs:
           for i in $(seq 0 30); do
             DAY=$(date -u -d "$i day ago" +%Y-%m-%d)
             COUNT=$(git log --since="$DAY 00:00" --until="$DAY 23:59" --pretty=oneline | wc -l)
-            if [ "$COUNT" -gt 0 ]; then
-              STREAK=$((STREAK+1))
-            else
-              break
-            fi
+            if [ "$COUNT" -gt 0 ]; then STREAK=$((STREAK+1)); else break; fi
           done
           cat > tiles/streak.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="120"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="120" fill="#106EBE"/>
             <text x="20" y="40" fill="white" font-size="20">CONTRIBUTION STREAK</text>
             <text x="20" y="80" fill="white" font-size="26">$STREAK days</text>
-            <circle cx="260" cy="60" r="10" fill="#FFFFFF" opacity="0.7">
-              <animate attributeName="r" from="6" to="12" dur="1.5s" repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite" />
+            <circle cx="260" cy="60" r="10" fill="white" opacity="0.7">
+              <animate attributeName="r" from="6" to="12" dur="1.5s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite"/>
             </circle>
           </svg>
           EOF
@@ -112,8 +100,7 @@ jobs:
       - name: Learning tile
         run: |
           cat > tiles/learning.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="120"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="120" fill="#005A9E"/>
             <text x="20" y="40" fill="white" font-size="20">LEARNING FOCUS</text>
@@ -127,8 +114,7 @@ jobs:
           ENERGY=$(( ( RANDOM % 5 )  + 1 ))
           ICONS=$(printf "%0.s⚡" $(seq 1 $ENERGY))
           cat > tiles/energy.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="120"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="120" fill="#008272"/>
             <text x="20" y="40" fill="white" font-size="20">ENERGY LEVEL</text>
@@ -136,98 +122,58 @@ jobs:
           </svg>
           EOF
 
-      # STATUS TILE — FADE BETWEEN TEXTS (NO ROTATION)
+      # STATUS TILE — FADE ONLY
       - name: Status tile
         run: |
           cat > tiles/status.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                xmlns:xlink="http://www.w3.org/1999/xlink"
-               width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#4C4A72"/>
             <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-            <text id="s1" x="20" y="80" fill="white" font-size="16" opacity="1">
-              Clarity is my form of care.
-            </text>
+            <text id="s1" x="20" y="80" fill="white" font-size="16" opacity="1">Clarity is my form of care.</text>
+            <text id="s2" x="20" y="80" fill="white" font-size="16" opacity="0">Building resilient labs &amp; systems.</text>
+            <text id="s3" x="20" y="80" fill="white" font-size="16" opacity="0">AI for education, health &amp; law.</text>
 
-            <text id="s2" x="20" y="80" fill="white" font-size="16" opacity="0">
-              Building resilient labs &amp; systems.
-            </text>
-
-            <text id="s3" x="20" y="80" fill="white" font-size="16" opacity="0">
-              AI for education, health &amp; law.
-            </text>
-
-            <animate xlink:href="#s1"
-                     attributeName="opacity"
-                     values="1;1;0;0"
-                     keyTimes="0;0.33;0.42;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-
-            <animate xlink:href="#s2"
-                     attributeName="opacity"
-                     values="0;0;1;1;0;0"
-                     keyTimes="0;0.33;0.42;0.66;0.75;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-
-            <animate xlink:href="#s3"
-                     attributeName="opacity"
-                     values="0;0;0;0;1;1;0"
-                     keyTimes="0;0.66;0.75;0.83;0.92;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
+            <animate xlink:href="#s1" attributeName="opacity"
+                     values="1;1;0;0" keyTimes="0;0.33;0.42;1"
+                     dur="12s" repeatCount="indefinite"/>
+            <animate xlink:href="#s2" attributeName="opacity"
+                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.42;0.66;0.75;1"
+                     dur="12s" repeatCount="indefinite"/>
+            <animate xlink:href="#s3" attributeName="opacity"
+                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.75;0.83;0.92;1"
+                     dur="12s" repeatCount="indefinite"/>
 
           </svg>
           EOF
 
-      # ROTATE-TEXT TILE — FADE BETWEEN TEXTS (NO ROTATION)
+      # ROTATE-TEXT TILE — FADE ONLY
       - name: Rotating text tile
         run: |
           cat > tiles/rotateText.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                xmlns:xlink="http://www.w3.org/1999/xlink"
-               width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#4C4A72"/>
             <text x="20" y="35" fill="white" font-size="18">THOUGHTS</text>
 
-            <text id="r1" x="20" y="80" fill="white" font-size="16" opacity="1">
-              Designing resilient systems.
-            </text>
+            <text id="r1" x="20" y="80" fill="white" font-size="16" opacity="1">Designing resilient systems.</text>
+            <text id="r2" x="20" y="80" fill="white" font-size="16" opacity="0">Cognitive AI for real people.</text>
+            <text id="r3" x="20" y="80" fill="white" font-size="16" opacity="0">Maps, mobility &amp; intelligence.</text>
 
-            <text id="r2" x="20" y="80" fill="white" font-size="16" opacity="0">
-              Cognitive AI for real people.
-            </text>
-
-            <text id="r3" x="20" y="80" fill="white" font-size="16" opacity="0">
-              Maps, mobility &amp; intelligence.
-            </text>
-
-            <animate xlink:href="#r1"
-                     attributeName="opacity"
-                     values="1;1;0;0"
-                     keyTimes="0;0.33;0.42;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-
-            <animate xlink:href="#r2"
-                     attributeName="opacity"
-                     values="0;0;1;1;0;0"
-                     keyTimes="0;0.33;0.42;0.66;0.75;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
-
-            <animate xlink:href="#r3"
-                     attributeName="opacity"
-                     values="0;0;0;0;1;1;0"
-                     keyTimes="0;0.66;0.75;0.83;0.92;1"
-                     dur="12s"
-                     repeatCount="indefinite" />
+            <animate xlink:href="#r1" attributeName="opacity"
+                     values="1;1;0;0" keyTimes="0;0.33;0.42;1"
+                     dur="12s" repeatCount="indefinite"/>
+            <animate xlink:href="#r2" attributeName="opacity"
+                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.42;0.66;0.75;1"
+                     dur="12s" repeatCount="indefinite"/>
+            <animate xlink:href="#r3" attributeName="opacity"
+                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.75;0.83;0.92;1"
+                     dur="12s" repeatCount="indefinite"/>
 
           </svg>
           EOF
@@ -236,17 +182,16 @@ jobs:
       # TIME & CONTEXT TILES
       # =========================
 
-      # CALENDAR TILE — FIXED TIMEZONE (NO MORE WRONG DAY)
+      # CALENDAR TILE — FIXED TIMEZONE
       - name: Calendar tile
         run: |
-          TZ='Asia/Kolkata'
+          export TZ="Asia/Kolkata"
           DAY=$(date +'%a')
           DATE=$(date +'%d')
           MONTH=$(date +'%b %Y')
           TZSTR="(+5:30 GMT)"
           cat > tiles/calendar.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="140"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#C239B3"/>
 
@@ -256,14 +201,11 @@ jobs:
 
             <text x="280" y="130" fill="#E0E0E0" font-size="12" text-anchor="end">$TZSTR</text>
 
-            <animate attributeName="opacity"
-                     values="1;0.8;1"
-                     dur="3s"
-                     repeatCount="indefinite" />
+            <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
           </svg>
           EOF
 
-      # WEATHER TILE — LIVE, DAY/NIGHT, YOUR STYLE
+      # WEATHER TILE — LIVE, DAY/NIGHT
       - name: Weather tile
         run: |
           LAT=9.37
@@ -285,15 +227,10 @@ jobs:
             *) COND="Cloudy" ;;
           esac
 
-          if [ "$ISDAY" -eq 1 ]; then
-            ICON_COLOR="#B0B0B0"
-          else
-            ICON_COLOR="#808080"
-          fi
+          if [ "$ISDAY" -eq 1 ]; then ICON_COLOR="#B0B0B0"; else ICON_COLOR="#808080"; fi
 
           cat > tiles/weather.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="140"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#0078D4"/>
 
@@ -302,14 +239,8 @@ jobs:
             <text x="20" y="110" fill="white" font-size="16">$COND • ${WIND} km/h</text>
 
             <circle cx="240" cy="60" r="18" fill="$ICON_COLOR">
-              <animate attributeName="r"
-                       from="14" to="18"
-                       dur="3s"
-                       repeatCount="indefinite" />
-              <animate attributeName="opacity"
-                       values="0.7;1;0.7"
-                       dur="3s"
-                       repeatCount="indefinite" />
+              <animate attributeName="r" from="14" to="18" dur="3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
             </circle>
           </svg>
           EOF
@@ -318,13 +249,12 @@ jobs:
       # MOTION & ANIMATION TILES
       # =========================
 
-      # SLIDE TILE — TEXT FADE ONLY (NO TILE MOVEMENT)
+      # SLIDE TILE — FADE ONLY (NO MOVEMENT)
       - name: Slide tile
         run: |
           cat > tiles/slide.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                xmlns:xlink="http://www.w3.org/1999/xlink"
-               width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#0078D4"/>
@@ -338,19 +268,12 @@ jobs:
               AI Legal Assistant
             </text>
 
-            <animate xlink:href="#t1"
-                     attributeName="opacity"
-                     values="1;1;0;0"
-                     keyTimes="0;0.5;0.6;1"
-                     dur="8s"
-                     repeatCount="indefinite" />
-
-            <animate xlink:href="#t2"
-                     attributeName="opacity"
-                     values="0;0;1;1;0;0"
-                     keyTimes="0;0.5;0.6;1"
-                     dur="8s"
-                     repeatCount="indefinite" />
+            <animate xlink:href="#t1" attributeName="opacity"
+                     values="1;1;0;0" keyTimes="0;0.5;0.6;1"
+                     dur="8s" repeatCount="indefinite"/>
+            <animate xlink:href="#t2" attributeName="opacity"
+                     values="0;0;1;1;0;0" keyTimes="0;0.5;0.6;1"
+                     dur="8s" repeatCount="indefinite"/>
 
           </svg>
           EOF
