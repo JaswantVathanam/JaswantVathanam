@@ -329,6 +329,34 @@ jobs:
 
           </svg>
           EOF
+      # =========================
+      # SPOTIFY TILES (REAL API)
+      # =========================
+      - name: Spotify Now Playing
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          node scripts/spotify-now-playing.js
+
+      - name: Spotify Recently Played
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          node scripts/spotify-recently-played.js
+
+      # =========================
+      # GITHUB INSIGHTS TILE
+      # =========================
+      - name: GitHub Insights Tile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/github-insights.js
+
 
       # =========================
       # COMMIT ALL TILES
