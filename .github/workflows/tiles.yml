@@ -166,13 +166,13 @@ jobs:
             <text id="r3" x="20" y="80" fill="white" font-size="16" opacity="0">Maps, mobility &amp; intelligence.</text>
 
             <animate xlink:href="#r1" attributeName="opacity"
-                     values="1;1;0;0" keyTimes="0;0.33;0.42;1"
+                     values="1;1;0;0" keyTimes="0;0.30;0.40;1"
                      dur="12s" repeatCount="indefinite"/>
             <animate xlink:href="#r2" attributeName="opacity"
-                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.42;0.66;0.75;1"
+                     values="0;0;1;1;0;0" keyTimes="0;0.30;0.40;0.65;0.75;1"
                      dur="12s" repeatCount="indefinite"/>
             <animate xlink:href="#r3" attributeName="opacity"
-                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.75;0.83;0.92;1"
+                     values="0;0;0;0;1;1;0" keyTimes="0;0.65;0.75;0.90;1;1"
                      dur="12s" repeatCount="indefinite"/>
 
           </svg>
@@ -246,34 +246,83 @@ jobs:
           EOF
 
       # =========================
-      # MOTION & ANIMATION TILES
+      # MAP TILE — BIRD'S EYE + COMPASS
       # =========================
 
-      # SLIDE TILE — FADE ONLY (NO MOVEMENT)
+      - name: Map tile
+        run: |
+          LAT=9.37
+          LON=78.83
+
+          MAP_URL="https://atlas.microsoft.com/map/static/png?api-version=1.0&layer=basic&style=birdseye&zoom=18&center=${LON},${LAT}&width=300&height=140&subscription-key=${{ secrets.AZURE_MAPS_KEY }}"
+
+          curl -s "$MAP_URL" --output tiles/map.png
+
+          cat > tiles/map.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+            <rect width="300" height="140" fill="#000000"/>
+
+            <image href="map.png" x="0" y="0" width="300" height="140" />
+
+            <text x="20" y="30" fill="white" font-size="18"
+                  style="text-shadow: 0px 0px 4px #000;">
+              Ramanathapuram District
+            </text>
+
+            <g transform="translate(240,35)">
+              <circle cx="0" cy="0" r="18" fill="rgba(0,0,0,0.45)" stroke="white" stroke-width="2"/>
+
+              <polygon points="0,-14 4,0 -4,0" fill="white" />
+              <polygon points="0,14 4,0 -4,0" fill="#D32F2F" />
+
+              <text x="0" y="-20" fill="white" font-size="10"
+                    text-anchor="middle">N</text>
+            </g>
+
+          </svg>
+          EOF
+
+      # =========================
+      # SLIDE TILE — PUBLIC REPOS + FADE ONLY
+      # =========================
+
       - name: Slide tile
         run: |
-          cat > tiles/slide.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+          REPOS=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=100" \
+            | jq -r '.[].name')
+
+          T1=$(echo "$REPOS" | sed -n '1p')
+          T2=$(echo "$REPOS" | sed -n '2p')
+
+          [ -z "$T1" ] && T1="Project One"
+          [ -z "$T2" ] && T2="Project Two"
+
+          cat > tiles/slide.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg"
                xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#0078D4"/>
             <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-            <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
-              Cognitive Rehab Platform
-            </text>
-
-            <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
-              AI Legal Assistant
-            </text>
+            <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">$T1</text>
+            <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">$T2</text>
 
             <animate xlink:href="#t1" attributeName="opacity"
-                     values="1;1;0;0" keyTimes="0;0.5;0.6;1"
-                     dur="8s" repeatCount="indefinite"/>
+                     values="1;1;0;0"
+                     keyTimes="0;0.45;0.55;1"
+                     dur="8s"
+                     repeatCount="indefinite"/>
+
             <animate xlink:href="#t2" attributeName="opacity"
-                     values="0;0;1;1;0;0" keyTimes="0;0.5;0.6;1"
-                     dur="8s" repeatCount="indefinite"/>
+                     values="0;0;1;1;0;0"
+                     keyTimes="0;0.45;0.55;0.9;1;1"
+                     dur="8s"
+                     repeatCount="indefinite"/>
 
           </svg>
           EOF
@@ -286,6 +335,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add tiles/*.svg
+          git add tiles/*.svg tiles/*.png
           git commit -m "Updated live tiles" || echo "No changes"
           git push
