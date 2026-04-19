@@ -3,5 +3,5 @@
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="120" fill="#008272"/>
   <text x="20" y="40" fill="white" font-size="20">ENERGY LEVEL</text>
-  <text x="20" y="80" fill="white" font-size="26">⚡⚡⚡⚡⚡</text>
+  <text x="20" y="80" fill="white" font-size="26">⚡</text>
 </svg>

@@ -5,6 +5,7 @@
   <rect width="300" height="140" fill="#2D2D30"/>
   <text id="front" x="20" y="70" fill="white" font-size="18">DEV DASHBOARD</text>
   <text id="back" x="20" y="70" fill="white" font-size="18" opacity="0">Windows 10 Live Tile</text>
+
   <animate xlink:href="#front"
            attributeName="opacity"
            values="1;0;0"

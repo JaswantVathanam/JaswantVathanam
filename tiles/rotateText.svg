@@ -2,34 +2,47 @@
      xmlns:xlink="http://www.w3.org/1999/xlink"
      width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-  <rect width="300" height="140" fill="#4C4A72"/>
-  <text x="20" y="35" fill="white" font-size="18">STATUS</text>
+  <g id="tile" transform="translate(0,0)">
+    <rect width="300" height="140" fill="#4C4A72"/>
+    <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
-    Clarity is my form of care.
-  </text>
-  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
-    Building resilient labs &amp; systems.
-  </text>
-  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">
-    AI for education, health &amp; law.
-  </text>
+    <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">
+      Clarity is my form of care.
+    </text>
+    <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">
+      Building resilient labs &amp; systems.
+    </text>
+    <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">
+      AI for education, health &amp; law.
+    </text>
+  </g>
 
+  <!-- Text fades with time to read -->
   <animate xlink:href="#t1"
            attributeName="opacity"
-           values="1;0;0"
-           dur="9s"
+           values="1;1;0;0"
+           keyTimes="0;0.4;0.5;1"
+           dur="12s"
            repeatCount="indefinite" />
   <animate xlink:href="#t2"
            attributeName="opacity"
-           values="0;1;0"
-           dur="9s"
-           begin="3s"
+           values="0;0;1;1;0;0"
+           keyTimes="0;0.4;0.5;0.9;1;1"
+           dur="12s"
            repeatCount="indefinite" />
   <animate xlink:href="#t3"
            attributeName="opacity"
-           values="0;0;1"
-           dur="9s"
-           begin="6s"
+           values="0;0;0;1;1;0"
+           keyTimes="0;0.7;0.8;0.9;1;1"
+           dur="12s"
            repeatCount="indefinite" />
+
+  <!-- Whole tile slow rotation with pause -->
+  <animateTransform xlink:href="#tile"
+                    attributeName="transform"
+                    type="rotate"
+                    values="0 150 70; 360 150 70; 360 150 70"
+                    keyTimes="0;0.8;1"
+                    dur="12s"
+                    repeatCount="indefinite" />
 </svg>
