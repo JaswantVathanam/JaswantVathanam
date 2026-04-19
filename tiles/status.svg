@@ -3,37 +3,40 @@
      width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
-  <!-- Two frames placed side-by-side -->
-  <g id="swipeGroup">
+  <rect width="300" height="140" fill="#4C4A72"/>
+  <text x="20" y="35" fill="white" font-size="18">STATUS</text>
 
-    <!-- Frame 1 -->
-    <g>
-      <rect width="300" height="140" fill="#4C4A72"/>
-      <text x="20" y="35" fill="white" font-size="18">STATUS</text>
-      <text x="20" y="80" fill="white" font-size="16">
-        Clarity is my form of care.
-      </text>
-    </g>
+  <text id="s1" x="20" y="80" fill="white" font-size="16" opacity="1">
+    Clarity is my form of care.
+  </text>
 
-    <!-- Frame 2 (shifted right by 300px) -->
-    <g transform="translate(300,0)">
-      <rect width="300" height="140" fill="#4C4A72"/>
-      <text x="20" y="35" fill="white" font-size="18">STATUS</text>
-      <text x="20" y="80" fill="white" font-size="16">
-        Building resilient labs &amp; systems.
-      </text>
-    </g>
+  <text id="s2" x="20" y="80" fill="white" font-size="16" opacity="0">
+    Building resilient labs &amp; systems.
+  </text>
 
-  </g>
+  <text id="s3" x="20" y="80" fill="white" font-size="16" opacity="0">
+    AI for education, health &amp; law.
+  </text>
 
-  <!-- Whole tile swipe animation -->
-  <animateTransform
-      xlink:href="#swipeGroup"
-      attributeName="transform"
-      type="translate"
-      values="0 0; -300 0; -300 0; 0 0"
-      keyTimes="0; 0.45; 0.55; 1"
-      dur="10s"
-      repeatCount="indefinite" />
+  <animate xlink:href="#s1"
+           attributeName="opacity"
+           values="1;1;0;0"
+           keyTimes="0;0.33;0.42;1"
+           dur="12s"
+           repeatCount="indefinite" />
+
+  <animate xlink:href="#s2"
+           attributeName="opacity"
+           values="0;0;1;1;0;0"
+           keyTimes="0;0.33;0.42;0.66;0.75;1"
+           dur="12s"
+           repeatCount="indefinite" />
+
+  <animate xlink:href="#s3"
+           attributeName="opacity"
+           values="0;0;0;0;1;1;0"
+           keyTimes="0;0.66;0.75;0.83;0.92;1"
+           dur="12s"
+           repeatCount="indefinite" />
 
 </svg>
