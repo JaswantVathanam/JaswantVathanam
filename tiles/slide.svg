@@ -7,51 +7,69 @@
   <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
   
-  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">BuildForBharat-Project</text>
-  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">GrowNet</text>
-  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">IOT-Sensors-and-Devices</text>
+  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="0">IOT-Sensors-and-Devices</text>
+  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">NeuroPath</text>
+  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">JurisAI</text>
   <text id="t4" x="20" y="80" fill="white" font-size="16" opacity="0">JaswantVathanam</text>
-  <text id="t5" x="20" y="80" fill="white" font-size="16" opacity="0">JurisAI</text>
-  <text id="t6" x="20" y="80" fill="white" font-size="16" opacity="0">MindBridgers---SIH2025</text>
+  <text id="t5" x="20" y="80" fill="white" font-size="16" opacity="0">MindBridgers---SIH2025</text>
+  <text id="t6" x="20" y="80" fill="white" font-size="16" opacity="0">BuildForBharat-Project</text>
   <text id="t7" x="20" y="80" fill="white" font-size="16" opacity="0">MS</text>
-  <text id="t8" x="20" y="80" fill="white" font-size="16" opacity="0">NeuroPath</text>
+  <text id="t8" x="20" y="80" fill="white" font-size="16" opacity="0">GrowNet</text>
   <text id="t9" x="20" y="80" fill="white" font-size="16" opacity="0">Pea-Plant-Disease-Prediction</text>
   
   <animate xlink:href="#t1" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;0;.1;.2"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="0s"
+           fill="freeze"/>
   <animate xlink:href="#t2" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.11;.21;.31"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="2s"
+           fill="freeze"/>
   <animate xlink:href="#t3" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.22;.32;.42"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="4s"
+           fill="freeze"/>
   <animate xlink:href="#t4" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.33;.43;.53"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="6s"
+           fill="freeze"/>
   <animate xlink:href="#t5" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.44;.54;.64"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="8s"
+           fill="freeze"/>
   <animate xlink:href="#t6" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.55;.65;.75"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="10s"
+           fill="freeze"/>
   <animate xlink:href="#t7" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.66;.76;.86"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="12s"
+           fill="freeze"/>
   <animate xlink:href="#t8" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.77;.87;.97"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="14s"
+           fill="freeze"/>
   <animate xlink:href="#t9" attributeName="opacity"
            values="0;1;1;0"
-           keyTimes="0;.88;.98;1.08"
-           dur="12s" repeatCount="indefinite"/>
+           keyTimes="0;0.2;0.8;1"
+           dur="92s"
+           begin="16s"
+           fill="freeze"/>
 
 </svg>
