@@ -173,11 +173,10 @@ jobs:
 
           </svg>
           EOF
-      
       - name: Languages tile
         run: |
           LANGS=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
-            | jq -r '.[].language' | sort | uniq -c | sort -nr)
+            | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr)
 
           L1=$(echo "$LANGS" | sed -n '1p' | awk '{print $2}')
           L2=$(echo "$LANGS" | sed -n '2p' | awk '{print $2}')
@@ -196,7 +195,7 @@ jobs:
             <text x="20" y="80" fill="white" font-size="22">$L1</text>
             <text x="20" y="110" fill="white" font-size="18">$L2  $L3</text>
           </svg>
-          EOF
+          EOF      
 
 
       - name: Social tile
@@ -208,7 +207,6 @@ jobs:
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#1F1F1F"/>
-
             <text x="20" y="30" fill="white" font-size="18">SOCIAL</text>
 
             <!-- Facebook -->
@@ -226,7 +224,6 @@ jobs:
 
           </svg>
           EOF
-
 
       # =========================
       # TIME & CONTEXT TILES
