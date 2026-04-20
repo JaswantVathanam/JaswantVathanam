@@ -181,32 +181,43 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
-            | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr)
+            | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr | awk '{print $2}')
 
-          L1=$(echo "$LANGS" | sed -n '1p' | awk '{print $2}')
-          L2=$(echo "$LANGS" | sed -n '2p' | awk '{print $2}')
-          L3=$(echo "$LANGS" | sed -n '3p' | awk '{print $2}')
+          if [ -z "$LANGS" ]; then
+            LANGS="None"
+          fi
 
-          [ -z "$L1" ] && L1="None"
-          [ -z "$L2" ] && L2="-"
-          [ -z "$L3" ] && L3="-"
+          TOTAL=$(echo "$LANGS" | wc -l | tr -d ' ')
+          [ "$TOTAL" -lt 1 ] && TOTAL=1
+          DUR=15
 
-          esc() { printf '%s' "$1" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g'; }
+          {
+            echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
+            echo '  <rect width="300" height="140" fill="#5C2D91"/>'
+            echo '  <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>'
+          } > tiles/languages.svg
 
-          L1_ESC=$(esc "$L1")
-          L2_ESC=$(esc "$L2")
-          L3_ESC=$(esc "$L3")
+          INDEX=0
+          while IFS= read -r LANG; do
+            [ -z "$LANG" ] && continue
+            INDEX=$((INDEX+1))
+            START=$(awk "BEGIN { printf \"%.3f\", ($INDEX-1)*$DUR/$TOTAL }")
+            ESC_LANG=$(printf '%s' "$LANG" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
 
-          cat > tiles/languages.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
-               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-            <rect width="300" height="140" fill="#5C2D91"/>
-            <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
-            <text x="20" y="80" fill="white" font-size="22">$L1_ESC</text>
-            <text x="20" y="110" fill="white" font-size="18">$L2_ESC  $L3_ESC</text>
-          </svg>
+            cat >> tiles/languages.svg << EOF
+            <text x="20" y="90" fill="white" font-size="24" opacity="0">$ESC_LANG
+              <animate attributeName="opacity"
+                       values="0;0;1;1;0;0"
+                       keyTimes="0;0.01;0.10;0.85;0.95;1"
+                       dur="${DUR}s"
+                       begin="${START}s"
+                       repeatCount="indefinite"/>
+            </text>
           EOF
+          done <<< "$LANGS"
 
+          echo '</svg>' >> tiles/languages.svg
+          
       - name: Social tile
         run: |
           cat > tiles/social.svg << 'EOF'
@@ -361,9 +372,9 @@ jobs:
             REPOS="No repositories found"
           fi
 
-          INDEX=0
           TOTAL=$(echo "$REPOS" | wc -l | tr -d ' ')
-          DUR=12
+          [ "$TOTAL" -lt 1 ] && TOTAL=1
+          DUR=20
 
           {
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
@@ -371,6 +382,7 @@ jobs:
             echo '  <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>'
           } > tiles/slide.svg
 
+          INDEX=0
           while IFS= read -r NAME; do
             [ -z "$NAME" ] && continue
             INDEX=$((INDEX+1))
@@ -378,10 +390,10 @@ jobs:
             ESC_NAME=$(printf '%s' "$NAME" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
 
             cat >> tiles/slide.svg << EOF
-            <text x="20" y="80" fill="white" font-size="16" opacity="0">$ESC_NAME
+            <text x="20" y="85" fill="white" font-size="18" opacity="0">$ESC_NAME
               <animate attributeName="opacity"
                        values="0;0;1;1;0;0"
-                       keyTimes="0;0.01;0.05;0.90;0.95;1"
+                       keyTimes="0;0.01;0.10;0.85;0.95;1"
                        dur="${DUR}s"
                        begin="${START}s"
                        repeatCount="indefinite"/>
@@ -390,7 +402,6 @@ jobs:
           done <<< "$REPOS"
 
           echo '</svg>' >> tiles/slide.svg
-
 
       # =========================
       # SPOTIFY TILES (REAL API)
