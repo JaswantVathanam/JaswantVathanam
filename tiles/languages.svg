@@ -4,33 +4,29 @@
   <text x="20" y="90" fill="white" font-size="24" opacity="0">Python
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             keyTimes="0;0.000000;0.037500;0.212500;0.250000;1"
              dur="15s"
-             begin="0.000s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">HTML
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             keyTimes="0;0.250000;0.287500;0.462500;0.500000;1"
              dur="15s"
-             begin="3.750s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">CSS
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             keyTimes="0;0.500000;0.537500;0.712500;0.750000;1"
              dur="15s"
-             begin="7.500s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">JavaScript
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             keyTimes="0;0.750000;0.787500;0.962500;1.000000;1"
              dur="15s"
-             begin="11.250s"
              repeatCount="indefinite"/>
   </text>
 </svg>
