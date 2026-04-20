@@ -209,17 +209,31 @@ jobs:
             <rect width="300" height="140" fill="#1F1F1F"/>
             <text x="20" y="30" fill="white" font-size="18">SOCIAL</text>
 
-            <!-- Facebook -->
+            <!-- FACEBOOK -->
             <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
-              <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
-              <text x="70" y="75" fill="white" font-size="18">Facebook</text>
-              <text x="70" y="95" fill="white" font-size="14">@jaswantvathanam</text>
+              <g transform="translate(20,50)">
+                <!-- FB ICON -->
+                <rect width="40" height="40" rx="8" fill="#1877F2"/>
+                <text x="20" y="27" fill="white" font-size="28" text-anchor="middle" font-weight="bold">f</text>
+
+                <!-- TEXT -->
+                <text x="60" y="20" fill="white" font-size="18">Facebook</text>
+                <text x="60" y="38" fill="white" font-size="14">@jaswantvathanam</text>
+              </g>
             </a>
 
-            <!-- Instagram -->
+            <!-- INSTAGRAM -->
             <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
-              <rect x="20" y="100" width="40" height="40" rx="8" fill="#E4405F"/>
-              <text x="70" y="125" fill="white" font-size="18">Instagram</text>
+              <g transform="translate(20,100)">
+                <!-- IG ICON -->
+                <rect width="40" height="40" rx="8" fill="#E4405F"/>
+                <circle cx="20" cy="20" r="10" fill="none" stroke="white" stroke-width="3"/>
+                <circle cx="28" cy="12" r="3" fill="white"/>
+
+                <!-- TEXT -->
+                <text x="60" y="20" fill="white" font-size="18">Instagram</text>
+                <text x="60" y="38" fill="white" font-size="14">@jaswantvathanam</text>
+              </g>
             </a>
 
           </svg>
@@ -327,30 +341,31 @@ jobs:
 
       - name: Slide tile
         run: |
-          # Fetch all public repos safely using GitHub Search API
+          # Fetch all public repos safely
           REPOS=$(curl -s "https://api.github.com/search/repositories?q=user:JaswantVathanam&per_page=100" \
             | jq -r '.items[].name')
 
           INDEX=0
-          TOTAL=$(echo "$REPOS" | wc -l)
           TEXT_BLOCKS=""
           ANIM_BLOCKS=""
+          TOTAL=$(echo "$REPOS" | wc -l)
+          DURATION=$((TOTAL * 2))
 
           for NAME in $REPOS; do
             INDEX=$((INDEX+1))
-
-            TEXT_BLOCKS="$TEXT_BLOCKS
-            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"0\">$NAME</text>"
 
             # Each repo gets a 2-second window
             START=$(( (INDEX-1) * 2 ))
             END=$(( START + 2 ))
 
+            TEXT_BLOCKS="$TEXT_BLOCKS
+            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"0\">$NAME</text>"
+
             ANIM_BLOCKS="$ANIM_BLOCKS
             <animate xlink:href=\"#t$INDEX\" attributeName=\"opacity\"
                      values=\"0;1;1;0\"
                      keyTimes=\"0;0.2;0.8;1\"
-                     dur=\"${TOTAL}2s\"
+                     dur=\"${DURATION}s\"
                      begin=\"${START}s\"
                      fill=\"freeze\"/>"
           done
@@ -369,6 +384,7 @@ jobs:
 
           </svg>
           EOF
+
 
 
       # =========================
