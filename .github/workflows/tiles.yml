@@ -338,31 +338,34 @@ jobs:
       # =========================
       # SLIDE TILE
       # =========================
-
       - name: Slide tile
         run: |
-          # Fetch all public repos safely
+          # Fetch repo names safely
           REPOS=$(curl -s "https://api.github.com/search/repositories?q=user:JaswantVathanam&per_page=100" \
             | jq -r '.items[].name')
 
           INDEX=0
           TEXT_BLOCKS=""
-          DUR=4   # 4 seconds per repo
+          VALUES=""
+          KEYTIMES=""
+          TOTAL=$(echo "$REPOS" | wc -l)
+
+          STEP=$(echo "scale=2; 1/$TOTAL" | bc)
 
           for NAME in $REPOS; do
             INDEX=$((INDEX+1))
 
             TEXT_BLOCKS="$TEXT_BLOCKS
-            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"0\">$NAME
-              <animate attributeName=\"opacity\"
-                       values=\"0;1;1;0\"
-                       dur=\"${DUR}s\"
-                       begin=\"${DUR}*($INDEX-1)s\"
-                       repeatCount=\"indefinite\"/>
-            </text>"
+            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\">$NAME</text>"
+
+            POS=$(echo "scale=2; ($INDEX-1)*$STEP" | bc)
+            VALUES="$VALUES;$INDEX"
+            KEYTIMES="$KEYTIMES;$POS"
           done
 
-          TOTAL=$((INDEX * DUR))
+          # Remove leading semicolon
+          VALUES="${VALUES:1}"
+          KEYTIMES="${KEYTIMES:1}"
 
           cat > tiles/slide.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg"
@@ -372,17 +375,21 @@ jobs:
             <rect width="300" height="140" fill="#0078D4"/>
             <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-            <g>
+            <g id="slides">
               $TEXT_BLOCKS
             </g>
 
-            <!-- Master loop -->
-            <animate attributeName="opacity"
-                     values="1;1"
-                     dur="${TOTAL}s"
+            <!-- Master animation -->
+            <animate xlink:href="#slides"
+                     attributeName="display"
+                     values="$VALUES"
+                     keyTimes="$KEYTIMES"
+                     dur="12s"
                      repeatCount="indefinite"/>
           </svg>
           EOF
+
+
 
       # =========================
       # SPOTIFY TILES (REAL API)
