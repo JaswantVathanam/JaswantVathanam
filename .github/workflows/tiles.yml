@@ -510,10 +510,8 @@ jobs:
           
       - name: Contributions 30d grid tile
         run: |
-          # Ensure full git history (critical)
           git fetch --unshallow || true
 
-          # Collect last 30 days of commit counts
           COUNTS=()
           for i in $(seq 29 -1 0); do
             D=$(date -d "$i days ago" +%Y-%m-%d)
@@ -521,7 +519,6 @@ jobs:
             COUNTS+=("$C")
           done
 
-          # Lumia-style green intensity
           get_color() {
             local c=$1
             if   [ "$c" -eq 0 ]; then echo "#0F2A0F"
@@ -532,17 +529,15 @@ jobs:
             fi
           }
 
-          # SVG header (height increased to 180 to avoid clipping)
           cat > tiles/contrib-30d.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="180"
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="220"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-            <rect width="300" height="180" fill="#0078D4"/>
+            <rect width="300" height="220" fill="#0078D4"/>
             <text x="20" y="30" fill="white" font-size="18">LAST 30 DAYS</text>
           EOF
 
-          # Draw 6 rows × 5 columns = 30 squares
           IDX=0
-          Y=60
+          Y=50   # moved up to fit all rows
           for row in $(seq 0 5); do
             X=20
             for col in $(seq 0 4); do
@@ -555,7 +550,6 @@ jobs:
             Y=$((Y+25))
           done
 
-          # Close SVG
           echo "</svg>" >> tiles/contrib-30d.svg
 
 
