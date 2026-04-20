@@ -173,6 +173,7 @@ jobs:
 
           </svg>
           EOF
+          
       - name: Languages tile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -184,7 +185,7 @@ jobs:
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             "https://api.github.com/users/$USER/repos?per_page=100&type=owner")
 
-          # Aggregate language bytes across repos
+          # Aggregate language bytes across repos (SUM per language key)
           LANG_BYTES=$(
             echo "$REPOS_JSON" | jq -r '.[].name' | while read -r REPO; do
               [ -z "$REPO" ] && continue
@@ -193,15 +194,20 @@ jobs:
                 -H "Authorization: Bearer $GITHUB_TOKEN" \
                 "https://api.github.com/repos/$USER/$REPO/languages"
             done | jq -s '
-              add // {} 
-              | to_entries 
-              | sort_by(-.value) 
+              reduce .[] as $obj ({};
+                reduce ($obj | to_entries[]) as $e (.;
+                  .[$e.key] = ((.[$e.key] // 0) + $e.value)
+                )
+              )
+              | to_entries
+              | sort_by(-.value)
               | .[]
               | "\(.key)\t\(.value)"
             '
           )
 
-          LANGS=$(echo "$LANG_BYTES" | awk -F'\t' '{print $1}')
+          # Keep only language names (left side of tab)
+          LANGS=$(echo "$LANG_BYTES" | awk -F'\t' '{print $1}' | sed '/^$/d')
 
           # If C# exists, also show .NET tag
           if echo "$LANGS" | grep -qx "C#"; then
