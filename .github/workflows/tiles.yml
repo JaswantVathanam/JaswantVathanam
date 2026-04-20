@@ -177,20 +177,46 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          LANGS=$(curl -s \
+          USER="JaswantVathanam"
+
+          REPOS_JSON=$(curl -s \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
-            "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
-            | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr | awk '{print $2}')
+            "https://api.github.com/users/$USER/repos?per_page=100&type=owner")
 
+          # Aggregate language bytes across repos
+          LANG_BYTES=$(
+            echo "$REPOS_JSON" | jq -r '.[].name' | while read -r REPO; do
+              [ -z "$REPO" ] && continue
+              curl -s \
+                -H "Accept: application/vnd.github+json" \
+                -H "Authorization: Bearer $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$USER/$REPO/languages"
+            done | jq -s '
+              add // {} 
+              | to_entries 
+              | sort_by(-.value) 
+              | .[]
+              | "\(.key)\t\(.value)"
+            '
+          )
+
+          LANGS=$(echo "$LANG_BYTES" | awk -F'\t' '{print $1}')
+
+          # If C# exists, also show .NET tag
+          if echo "$LANGS" | grep -qx "C#"; then
+            LANGS=$(printf ".NET\n%s\n" "$LANGS")
+          fi
+
+          # Fallback
           if [ -z "$LANGS" ]; then
             LANGS="None"
           fi
 
-          TOTAL=$(echo "$LANGS" | wc -l | tr -d ' ')
+          TOTAL=$(echo "$LANGS" | sed '/^$/d' | wc -l | tr -d ' ')
           [ "$TOTAL" -lt 1 ] && TOTAL=1
 
-          CYCLE=15   # total loop duration (seconds)
+          CYCLE=15
 
           {
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
