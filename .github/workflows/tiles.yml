@@ -172,7 +172,51 @@ jobs:
 
           </svg>
           EOF
-      - name: Social Collage Tile (People Hub v2)
+      
+      - name: Languages tile
+        run: |
+          # Fetch languages for all repos
+          LANG_DATA=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
+            | jq -r '.[].languages_url' \
+            | xargs -I {} curl -s {} \
+            | jq -s 'add')
+
+          # Extract top 3 languages
+          TOP_LANGS=$(echo "$LANG_DATA" | jq -r 'to_entries | sort_by(.value) | reverse | .[:3]')
+
+          L1=$(echo "$TOP_LANGS" | jq -r '.[0].key // "None"')
+          L2=$(echo "$TOP_LANGS" | jq -r '.[1].key // ""')
+          L3=$(echo "$TOP_LANGS" | jq -r '.[2].key // ""')
+
+          cat > tiles/languages.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+            <rect width="300" height="140" fill="#5C2D91"/>
+
+            <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
+
+            <text id="l1" x="20" y="80" fill="white" font-size="22" opacity="1">$L1</text>
+            <text id="l2" x="20" y="80" fill="white" font-size="22" opacity="0">$L2</text>
+            <text id="l3" x="20" y="80" fill="white" font-size="22" opacity="0">$L3</text>
+
+            <!-- Fade animation -->
+            <animate xlink:href="#l1" attributeName="opacity"
+                     values="1;1;0;0" keyTimes="0;0.33;0.34;1"
+                     dur="9s" repeatCount="indefinite"/>
+
+            <animate xlink:href="#l2" attributeName="opacity"
+                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1"
+                     dur="9s" repeatCount="indefinite"/>
+
+            <animate xlink:href="#l3" attributeName="opacity"
+                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.67;0.90;0.91;1"
+                     dur="9s" repeatCount="indefinite"/>
+
+          </svg>
+          EOF
+
+      - name: Social Tile (Icon → Name → Username)
         run: |
           cat > tiles/social.svg << 'EOF'
           <svg xmlns="http://www.w3.org/2000/svg"
@@ -182,88 +226,91 @@ jobs:
 
             <rect width="300" height="140" fill="#1F1F1F"/>
 
-            <text x="20" y="28" fill="white" font-size="18">SOCIAL HUB</text>
+            <text x="20" y="30" fill="white" font-size="18">SOCIAL</text>
 
-            <!-- ========== LAYOUT 1 (3 circles) ========== -->
-            <g id="l1" opacity="1">
+            <!-- FACEBOOK -->
+            <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
+              <g id="fb1" opacity="1">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
+                <text x="70" y="78" fill="white" font-size="20">Facebook</text>
+              </g>
 
-              <!-- Facebook -->
-              <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
-                <circle cx="50" cy="90" r="28" fill="#1877F2"/>
-                <text x="50" y="98" fill="white" font-size="26" text-anchor="middle" font-weight="bold">f</text>
-              </a>
+              <g id="fb2" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
+                <text x="70" y="78" fill="white" font-size="20">@jaswantvathanam</text>
+              </g>
+            </a>
 
-              <!-- Instagram -->
-              <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
-                <circle cx="130" cy="90" r="28" fill="#E4405F"/>
-                <circle cx="130" cy="90" r="12" fill="none" stroke="white" stroke-width="4"/>
-                <circle cx="145" cy="75" r="4" fill="white"/>
-              </a>
+            <!-- INSTAGRAM -->
+            <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
+              <g id="ig1" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#E4405F"/>
+                <text x="70" y="78" fill="white" font-size="20">Instagram</text>
+              </g>
 
-              <!-- LinkedIn -->
-              <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
-                <circle cx="210" cy="90" r="28" fill="#0077B5"/>
-                <text x="210" y="98" fill="white" font-size="20" text-anchor="middle" font-weight="bold">in</text>
-              </a>
+              <g id="ig2" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#E4405F"/>
+                <text x="70" y="78" fill="white" font-size="20">@jaswantvathanam</text>
+              </g>
+            </a>
 
-            </g>
+            <!-- LINKEDIN -->
+            <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
+              <g id="ln1" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#0077B5"/>
+                <text x="70" y="78" fill="white" font-size="20">LinkedIn</text>
+              </g>
 
-            <!-- ========== LAYOUT 2 (Medium + Email wide) ========== -->
-            <g id="l2" opacity="0">
+              <g id="ln2" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#0077B5"/>
+                <text x="70" y="78" fill="white" font-size="20">jaswant-b-vathanam</text>
+              </g>
+            </a>
 
-              <!-- Medium -->
-              <a xlink:href="https://medium.com/@bjaswant2005.medium.com" target="_blank">
-                <rect x="20" y="50" width="120" height="70" rx="10" fill="#12100E"/>
-                <text x="80" y="92" fill="white" font-size="32" text-anchor="middle" font-weight="bold">M</text>
-              </a>
+            <!-- MEDIUM -->
+            <a xlink:href="https://medium.com/@bjaswant2005.medium.com" target="_blank">
+              <g id="md1" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#12100E"/>
+                <text x="70" y="78" fill="white" font-size="20">Medium</text>
+              </g>
 
-              <!-- Email -->
-              <a xlink:href="mailto:JaswantVathanam@outlook.com" target="_blank">
-                <rect x="160" y="50" width="120" height="70" rx="10" fill="#0078D4"/>
-                <text x="220" y="92" fill="white" font-size="20" text-anchor="middle">Email</text>
-              </a>
+              <g id="md2" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#12100E"/>
+                <text x="70" y="78" fill="white" font-size="20">@bjaswant2005</text>
+              </g>
+            </a>
 
-            </g>
+            <!-- EMAIL -->
+            <a xlink:href="mailto:JaswantVathanam" target="_blank">
+              <g id="em1" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#0078D4"/>
+                <text x="70" y="78" fill="white" font-size="20">Email</text>
+              </g>
 
-            <!-- ========== LAYOUT 3 (Zoom collage) ========== -->
-            <g id="l3" opacity="0">
+              <g id="em2" opacity="0">
+                <rect x="20" y="50" width="40" height="40" rx="8" fill="#0078D4"/>
+                <text x="70" y="78" fill="white" font-size="18">JaswantVathanam</text>
+              </g>
+            </a>
 
-              <!-- Big Instagram -->
-              <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
-                <circle cx="70" cy="90" r="40" fill="#E4405F">
-                  <animate attributeName="r" values="36;40;36" dur="4s" repeatCount="indefinite"/>
-                </circle>
-                <circle cx="70" cy="90" r="18" fill="none" stroke="white" stroke-width="5"/>
-                <circle cx="90" cy="65" r="5" fill="white"/>
-              </a>
+            <!-- ANIMATION ORDER -->
+            <animate xlink:href="#fb1" attributeName="opacity" values="1;1;0" dur="2s" begin="0s" fill="freeze"/>
+            <animate xlink:href="#fb2" attributeName="opacity" values="0;1;0" dur="2s" begin="2s" fill="freeze"/>
 
-              <!-- Small Facebook -->
-              <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
-                <circle cx="160" cy="70" r="22" fill="#1877F2"/>
-                <text x="160" y="78" fill="white" font-size="20" text-anchor="middle" font-weight="bold">f</text>
-              </a>
+            <animate xlink:href="#ig1" attributeName="opacity" values="0;1;0" dur="2s" begin="4s" fill="freeze"/>
+            <animate xlink:href="#ig2" attributeName="opacity" values="0;1;0" dur="2s" begin="6s" fill="freeze"/>
 
-              <!-- Small LinkedIn -->
-              <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
-                <circle cx="220" cy="110" r="22" fill="#0077B5"/>
-                <text x="220" y="118" fill="white" font-size="18" text-anchor="middle" font-weight="bold">in</text>
-              </a>
+            <animate xlink:href="#ln1" attributeName="opacity" values="0;1;0" dur="2s" begin="8s" fill="freeze"/>
+            <animate xlink:href="#ln2" attributeName="opacity" values="0;1;0" dur="2s" begin="10s" fill="freeze"/>
 
-            </g>
+            <animate xlink:href="#md1" attributeName="opacity" values="0;1;0" dur="2s" begin="12s" fill="freeze"/>
+            <animate xlink:href="#md2" attributeName="opacity" values="0;1;0" dur="2s" begin="14s" fill="freeze"/>
 
-            <!-- ========== ANIMATIONS ========== -->
-            <animate xlink:href="#l1" attributeName="opacity"
-                     values="1;1;0;0" keyTimes="0;0.33;0.34;1"
-                     dur="12s" repeatCount="indefinite"/>
+            <animate xlink:href="#em1" attributeName="opacity" values="0;1;0" dur="2s" begin="16s" fill="freeze"/>
+            <animate xlink:href="#em2" attributeName="opacity" values="0;1;0" dur="2s" begin="18s" fill="freeze"/>
 
-            <animate xlink:href="#l2" attributeName="opacity"
-                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1"
-                     dur="12s" repeatCount="indefinite"/>
-
-            <animate xlink:href="#l3" attributeName="opacity"
-                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.67;0.90;0.91;1"
-                     dur="12s" repeatCount="indefinite"/>
-
+            <!-- LOOP -->
+            <animate attributeName="opacity" values="1;1" dur="1s" begin="20s;socialTile.end" id="socialTile"/>
           </svg>
           EOF
 
