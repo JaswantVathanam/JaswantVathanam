@@ -466,6 +466,137 @@ jobs:
           node scripts/spotify-recently-played.js
 
       # =========================
+      # CONTRIBUTIONS TILE
+      # =========================
+      - name: Contributions 7d grid tile
+        run: |
+          # Get last 7 days (0 = today, 6 = 6 days ago)
+          DAYS=()
+          COUNTS=()
+          for i in $(seq 6 -1 0); do
+            D=$(date -d "$i days ago" +%Y-%m-%d)
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
+            DAYS+=("$D")
+            COUNTS+=("$C")
+          done
+
+          # Map count -> color
+          get_color() {
+            local c=$1
+            if   [ "$c" -eq 0 ]; then echo "#1B1B1B"
+            elif [ "$c" -le 2 ]; then echo "#A5D6A7"
+            elif [ "$c" -le 5 ]; then echo "#66BB6A"
+            elif [ "$c" -le 10 ]; then echo "#43A047"
+            else                     echo "#2E7D32"
+            fi
+          }
+
+          cat > tiles/contrib-7d.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+            <rect width="300" height="140" fill="#0078D4"/>
+            <text x="20" y="30" fill="white" font-size="18">LAST 7 DAYS</text>
+          EOF
+
+          X=20
+          for i in $(seq 0 6); do
+            C=${COUNTS[$i]}
+            COLOR=$(get_color "$C")
+            echo "  <rect x=\"$X\" y=\"60\" width=\"24\" height=\"24\" rx=\"4\" fill=\"$COLOR\"/>" >> tiles/contrib-7d.svg
+            X=$((X+30))
+          done
+
+          echo "</svg>" >> tiles/contrib-7d.svg
+          
+      - name: Contributions 30d grid tile
+        run: |
+          # Last 30 days (0 = today, 29 = 29 days ago)
+          COUNTS=()
+          for i in $(seq 29 -1 0); do
+            D=$(date -d "$i days ago" +%Y-%m-%d)
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
+            COUNTS+=("$C")
+          done
+
+          get_color() {
+            local c=$1
+            if   [ "$c" -eq 0 ]; then echo "#1B1B1B"
+            elif [ "$c" -le 2 ]; then echo "#A5D6A7"
+            elif [ "$c" -le 5 ]; then echo "#66BB6A"
+            elif [ "$c" -le 10 ]; then echo "#43A047"
+            else                     echo "#2E7D32"
+            fi
+          }
+
+          cat > tiles/contrib-30d.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+            <rect width="300" height="140" fill="#0078D4"/>
+            <text x="20" y="30" fill="white" font-size="18">LAST 30 DAYS</text>
+          EOF
+
+          IDX=0
+          Y=50
+          for row in $(seq 0 5); do
+            X=20
+            for col in $(seq 0 4); do
+              C=${COUNTS[$IDX]}
+              COLOR=$(get_color "$C")
+              echo "  <rect x=\"$X\" y=\"$Y\" width=\"20\" height=\"20\" rx=\"4\" fill=\"$COLOR\"/>" >> tiles/contrib-30d.svg
+              IDX=$((IDX+1))
+              X=$((X+25))
+            done
+            Y=$((Y+25))
+          done
+
+          echo "</svg>" >> tiles/contrib-30d.svg
+
+      - name: Contributions line graph tile
+        run: |
+          DAYS=()
+          COUNTS=()
+          for i in $(seq 6 -1 0); do
+            D=$(date -d "$i days ago" +%Y-%m-%d)
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
+            DAYS+=("$D")
+            COUNTS+=("$C")
+          done
+
+          # Find max
+          MAX=0
+          for c in "${COUNTS[@]}"; do
+            [ "$c" -gt "$MAX" ] && MAX=$c
+          done
+          [ "$MAX" -eq 0 ] && MAX=1
+
+          # Build polyline points (x from 40..260, y from 100..40)
+          POINTS=""
+          X=40
+          STEP=$(( (260-40)/6 ))
+          for c in "${COUNTS[@]}"; do
+            # scale: higher count -> lower y
+            Y=$((100 - (c * 60 / MAX)))
+            POINTS="$POINTS $X,$Y"
+            X=$((X+STEP))
+          done
+
+          cat > tiles/contrib-line.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+            <rect width="300" height="140" fill="#0078D4"/>
+            <text x="20" y="25" fill="white" font-size="16">CONTRIBUTIONS (LAST 7 DAYS)</text>
+
+            <!-- Axes -->
+            <line x1="40" y1="100" x2="260" y2="100" stroke="white" stroke-width="2"/>
+            <line x1="40" y1="40"  x2="40"  y2="100" stroke="white" stroke-width="2"/>
+
+            <!-- Line -->
+            <polyline fill="none" stroke="white" stroke-width="2"
+                      points="$POINTS"/>
+          </svg>
+          EOF
+
+      # =========================
       # GITHUB INSIGHTS TILE
       # =========================
 
