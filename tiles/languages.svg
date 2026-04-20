@@ -1,25 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-
   <rect width="300" height="140" fill="#5C2D91"/>
-
   <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
 
-  <text id="l1" x="20" y="80" fill="white" font-size="22" opacity="1">HTML</text>
-  <text id="l2" x="20" y="80" fill="white" font-size="22" opacity="0">C#</text>
-  <text id="l3" x="20" y="80" fill="white" font-size="22" opacity="0">CSS</text>
-
-  <!-- Fade animation -->
-  <animate xlink:href="#l1" attributeName="opacity"
-           values="1;1;0;0" keyTimes="0;0.33;0.34;1"
-           dur="9s" repeatCount="indefinite"/>
-
-  <animate xlink:href="#l2" attributeName="opacity"
-           values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1"
-           dur="9s" repeatCount="indefinite"/>
-
-  <animate xlink:href="#l3" attributeName="opacity"
-           values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.67;0.90;0.91;1"
-           dur="9s" repeatCount="indefinite"/>
-
+  <text x="20" y="80" fill="white" font-size="22">null</text>
+  <text x="20" y="110" fill="white" font-size="18">Python  HTML</text>
 </svg>

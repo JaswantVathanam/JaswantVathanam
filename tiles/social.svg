@@ -7,87 +7,17 @@
 
   <text x="20" y="30" fill="white" font-size="18">SOCIAL</text>
 
-  <!-- FACEBOOK -->
+  <!-- Facebook -->
   <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
-    <g id="fb1" opacity="1">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
-      <text x="70" y="78" fill="white" font-size="20">Facebook</text>
-    </g>
-
-    <g id="fb2" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
-      <text x="70" y="78" fill="white" font-size="20">@jaswantvathanam</text>
-    </g>
+    <rect x="20" y="50" width="40" height="40" rx="8" fill="#1877F2"/>
+    <text x="70" y="75" fill="white" font-size="18">Facebook</text>
+    <text x="70" y="95" fill="white" font-size="14">@jaswantvathanam</text>
   </a>
 
-  <!-- INSTAGRAM -->
+  <!-- Instagram -->
   <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
-    <g id="ig1" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#E4405F"/>
-      <text x="70" y="78" fill="white" font-size="20">Instagram</text>
-    </g>
-
-    <g id="ig2" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#E4405F"/>
-      <text x="70" y="78" fill="white" font-size="20">@jaswantvathanam</text>
-    </g>
+    <rect x="20" y="100" width="40" height="40" rx="8" fill="#E4405F"/>
+    <text x="70" y="125" fill="white" font-size="18">Instagram</text>
   </a>
 
-  <!-- LINKEDIN -->
-  <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
-    <g id="ln1" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#0077B5"/>
-      <text x="70" y="78" fill="white" font-size="20">LinkedIn</text>
-    </g>
-
-    <g id="ln2" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#0077B5"/>
-      <text x="70" y="78" fill="white" font-size="20">jaswant-b-vathanam</text>
-    </g>
-  </a>
-
-  <!-- MEDIUM -->
-  <a xlink:href="https://medium.com/@bjaswant2005.medium.com" target="_blank">
-    <g id="md1" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#12100E"/>
-      <text x="70" y="78" fill="white" font-size="20">Medium</text>
-    </g>
-
-    <g id="md2" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#12100E"/>
-      <text x="70" y="78" fill="white" font-size="20">@bjaswant2005</text>
-    </g>
-  </a>
-
-  <!-- EMAIL -->
-  <a xlink:href="mailto:JaswantVathanam" target="_blank">
-    <g id="em1" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#0078D4"/>
-      <text x="70" y="78" fill="white" font-size="20">Email</text>
-    </g>
-
-    <g id="em2" opacity="0">
-      <rect x="20" y="50" width="40" height="40" rx="8" fill="#0078D4"/>
-      <text x="70" y="78" fill="white" font-size="18">JaswantVathanam</text>
-    </g>
-  </a>
-
-  <!-- ANIMATION ORDER -->
-  <animate xlink:href="#fb1" attributeName="opacity" values="1;1;0" dur="2s" begin="0s" fill="freeze"/>
-  <animate xlink:href="#fb2" attributeName="opacity" values="0;1;0" dur="2s" begin="2s" fill="freeze"/>
-
-  <animate xlink:href="#ig1" attributeName="opacity" values="0;1;0" dur="2s" begin="4s" fill="freeze"/>
-  <animate xlink:href="#ig2" attributeName="opacity" values="0;1;0" dur="2s" begin="6s" fill="freeze"/>
-
-  <animate xlink:href="#ln1" attributeName="opacity" values="0;1;0" dur="2s" begin="8s" fill="freeze"/>
-  <animate xlink:href="#ln2" attributeName="opacity" values="0;1;0" dur="2s" begin="10s" fill="freeze"/>
-
-  <animate xlink:href="#md1" attributeName="opacity" values="0;1;0" dur="2s" begin="12s" fill="freeze"/>
-  <animate xlink:href="#md2" attributeName="opacity" values="0;1;0" dur="2s" begin="14s" fill="freeze"/>
-
-  <animate xlink:href="#em1" attributeName="opacity" values="0;1;0" dur="2s" begin="16s" fill="freeze"/>
-  <animate xlink:href="#em2" attributeName="opacity" values="0;1;0" dur="2s" begin="18s" fill="freeze"/>
-
-  <!-- LOOP -->
-  <animate attributeName="opacity" values="1;1" dur="1s" begin="20s;socialTile.end" id="socialTile"/>
 </svg>
