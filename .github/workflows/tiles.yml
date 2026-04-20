@@ -189,7 +189,8 @@ jobs:
 
           TOTAL=$(echo "$LANGS" | wc -l | tr -d ' ')
           [ "$TOTAL" -lt 1 ] && TOTAL=1
-          DUR=15
+
+          CYCLE=15   # total loop duration (seconds)
 
           {
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
@@ -201,16 +202,21 @@ jobs:
           while IFS= read -r LANG; do
             [ -z "$LANG" ] && continue
             INDEX=$((INDEX+1))
-            START=$(awk "BEGIN { printf \"%.3f\", ($INDEX-1)*$DUR/$TOTAL }")
             ESC_LANG=$(printf '%s' "$LANG" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
+
+            SLOT_START=$(awk "BEGIN { printf \"%.6f\", ($INDEX-1)/$TOTAL }")
+            SLOT_END=$(awk "BEGIN { printf \"%.6f\", $INDEX/$TOTAL }")
+            SLOT_LEN=$(awk "BEGIN { printf \"%.6f\", 1/$TOTAL }")
+
+            FADE_IN_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.15) }")
+            HOLD_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.85) }")
 
             cat >> tiles/languages.svg << EOF
             <text x="20" y="90" fill="white" font-size="24" opacity="0">$ESC_LANG
               <animate attributeName="opacity"
                        values="0;0;1;1;0;0"
-                       keyTimes="0;0.01;0.10;0.85;0.95;1"
-                       dur="${DUR}s"
-                       begin="${START}s"
+                       keyTimes="0;${SLOT_START};${FADE_IN_END};${HOLD_END};${SLOT_END};1"
+                       dur="${CYCLE}s"
                        repeatCount="indefinite"/>
             </text>
           EOF
@@ -374,7 +380,8 @@ jobs:
 
           TOTAL=$(echo "$REPOS" | wc -l | tr -d ' ')
           [ "$TOTAL" -lt 1 ] && TOTAL=1
-          DUR=20
+
+          CYCLE=20   # total loop duration (seconds)
 
           {
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
@@ -386,23 +393,29 @@ jobs:
           while IFS= read -r NAME; do
             [ -z "$NAME" ] && continue
             INDEX=$((INDEX+1))
-            START=$(awk "BEGIN { printf \"%.3f\", ($INDEX-1)*$DUR/$TOTAL }")
             ESC_NAME=$(printf '%s' "$NAME" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
+
+            # slot boundaries in normalized [0..1] timeline
+            SLOT_START=$(awk "BEGIN { printf \"%.6f\", ($INDEX-1)/$TOTAL }")
+            SLOT_END=$(awk "BEGIN { printf \"%.6f\", $INDEX/$TOTAL }")
+            SLOT_LEN=$(awk "BEGIN { printf \"%.6f\", 1/$TOTAL }")
+
+            # fade in/out portions within each slot
+            FADE_IN_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.15) }")
+            HOLD_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.85) }")
 
             cat >> tiles/slide.svg << EOF
             <text x="20" y="85" fill="white" font-size="18" opacity="0">$ESC_NAME
               <animate attributeName="opacity"
                        values="0;0;1;1;0;0"
-                       keyTimes="0;0.01;0.10;0.85;0.95;1"
-                       dur="${DUR}s"
-                       begin="${START}s"
+                       keyTimes="0;${SLOT_START};${FADE_IN_END};${HOLD_END};${SLOT_END};1"
+                       dur="${CYCLE}s"
                        repeatCount="indefinite"/>
             </text>
           EOF
           done <<< "$REPOS"
 
           echo '</svg>' >> tiles/slide.svg
-
       # =========================
       # SPOTIFY TILES (REAL API)
       # =========================
