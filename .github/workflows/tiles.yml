@@ -510,7 +510,9 @@ jobs:
           
       - name: Contributions 30d grid tile
         run: |
-          # Last 30 days (0 = today, 29 = 29 days ago)
+          # Ensure full history
+          git fetch --unshallow || true
+
           COUNTS=()
           for i in $(seq 29 -1 0); do
             D=$(date -d "$i days ago" +%Y-%m-%d)
@@ -520,8 +522,8 @@ jobs:
 
           get_color() {
             local c=$1
-            if   [ "$c" -eq 0 ]; then echo "#1B1B1B"
-            elif [ "$c" -le 2 ]; then echo "#A5D6A7"
+            if   [ "$c" -eq 0 ]; then echo "#0F2A0F"
+            elif [ "$c" -le 2 ]; then echo "#4CAF50"
             elif [ "$c" -le 5 ]; then echo "#66BB6A"
             elif [ "$c" -le 10 ]; then echo "#43A047"
             else                     echo "#2E7D32"
