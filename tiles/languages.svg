@@ -2,8 +2,6 @@
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#5C2D91"/>
   <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
-
   <text x="20" y="80" fill="white" font-size="22">Python</text>
   <text x="20" y="110" fill="white" font-size="18">HTML  CSS</text>
 </svg>
-EOF      
