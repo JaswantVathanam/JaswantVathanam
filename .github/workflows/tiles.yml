@@ -174,8 +174,13 @@ jobs:
           </svg>
           EOF
       - name: Languages tile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          LANGS=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
+          LANGS=$(curl -s \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
             | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr)
 
           L1=$(echo "$LANGS" | sed -n '1p' | awk '{print $2}')
@@ -183,20 +188,24 @@ jobs:
           L3=$(echo "$LANGS" | sed -n '3p' | awk '{print $2}')
 
           [ -z "$L1" ] && L1="None"
-          [ -z "$L2" ] && L2=""
-          [ -z "$L3" ] && L3=""
+          [ -z "$L2" ] && L2="-"
+          [ -z "$L3" ] && L3="-"
+
+          esc() { printf '%s' "$1" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g'; }
+
+          L1_ESC=$(esc "$L1")
+          L2_ESC=$(esc "$L2")
+          L3_ESC=$(esc "$L3")
 
           cat > tiles/languages.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#5C2D91"/>
             <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
-
-            <text x="20" y="80" fill="white" font-size="22">$L1</text>
-            <text x="20" y="110" fill="white" font-size="18">$L2  $L3</text>
+            <text x="20" y="80" fill="white" font-size="22">$L1_ESC</text>
+            <text x="20" y="110" fill="white" font-size="18">$L2_ESC  $L3_ESC</text>
           </svg>
-          EOF      
-
+          EOF
 
       - name: Social tile
         run: |
@@ -339,56 +348,48 @@ jobs:
       # SLIDE TILE
       # =========================
       - name: Slide tile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Fetch repo names safely
-          REPOS=$(curl -s "https://api.github.com/search/repositories?q=user:JaswantVathanam&per_page=100" \
-            | jq -r '.items[].name')
+          REPOS=$(curl -s \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/search/repositories?q=user:JaswantVathanam&per_page=100" \
+            | jq -r '.items[].name' | sed '/^$/d')
+
+          if [ -z "$REPOS" ]; then
+            REPOS="No repositories found"
+          fi
 
           INDEX=0
-          TEXT_BLOCKS=""
-          VALUES=""
-          KEYTIMES=""
-          TOTAL=$(echo "$REPOS" | wc -l)
+          TOTAL=$(echo "$REPOS" | wc -l | tr -d ' ')
+          DUR=12
 
-          STEP=$(echo "scale=2; 1/$TOTAL" | bc)
+          {
+            echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
+            echo '  <rect width="300" height="140" fill="#0078D4"/>'
+            echo '  <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>'
+          } > tiles/slide.svg
 
-          for NAME in $REPOS; do
+          while IFS= read -r NAME; do
+            [ -z "$NAME" ] && continue
             INDEX=$((INDEX+1))
+            START=$(awk "BEGIN { printf \"%.3f\", ($INDEX-1)*$DUR/$TOTAL }")
+            ESC_NAME=$(printf '%s' "$NAME" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
 
-            TEXT_BLOCKS="$TEXT_BLOCKS
-            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\">$NAME</text>"
-
-            POS=$(echo "scale=2; ($INDEX-1)*$STEP" | bc)
-            VALUES="$VALUES;$INDEX"
-            KEYTIMES="$KEYTIMES;$POS"
-          done
-
-          # Remove leading semicolon
-          VALUES="${VALUES:1}"
-          KEYTIMES="${KEYTIMES:1}"
-
-          cat > tiles/slide.svg << EOF
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="300" height="140"
-               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-
-            <rect width="300" height="140" fill="#0078D4"/>
-            <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
-
-            <g id="slides">
-              $TEXT_BLOCKS
-            </g>
-
-            <!-- Master animation -->
-            <animate xlink:href="#slides"
-                     attributeName="display"
-                     values="$VALUES"
-                     keyTimes="$KEYTIMES"
-                     dur="12s"
-                     repeatCount="indefinite"/>
-          </svg>
+            cat >> tiles/slide.svg << EOF
+            <text x="20" y="80" fill="white" font-size="16" opacity="0">$ESC_NAME
+              <animate attributeName="opacity"
+                       values="0;0;1;1;0;0"
+                       keyTimes="0;0.01;0.05;0.90;0.95;1"
+                       dur="${DUR}s"
+                       begin="${START}s"
+                       repeatCount="indefinite"/>
+            </text>
           EOF
+          done <<< "$REPOS"
 
+          echo '</svg>' >> tiles/slide.svg
 
 
       # =========================
