@@ -450,11 +450,16 @@ jobs:
       # =========================
       # COMMIT ALL TILES
       # =========================
-
       - name: Commit tiles
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
           git add tiles/*.svg tiles/*.png
-          git commit -m "Updated live tiles" || echo "No changes"
-          git push
+          git commit -m "Updated live tiles" || { echo "No changes"; exit 0; }
+
+          # sync with remote to avoid non-fast-forward push failure
+          git fetch origin main
+          git rebase origin/main || { echo "Rebase conflict, skipping push"; git rebase --abort; exit 0; }
+
+          git push origin HEAD:main
