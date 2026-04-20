@@ -5,76 +5,24 @@
   <rect width="300" height="140" fill="#0078D4"/>
   <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-  <g>
+  <g id="slides">
     
-  <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="0">IOT-Sensors-and-Devices
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(1-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">NeuroPath
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(2-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t3" x="20" y="80" fill="white" font-size="16" opacity="0">JurisAI
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(3-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t4" x="20" y="80" fill="white" font-size="16" opacity="0">JaswantVathanam
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(4-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t5" x="20" y="80" fill="white" font-size="16" opacity="0">MindBridgers---SIH2025
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(5-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t6" x="20" y="80" fill="white" font-size="16" opacity="0">BuildForBharat-Project
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(6-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t7" x="20" y="80" fill="white" font-size="16" opacity="0">MS
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(7-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t8" x="20" y="80" fill="white" font-size="16" opacity="0">GrowNet
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(8-1)s"
-             repeatCount="indefinite"/>
-  </text>
-  <text id="t9" x="20" y="80" fill="white" font-size="16" opacity="0">Pea-Plant-Disease-Prediction
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             dur="4s"
-             begin="4*(9-1)s"
-             repeatCount="indefinite"/>
-  </text>
+  <text id="t1" x="20" y="80" fill="white" font-size="16">IOT-Sensors-and-Devices</text>
+  <text id="t2" x="20" y="80" fill="white" font-size="16">NeuroPath</text>
+  <text id="t3" x="20" y="80" fill="white" font-size="16">JurisAI</text>
+  <text id="t4" x="20" y="80" fill="white" font-size="16">JaswantVathanam</text>
+  <text id="t5" x="20" y="80" fill="white" font-size="16">MindBridgers---SIH2025</text>
+  <text id="t6" x="20" y="80" fill="white" font-size="16">BuildForBharat-Project</text>
+  <text id="t7" x="20" y="80" fill="white" font-size="16">MS</text>
+  <text id="t8" x="20" y="80" fill="white" font-size="16">GrowNet</text>
+  <text id="t9" x="20" y="80" fill="white" font-size="16">Pea-Plant-Disease-Prediction</text>
   </g>
 
-  <!-- Master loop -->
-  <animate attributeName="opacity"
-           values="1;1"
-           dur="36s"
+  <!-- Master animation -->
+  <animate xlink:href="#slides"
+           attributeName="display"
+           values="1;2;3;4;5;6;7;8;9"
+           keyTimes="0;.11;.22;.33;.44;.55;.66;.77;.88"
+           dur="12s"
            repeatCount="indefinite"/>
 </svg>
