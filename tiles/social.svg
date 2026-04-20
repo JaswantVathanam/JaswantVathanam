@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="300" height="140"
+     style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+  <rect width="300" height="140" fill="#1F1F1F"/>
+
+  <!-- Title -->
+  <text x="20" y="30" fill="white" font-size="18">SOCIAL HUB</text>
+
+  <!-- Layout 1 -->
+  <g id="layout1" opacity="1">
+    <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
+      <rect x="20" y="50" width="60" height="60" rx="8" fill="#1877F2"/>
+      <text x="50" y="88" fill="white" font-size="28" text-anchor="middle" font-weight="bold">f</text>
+    </a>
+
+    <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
+      <rect x="100" y="50" width="60" height="60" rx="8" fill="#E4405F"/>
+      <text x="130" y="88" fill="white" font-size="26" text-anchor="middle" font-weight="bold">⌁</text>
+    </a>
+
+    <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
+      <rect x="180" y="50" width="60" height="60" rx="8" fill="#0077B5"/>
+      <text x="210" y="88" fill="white" font-size="22" text-anchor="middle" font-weight="bold">in</text>
+    </a>
+  </g>
+
+  <!-- Layout 2 -->
+  <g id="layout2" opacity="0">
+    <a xlink:href="https://medium.com/@bjaswant2005.medium.com" target="_blank">
+      <rect x="20" y="50" width="120" height="60" rx="8" fill="#12100E"/>
+      <text x="80" y="88" fill="white" font-size="26" text-anchor="middle" font-weight="bold">M</text>
+    </a>
+
+    <a xlink:href="mailto:JaswantVathanam@outlook.com" target="_blank">
+      <rect x="160" y="50" width="120" height="60" rx="8" fill="#0078D4"/>
+      <text x="220" y="88" fill="white" font-size="20" text-anchor="middle">Email</text>
+    </a>
+  </g>
+
+  <!-- Layout 3 -->
+  <g id="layout3" opacity="0">
+    <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
+      <rect x="20" y="50" width="80" height="80" rx="8" fill="#1877F2"/>
+      <text x="60" y="95" fill="white" font-size="32" text-anchor="middle" font-weight="bold">f</text>
+    </a>
+
+    <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
+      <rect x="120" y="50" width="160" height="80" rx="8" fill="#E4405F"/>
+      <text x="200" y="95" fill="white" font-size="32" text-anchor="middle" font-weight="bold">⌁</text>
+    </a>
+  </g>
+
+  <!-- Animations -->
+  <animate xlink:href="#layout1" attributeName="opacity"
+           values="1;1;0;0" keyTimes="0;0.33;0.34;1"
+           dur="12s" repeatCount="indefinite"/>
+
+  <animate xlink:href="#layout2" attributeName="opacity"
+           values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1"
+           dur="12s" repeatCount="indefinite"/>
+
+  <animate xlink:href="#layout3" attributeName="opacity"
+           values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.67;0.90;0.91;1"
+           dur="12s" repeatCount="indefinite"/>
+
+</svg>
