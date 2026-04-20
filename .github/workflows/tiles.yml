@@ -186,7 +186,7 @@ jobs:
             "https://api.github.com/users/$USER/repos?per_page=100&type=owner")
 
           # Aggregate language bytes across repos (SUM per language key)
-          LANG_BYTES=$(
+          LANGS=$(
             echo "$REPOS_JSON" | jq -r '.[].name' | while read -r REPO; do
               [ -z "$REPO" ] && continue
               curl -s \
@@ -202,12 +202,9 @@ jobs:
               | to_entries
               | sort_by(-.value)
               | .[]
-              | "\(.key)\t\(.value)"
-            '
+              | .key
+            ' | sed '/^$/d' | grep -Ev '^(CSS|HTML)$'
           )
-
-          # Keep only language names (left side of tab)
-          LANGS=$(echo "$LANG_BYTES" | awk -F'\t' '{print $1}' | sed '/^$/d')
 
           # If C# exists, also show .NET tag
           if echo "$LANGS" | grep -qx "C#"; then
