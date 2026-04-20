@@ -510,7 +510,6 @@ jobs:
           
       - name: Contributions 30d grid tile
         run: |
-          # Ensure full history
           git fetch --unshallow || true
 
           COUNTS=()
@@ -539,9 +538,9 @@ jobs:
 
           IDX=0
           Y=50
-          for row in $(seq 0 5); do
+          for row in $(seq 0 5); do   # <-- 6 ROWS
             X=20
-            for col in $(seq 0 4); do
+            for col in $(seq 0 4); do # <-- 5 COLUMNS
               C=${COUNTS[$IDX]}
               COLOR=$(get_color "$C")
               echo "  <rect x=\"$X\" y=\"$Y\" width=\"20\" height=\"20\" rx=\"4\" fill=\"$COLOR\"/>" >> tiles/contrib-30d.svg
