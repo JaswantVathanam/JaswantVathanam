@@ -1,7 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
-     style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#5C2D91"/>
   <text x="20" y="35" fill="white" font-size="18">TOP LANGUAGES</text>
-  <text x="20" y="80" fill="white" font-size="22">Python</text>
-  <text x="20" y="110" fill="white" font-size="18">HTML  CSS</text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">Python
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             dur="15s"
+             begin="0.000s"
+             repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">HTML
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             dur="15s"
+             begin="3.750s"
+             repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">CSS
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             dur="15s"
+             begin="7.500s"
+             repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">JavaScript
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.01;0.10;0.85;0.95;1"
+             dur="15s"
+             begin="11.250s"
+             repeatCount="indefinite"/>
+  </text>
 </svg>
