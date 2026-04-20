@@ -347,45 +347,42 @@ jobs:
 
           INDEX=0
           TEXT_BLOCKS=""
-          ANIM_BLOCKS=""
-          TOTAL=$(echo "$REPOS" | wc -l)
-          DURATION=$((TOTAL * 2))
+          DUR=4   # 4 seconds per repo
 
           for NAME in $REPOS; do
             INDEX=$((INDEX+1))
 
-            # Each repo gets a 2-second window
-            START=$(( (INDEX-1) * 2 ))
-            END=$(( START + 2 ))
-
             TEXT_BLOCKS="$TEXT_BLOCKS
-            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"0\">$NAME</text>"
-
-            ANIM_BLOCKS="$ANIM_BLOCKS
-            <animate xlink:href=\"#t$INDEX\" attributeName=\"opacity\"
-                     values=\"0;1;1;0\"
-                     keyTimes=\"0;0.2;0.8;1\"
-                     dur=\"${DURATION}s\"
-                     begin=\"${START}s\"
-                     fill=\"freeze\"/>"
+            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"0\">$NAME
+              <animate attributeName=\"opacity\"
+                       values=\"0;1;1;0\"
+                       dur=\"${DUR}s\"
+                       begin=\"${DUR}*($INDEX-1)s\"
+                       repeatCount=\"indefinite\"/>
+            </text>"
           done
+
+          TOTAL=$((INDEX * DUR))
 
           cat > tiles/slide.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg"
-               xmlns:xlink="http://www.w3.org/1999/xlink"
                width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
 
             <rect width="300" height="140" fill="#0078D4"/>
             <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-            $TEXT_BLOCKS
-            $ANIM_BLOCKS
+            <g>
+              $TEXT_BLOCKS
+            </g>
 
+            <!-- Master loop -->
+            <animate attributeName="opacity"
+                     values="1;1"
+                     dur="${TOTAL}s"
+                     repeatCount="indefinite"/>
           </svg>
           EOF
-
-
 
       # =========================
       # SPOTIFY TILES (REAL API)
