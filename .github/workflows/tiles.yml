@@ -172,6 +172,78 @@ jobs:
 
           </svg>
           EOF
+      - name: Social Collage Tile (People Hub Style)
+        run: |
+          cat > tiles/social.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+            <rect width="300" height="140" fill="#1F1F1F"/>
+
+            <!-- Title -->
+            <text x="20" y="30" fill="white" font-size="18">SOCIAL HUB</text>
+
+            <!-- Layout 1 -->
+            <g id="layout1" opacity="1">
+              <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
+                <rect x="20" y="50" width="60" height="60" rx="8" fill="#1877F2"/>
+                <text x="50" y="88" fill="white" font-size="28" text-anchor="middle" font-weight="bold">f</text>
+              </a>
+
+              <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
+                <rect x="100" y="50" width="60" height="60" rx="8" fill="#E4405F"/>
+                <text x="130" y="88" fill="white" font-size="26" text-anchor="middle" font-weight="bold">⌁</text>
+              </a>
+
+              <a xlink:href="https://www.linkedin.com/in/jaswant-b-vathanam/" target="_blank">
+                <rect x="180" y="50" width="60" height="60" rx="8" fill="#0077B5"/>
+                <text x="210" y="88" fill="white" font-size="22" text-anchor="middle" font-weight="bold">in</text>
+              </a>
+            </g>
+
+            <!-- Layout 2 -->
+            <g id="layout2" opacity="0">
+              <a xlink:href="https://medium.com/@bjaswant2005.medium.com" target="_blank">
+                <rect x="20" y="50" width="120" height="60" rx="8" fill="#12100E"/>
+                <text x="80" y="88" fill="white" font-size="26" text-anchor="middle" font-weight="bold">M</text>
+              </a>
+
+              <a xlink:href="mailto:JaswantVathanam@outlook.com" target="_blank">
+                <rect x="160" y="50" width="120" height="60" rx="8" fill="#0078D4"/>
+                <text x="220" y="88" fill="white" font-size="20" text-anchor="middle">Email</text>
+              </a>
+            </g>
+
+            <!-- Layout 3 -->
+            <g id="layout3" opacity="0">
+              <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
+                <rect x="20" y="50" width="80" height="80" rx="8" fill="#1877F2"/>
+                <text x="60" y="95" fill="white" font-size="32" text-anchor="middle" font-weight="bold">f</text>
+              </a>
+
+              <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
+                <rect x="120" y="50" width="160" height="80" rx="8" fill="#E4405F"/>
+                <text x="200" y="95" fill="white" font-size="32" text-anchor="middle" font-weight="bold">⌁</text>
+              </a>
+            </g>
+
+            <!-- Animations -->
+            <animate xlink:href="#layout1" attributeName="opacity"
+                     values="1;1;0;0" keyTimes="0;0.33;0.34;1"
+                     dur="12s" repeatCount="indefinite"/>
+
+            <animate xlink:href="#layout2" attributeName="opacity"
+                     values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1"
+                     dur="12s" repeatCount="indefinite"/>
+
+            <animate xlink:href="#layout3" attributeName="opacity"
+                     values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.67;0.90;0.91;1"
+                     dur="12s" repeatCount="indefinite"/>
+
+          </svg>
+          EOF
 
       # =========================
       # TIME & CONTEXT TILES
@@ -237,6 +309,37 @@ jobs:
             </circle>
           </svg>
           EOF
+          
+      - name: Sunrise/Sunset tile
+        run: |
+          LAT=9.37
+          LON=78.83
+          DATA=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LON&daily=sunrise,sunset&timezone=Asia/Kolkata")
+
+          SUNRISE=$(echo "$DATA" | jq -r '.daily.sunrise[0]' | cut -d'T' -f2)
+          SUNSET=$(echo "$DATA" | jq -r '.daily.sunset[0]' | cut -d'T' -f2)
+
+          SR12=$(date -d "$SUNRISE" +"%I:%M %p")
+          SS12=$(date -d "$SUNSET" +"%I:%M %p")
+
+          cat > tiles/sun.svg << EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+               style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
+
+            <rect width="300" height="140" fill="#F7630C"/>
+
+            <text x="20" y="35" fill="white" font-size="18">SUNRISE / SUNSET</text>
+
+            <text x="20" y="80" fill="white" font-size="20">Sunrise: $SR12</text>
+            <text x="20" y="115" fill="white" font-size="20">Sunset: $SS12</text>
+
+            <circle cx="240" cy="70" r="18" fill="#FFD700" opacity="0.9">
+              <animate attributeName="cy" values="70;40;70" dur="4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+            </circle>
+
+          </svg>
+          EOF
 
       # =========================
       # SLIDE TILE
@@ -244,14 +347,34 @@ jobs:
 
       - name: Slide tile
         run: |
-          REPOS=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=100" \
+          # Fetch all public repo names
+          REPOS=$(curl -s "https://api.github.com/users/JaswantVathanam/repos?per_page=200" \
             | jq -r '.[].name')
 
-          T1=$(echo "$REPOS" | sed -n '1p')
-          T2=$(echo "$REPOS" | sed -n '2p')
+          # Build SVG <text> elements dynamically
+          INDEX=0
+          TEXT_BLOCKS=""
+          ANIM_BLOCKS=""
 
-          [ -z "$T1" ] && T1="Project One"
-          [ -z "$T2" ] && T2="Project Two"
+          for NAME in $REPOS; do
+            INDEX=$((INDEX+1))
+            OPACITY="0"
+            [ $INDEX -eq 1 ] && OPACITY="1"
+
+            TEXT_BLOCKS="$TEXT_BLOCKS
+            <text id=\"t$INDEX\" x=\"20\" y=\"80\" fill=\"white\" font-size=\"16\" opacity=\"$OPACITY\">$NAME</text>"
+
+            # Animation: fade in/out each repo name
+            START=$(echo "scale=2; ($INDEX-1)/$(( $(echo "$REPOS" | wc -l) ))" | bc)
+            MID=$(echo "scale=2; $START+0.1" | bc)
+            END=$(echo "scale=2; $MID+0.1" | bc)
+
+            ANIM_BLOCKS="$ANIM_BLOCKS
+            <animate xlink:href=\"#t$INDEX\" attributeName=\"opacity\"
+                     values=\"0;1;1;0\"
+                     keyTimes=\"0;$START;$MID;$END\"
+                     dur=\"12s\" repeatCount=\"indefinite\"/>"
+          done
 
           cat > tiles/slide.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg"
@@ -262,24 +385,13 @@ jobs:
             <rect width="300" height="140" fill="#0078D4"/>
             <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
 
-            <text id="t1" x="20" y="80" fill="white" font-size="16" opacity="1">$T1</text>
-            <text id="t2" x="20" y="80" fill="white" font-size="16" opacity="0">$T2</text>
-
-            <animate xlink:href="#t1" attributeName="opacity"
-                     values="1;1;0;0"
-                     keyTimes="0;0.45;0.55;1"
-                     dur="8s"
-                     repeatCount="indefinite"/>
-
-            <animate xlink:href="#t2" attributeName="opacity"
-                     values="0;0;1;1;0;0"
-                     keyTimes="0;0.45;0.55;0.9;1;1"
-                     dur="8s"
-                     repeatCount="indefinite"/>
+            $TEXT_BLOCKS
+            $ANIM_BLOCKS
 
           </svg>
           EOF
-            # =========================
+
+      # =========================
       # SPOTIFY TILES (REAL API)
       # =========================
 
