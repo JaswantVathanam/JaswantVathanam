@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-  <rect width="300" height="140" fill="#0078D4"/>
+  <rect width="300" height="180" fill="#0078D4"/>
   <text x="20" y="30" fill="white" font-size="18">LAST 30 DAYS</text>
-  <rect x="20" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="120" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="20" y="75" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="75" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="75" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="75" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="120" y="75" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="20" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="120" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="20" y="125" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="125" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="125" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="125" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="120" y="125" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="20" y="150" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="150" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="150" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="150" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="120" y="150" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="20" y="175" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="45" y="175" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="175" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
-  <rect x="120" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
+  <rect x="20" y="60" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="60" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="60" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="60" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="120" y="60" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="20" y="85" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="85" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="85" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="85" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="120" y="85" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="20" y="110" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="110" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="110" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="110" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="120" y="110" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="20" y="135" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="135" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="135" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="135" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="120" y="135" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="20" y="160" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="160" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="160" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="160" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="120" y="160" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="20" y="185" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="45" y="185" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="185" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="185" width="20" height="20" rx="4" fill="#2E7D32"/>
+  <rect x="120" y="185" width="20" height="20" rx="4" fill="#2E7D32"/>
 </svg>
