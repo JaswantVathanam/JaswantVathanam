@@ -1,66 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#0078D4"/>
   <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">IOT-Sensors-and-Devices
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">No repositories found
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.000000;0.016667;0.094444;0.111111;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">NeuroPath
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.111111;0.127778;0.205555;0.222222;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">JurisAI
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.222222;0.238889;0.316666;0.333333;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">JaswantVathanam
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.333333;0.350000;0.427777;0.444444;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">MindBridgers---SIH2025
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.444444;0.461111;0.538888;0.555556;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">BuildForBharat-Project
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.555556;0.572223;0.650000;0.666667;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">MS
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.666667;0.683334;0.761111;0.777778;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">GrowNet
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.777778;0.794445;0.872222;0.888889;1"
-             dur="20s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">Pea-Plant-Disease-Prediction
-    <animate attributeName="opacity"
-             values="0;0;1;1;0;0"
-             keyTimes="0;0.888889;0.905556;0.983333;1.000000;1"
+             keyTimes="0;0.000000;0.150000;0.850000;1.000000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
