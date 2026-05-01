@@ -5,7 +5,7 @@
 
   <text x="20" y="35" fill="white" font-size="18">SUNRISE / SUNSET</text>
 
-  <text x="20" y="80" fill="white" font-size="20">Sunrise: 05:58 AM</text>
+  <text x="20" y="80" fill="white" font-size="20">Sunrise: 05:57 AM</text>
   <text x="20" y="115" fill="white" font-size="20">Sunset: 06:25 PM</text>
 
   <circle cx="240" cy="70" r="18" fill="#FFD700" opacity="0.9">
