@@ -15,7 +15,7 @@
   <rect x="20" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
   <rect x="45" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
   <rect x="70" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="95" y="100" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="95" y="100" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="120" y="100" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="20" y="125" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="45" y="125" width="20" height="20" rx="4" fill="#2E7D32"/>
@@ -31,5 +31,5 @@
   <rect x="45" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="70" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="95" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
-  <rect x="120" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
+  <rect x="120" y="175" width="20" height="20" rx="4" fill="#0F2A0F"/>
 </svg>
