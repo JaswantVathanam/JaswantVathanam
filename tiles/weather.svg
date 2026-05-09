@@ -3,8 +3,8 @@
   <rect width="300" height="140" fill="#0078D4"/>
 
   <text x="20" y="35" fill="white" font-size="18">Ramanathapuram</text>
-  <text x="20" y="80" fill="white" font-size="40">29.2°C</text>
-  <text x="20" y="110" fill="white" font-size="16">Cloudy • 12.5 km/h</text>
+  <text x="20" y="80" fill="white" font-size="40">28.1°C</text>
+  <text x="20" y="110" fill="white" font-size="16">Cloudy • 6.5 km/h</text>
 
   <circle cx="240" cy="60" r="18" fill="#B0B0B0">
     <animate attributeName="r" from="14" to="18" dur="3s" repeatCount="indefinite"/>
