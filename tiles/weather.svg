@@ -4,7 +4,7 @@
 
   <text x="20" y="35" fill="white" font-size="18">Ramanathapuram</text>
   <text x="20" y="80" fill="white" font-size="40">25.5°C</text>
-  <text x="20" y="110" fill="white" font-size="16">Drizzle • 4.5 km/h</text>
+  <text x="20" y="110" fill="white" font-size="16">Drizzle • 1.6 km/h</text>
 
   <circle cx="240" cy="60" r="18" fill="#808080">
     <animate attributeName="r" from="14" to="18" dur="3s" repeatCount="indefinite"/>
