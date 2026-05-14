@@ -68,7 +68,6 @@ I treat clarity as a form of care — every system, module, or document I build 
 
 <b>S</b><br>
 • Social<br>
-• Spotify<br>
 • Settings<br><br>
 
 <b>T</b><br>
