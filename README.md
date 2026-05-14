@@ -108,8 +108,6 @@ I treat clarity as a form of care — every system, module, or document I build 
 <!-- Social -->
 <h3 style="margin-top:25px;">Social</h3>
 <img src="tiles/social.svg" width="300">
-<img src="tiles/spotify-now-playing.svg" width="300">
-<img src="tiles/spotify-recently-played.svg" width="300">
 
 <!-- System -->
 <h3 style="margin-top:25px;">System</h3>
