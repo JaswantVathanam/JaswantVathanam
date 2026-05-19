@@ -1,42 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#0078D4"/>
   <text x="20" y="35" fill="white" font-size="18">PROJECTS</text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">IOT-Sensors-and-Devices
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">Smart-Care-Monitoring-System
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.000000;0.015000;0.085000;0.100000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">NeuroPath
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">IOT-Sensors-and-Devices
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.100000;0.115000;0.185000;0.200000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">JurisAI
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">NeuroPath
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.200000;0.215000;0.285000;0.300000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">JaswantVathanam
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">JurisAI
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.300000;0.315000;0.385000;0.400000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">MindBridgers---SIH2025
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">JaswantVathanam
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.400000;0.415000;0.485000;0.500000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">Smart-Care-Monitoring-System
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">MindBridgers---SIH2025
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.500000;0.515000;0.585000;0.600000;1"
