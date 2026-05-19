@@ -4,35 +4,42 @@
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"HTML"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.000000;0.030000;0.170000;0.200000;1"
+             keyTimes="0;0.000000;0.025000;0.141667;0.166667;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"C#"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.200000;0.230000;0.370000;0.400000;1"
+             keyTimes="0;0.166667;0.191667;0.308334;0.333333;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"CSS"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.400000;0.430000;0.570000;0.600000;1"
+             keyTimes="0;0.333333;0.358333;0.475000;0.500000;1"
+             dur="15s"
+             repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">"TypeScript"
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.500000;0.525000;0.641667;0.666667;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"JavaScript"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.600000;0.630000;0.770000;0.800000;1"
+             keyTimes="0;0.666667;0.691667;0.808334;0.833333;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"Python"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.800000;0.830000;0.970000;1.000000;1"
+             keyTimes="0;0.833333;0.858333;0.975000;1.000000;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
