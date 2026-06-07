@@ -121,3 +121,7 @@ I treat clarity as a form of care — every system, module, or document I build 
 
 </div>
 
+<img src="https://octodex.github.com/images/codercat.jpg" width="200" align="right" />
+
+### 🐱‍💻 Happy coding… ✨
+
