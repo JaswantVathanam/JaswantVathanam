@@ -9,5 +9,5 @@
 
   <!-- Line -->
   <polyline fill="none" stroke="white" stroke-width="2"
-            points=" 40,57 76,40 112,43 148,64 184,60 220,67 256,79"/>
+            points=" 40,40 76,43 112,64 148,60 184,67 220,76 256,100"/>
 </svg>
