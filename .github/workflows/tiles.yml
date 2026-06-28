@@ -436,6 +436,7 @@ jobs:
 
       - name: Spotify Now Playing
         if: ${{ hashFiles('scripts/spotify-now-playing.js') != '' }}
+        continue-on-error: true
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
@@ -444,6 +445,7 @@ jobs:
 
       - name: Spotify Recently Played
         if: ${{ hashFiles('scripts/spotify-recently-played.js') != '' }}
+        continue-on-error: true
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
