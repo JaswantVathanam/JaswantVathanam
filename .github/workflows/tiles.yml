@@ -434,21 +434,22 @@ jobs:
       # SPOTIFY + INSIGHTS (optional-safe)
       # =========================
 
-      - name: Spotify Now Playing
-        if: ${{ hashFiles('scripts/spotify-now-playing.js') != '' }}
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: node scripts/spotify-now-playing.js
+# - name: Spotify Now Playing
+#   if: ${{ hashFiles('scripts/spotify-now-playing.js') != '' }}
+#   env:
+#     SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+#     SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+#     SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+#   run: node scripts/spotify-now-playing.js
 
-      - name: Spotify Recently Played
-        if: ${{ hashFiles('scripts/spotify-recently-played.js') != '' }}
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: node scripts/spotify-recently-played.js
+# - name: Spotify Recently Played
+#   if: ${{ hashFiles('scripts/spotify-recently-played.js') != '' }}
+#   env:
+#     SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+#     SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+#     SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+#   run: node scripts/spotify-recently-played.js
+
 
       - name: GitHub Insights Tile
         if: ${{ hashFiles('scripts/github-insights.js') != '' }}
