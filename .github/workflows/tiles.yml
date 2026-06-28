@@ -451,11 +451,12 @@ jobs:
 #   run: node scripts/spotify-recently-played.js
 
 
-      - name: GitHub Insights Tile
-        if: ${{ hashFiles('scripts/github-insights.js') != '' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/github-insights.js
+# - name: GitHub Insights Tile
+#   if: ${{ hashFiles('scripts/github-insights.js') != '' }}
+#   env:
+#     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#   run: node scripts/github-insights.js
+
 
       # =========================
       # CONTRIBUTIONS TILES
