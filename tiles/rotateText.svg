@@ -18,5 +18,4 @@
   <animate xlink:href="#r3" attributeName="opacity"
            values="0;0;0;0;1;1;0" keyTimes="0;0.65;0.75;0.90;1;1"
            dur="12s" repeatCount="indefinite"/>
-
 </svg>
