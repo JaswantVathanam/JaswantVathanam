@@ -435,7 +435,7 @@ jobs:
       # =========================
 
       - name: Spotify Now Playing
-        if: ${{ hashFiles('scripts/spotify-now-playing.js') != '' }}
+        if: ${{ false }}
         continue-on-error: true
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
