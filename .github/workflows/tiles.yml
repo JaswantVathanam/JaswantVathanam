@@ -2,25 +2,45 @@ name: Update Live Tiles
 
 on:
   schedule:
-    - cron: "*/5 * * * *"     # every 5 minutes (all tiles except weather)
-    - cron: "0 * * * *"       # hourly (weather)
+    - cron: "*/15 * * * *"   # every 15 minutes (safer than every 5)
+    - cron: "0 * * * *"      # hourly
   workflow_dispatch:
+
+# Required for committing back to repo
+permissions:
+  contents: write
+
+# Avoid overlapping runs fighting over git push/rebase
+concurrency:
+  group: update-live-tiles
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      USERNAME: JaswantVathanam
+      LAT: "9.37"
+      LON: "78.83"
+      TZ_NAME: "Asia/Kolkata"
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Ensure tiles folder
-        run: mkdir -p tiles
+      - name: Ensure tools and folders
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          mkdir -p tiles
 
-      - name: Install Node dependencies
-        run: npm install node-fetch@2
+      - name: Install Node deps
+        run: |
+          npm install --no-fund --no-audit node-fetch@2
 
       # =========================
       # SYSTEM & ACTIVITY TILES
@@ -28,8 +48,9 @@ jobs:
 
       - name: Commits tile
         run: |
-          COMMITS=$(git log --since="7 days ago" --pretty=oneline | wc -l)
-          BAR=$(printf "%0.s█" $(seq 1 $((COMMITS>0 ? (COMMITS/5+1) : 1))))
+          COMMITS=$(git log --since="7 days ago" --pretty=oneline | wc -l | tr -d ' ')
+          BARS=$(( COMMITS > 0 ? (COMMITS/5 + 1) : 1 ))
+          BAR=$(printf "%0.s█" $(seq 1 "$BARS"))
           cat > tiles/commits.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
@@ -42,8 +63,9 @@ jobs:
 
       - name: Projects tile
         run: |
-          PROJECTS=$(find . -maxdepth 1 -type d | wc -l)
-          BAR=$(printf "%0.s█" $(seq 1 $((PROJECTS>0 ? PROJECTS : 1))))
+          PROJECTS=$(find . -maxdepth 1 -type d | wc -l | tr -d ' ')
+          [ -z "$PROJECTS" ] && PROJECTS=1
+          BAR=$(printf "%0.s█" $(seq 1 "$PROJECTS"))
           cat > tiles/projects.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
@@ -55,7 +77,8 @@ jobs:
 
       - name: LOC tile
         run: |
-          STATS=$(git log --since="7 days ago" --numstat --pretty="%H" | awk 'NF==3 {add+=$1; del+=$2} END {print add,del}')
+          STATS=$(git log --since="7 days ago" --numstat --pretty="%H" \
+            | awk 'NF==3 {add+=$1; del+=$2} END {print add+0,del+0}')
           ADDED=$(echo "$STATS" | awk '{print $1+0}')
           REMOVED=$(echo "$STATS" | awk '{print $2+0}')
           cat > tiles/loc.svg << EOF
@@ -76,7 +99,7 @@ jobs:
           STREAK=0
           for i in $(seq 0 30); do
             DAY=$(date -u -d "$i day ago" +%Y-%m-%d)
-            COUNT=$(git log --since="$DAY 00:00" --until="$DAY 23:59" --pretty=oneline | wc -l)
+            COUNT=$(git log --since="$DAY 00:00" --until="$DAY 23:59" --pretty=oneline | wc -l | tr -d ' ')
             if [ "$COUNT" -gt 0 ]; then STREAK=$((STREAK+1)); else break; fi
           done
           cat > tiles/streak.svg << EOF
@@ -109,8 +132,8 @@ jobs:
 
       - name: Energy tile
         run: |
-          ENERGY=$(( ( RANDOM % 5 )  + 1 ))
-          ICONS=$(printf "%0.s⚡" $(seq 1 $ENERGY))
+          ENERGY=$(( ( RANDOM % 5 ) + 1 ))
+          ICONS=$(printf "%0.s⚡" $(seq 1 "$ENERGY"))
           cat > tiles/energy.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
@@ -143,7 +166,6 @@ jobs:
             <animate xlink:href="#s3" attributeName="opacity"
                      values="0;0;0;0;1;1;0" keyTimes="0;0.66;0.75;0.83;0.92;1"
                      dur="12s" repeatCount="indefinite"/>
-
           </svg>
           EOF
 
@@ -170,29 +192,25 @@ jobs:
             <animate xlink:href="#r3" attributeName="opacity"
                      values="0;0;0;0;1;1;0" keyTimes="0;0.65;0.75;0.90;1;1"
                      dur="12s" repeatCount="indefinite"/>
-
           </svg>
           EOF
-          
+
       - name: Languages tile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          USER="JaswantVathanam"
-
-          REPOS_JSON=$(curl -s \
+          REPOS_JSON=$(curl -fsSL \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
-            "https://api.github.com/users/$USER/repos?per_page=100&type=owner")
+            "https://api.github.com/users/$USERNAME/repos?per_page=100&type=owner")
 
-          # Aggregate language bytes across repos (SUM per language key)
           LANGS=$(
             echo "$REPOS_JSON" | jq -r '.[].name' | while read -r REPO; do
               [ -z "$REPO" ] && continue
-              curl -s \
+              curl -fsSL \
                 -H "Accept: application/vnd.github+json" \
                 -H "Authorization: Bearer $GITHUB_TOKEN" \
-                "https://api.github.com/repos/$USER/$REPO/languages"
+                "https://api.github.com/repos/$USERNAME/$REPO/languages" || echo '{}'
             done | jq -s '
               reduce .[] as $obj ({};
                 reduce ($obj | to_entries[]) as $e (.;
@@ -203,18 +221,14 @@ jobs:
               | sort_by(-.value)
               | .[]
               | .key
-            ' | sed '/^$/d' | grep -Ev '^(CSS|HTML)$'
+            ' | sed '/^$/d' | grep -Ev '^(CSS|HTML)$' || true
           )
 
-          # If C# exists, also show .NET tag
           if echo "$LANGS" | grep -qx "C#"; then
             LANGS=$(printf ".NET\n%s\n" "$LANGS")
           fi
 
-          # Fallback
-          if [ -z "$LANGS" ]; then
-            LANGS="None"
-          fi
+          [ -z "$LANGS" ] && LANGS="None"
 
           TOTAL=$(echo "$LANGS" | sed '/^$/d' | wc -l | tr -d ' ')
           [ "$TOTAL" -lt 1 ] && TOTAL=1
@@ -236,7 +250,6 @@ jobs:
             SLOT_START=$(awk "BEGIN { printf \"%.6f\", ($INDEX-1)/$TOTAL }")
             SLOT_END=$(awk "BEGIN { printf \"%.6f\", $INDEX/$TOTAL }")
             SLOT_LEN=$(awk "BEGIN { printf \"%.6f\", 1/$TOTAL }")
-
             FADE_IN_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.15) }")
             HOLD_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.85) }")
 
@@ -252,7 +265,7 @@ jobs:
           done <<< "$LANGS"
 
           echo '</svg>' >> tiles/languages.svg
-          
+
       - name: Social tile
         run: |
           cat > tiles/social.svg << 'EOF'
@@ -264,33 +277,24 @@ jobs:
             <rect width="300" height="140" fill="#1F1F1F"/>
             <text x="20" y="30" fill="white" font-size="18">SOCIAL</text>
 
-            <!-- FACEBOOK -->
             <a xlink:href="https://facebook.com/jaswantvathanam" target="_blank">
               <g transform="translate(20,50)">
-                <!-- FB ICON -->
                 <rect width="40" height="40" rx="8" fill="#1877F2"/>
                 <text x="20" y="27" fill="white" font-size="28" text-anchor="middle" font-weight="bold">f</text>
-
-                <!-- TEXT -->
                 <text x="60" y="20" fill="white" font-size="18">Facebook</text>
                 <text x="60" y="38" fill="white" font-size="14">@jaswantvathanam</text>
               </g>
             </a>
 
-            <!-- INSTAGRAM -->
             <a xlink:href="https://instagram.com/jaswantvathanam" target="_blank">
               <g transform="translate(20,100)">
-                <!-- IG ICON -->
                 <rect width="40" height="40" rx="8" fill="#E4405F"/>
                 <circle cx="20" cy="20" r="10" fill="none" stroke="white" stroke-width="3"/>
                 <circle cx="28" cy="12" r="3" fill="white"/>
-
-                <!-- TEXT -->
                 <text x="60" y="20" fill="white" font-size="18">Instagram</text>
                 <text x="60" y="38" fill="white" font-size="14">@jaswantvathanam</text>
               </g>
             </a>
-
           </svg>
           EOF
 
@@ -300,7 +304,7 @@ jobs:
 
       - name: Calendar tile
         run: |
-          export TZ="Asia/Kolkata"
+          export TZ="$TZ_NAME"
           DAY=$(date +'%a')
           DATE=$(date +'%d')
           MONTH=$(date +'%b %Y')
@@ -309,28 +313,23 @@ jobs:
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#C239B3"/>
-
             <text x="20" y="40" fill="white" font-size="18">$DAY</text>
             <text x="20" y="85" fill="white" font-size="48">$DATE</text>
             <text x="90" y="85" fill="white" font-size="18">$MONTH</text>
-
             <text x="280" y="130" fill="#E0E0E0" font-size="12" text-anchor="end">$TZSTR</text>
-
             <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
           </svg>
           EOF
 
       - name: Weather tile
         run: |
-          LAT=9.37
-          LON=78.83
-          WEATHER=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LON&current_weather=true")
-          TEMP=$(echo "$WEATHER" | jq -r '.current_weather.temperature')
-          WIND=$(echo "$WEATHER" | jq -r '.current_weather.windspeed')
-          CODE=$(echo "$WEATHER" | jq -r '.current_weather.weathercode')
-          ISDAY=$(echo "$WEATHER" | jq -r '.current_weather.is_day')
+          WEATHER=$(curl -fsSL "https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LON&current_weather=true")
+          TEMP=$(echo "$WEATHER" | jq -r '.current_weather.temperature // "N/A"')
+          WIND=$(echo "$WEATHER" | jq -r '.current_weather.windspeed // "N/A"')
+          CODE=$(echo "$WEATHER" | jq -r '.current_weather.weathercode // -1')
+          ISDAY=$(echo "$WEATHER" | jq -r '.current_weather.is_day // 1')
 
-          case $CODE in
+          case "$CODE" in
             0) COND="Clear" ;;
             1|2|3) COND="Partly Cloudy" ;;
             45|48) COND="Fog" ;;
@@ -347,70 +346,58 @@ jobs:
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#0078D4"/>
-
             <text x="20" y="35" fill="white" font-size="18">Ramanathapuram</text>
             <text x="20" y="80" fill="white" font-size="40">${TEMP}°C</text>
             <text x="20" y="110" fill="white" font-size="16">$COND • ${WIND} km/h</text>
-
             <circle cx="240" cy="60" r="18" fill="$ICON_COLOR">
               <animate attributeName="r" from="14" to="18" dur="3s" repeatCount="indefinite"/>
               <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
             </circle>
           </svg>
           EOF
-          
+
       - name: Sunrise/Sunset tile
         run: |
-          LAT=9.37
-          LON=78.83
-          DATA=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LON&daily=sunrise,sunset&timezone=Asia/Kolkata")
+          DATA=$(curl -fsSL "https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LON&daily=sunrise,sunset&timezone=$TZ_NAME")
+          SUNRISE=$(echo "$DATA" | jq -r '.daily.sunrise[0] // ""' | cut -d'T' -f2)
+          SUNSET=$(echo "$DATA" | jq -r '.daily.sunset[0] // ""' | cut -d'T' -f2)
 
-          SUNRISE=$(echo "$DATA" | jq -r '.daily.sunrise[0]' | cut -d'T' -f2)
-          SUNSET=$(echo "$DATA" | jq -r '.daily.sunset[0]' | cut -d'T' -f2)
-
-          SR12=$(date -d "$SUNRISE" +"%I:%M %p")
-          SS12=$(date -d "$SUNSET" +"%I:%M %p")
+          if [ -n "$SUNRISE" ]; then SR12=$(date -d "$SUNRISE" +"%I:%M %p"); else SR12="N/A"; fi
+          if [ -n "$SUNSET" ]; then SS12=$(date -d "$SUNSET" +"%I:%M %p"); else SS12="N/A"; fi
 
           cat > tiles/sun.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
-
             <rect width="300" height="140" fill="#F7630C"/>
-
             <text x="20" y="35" fill="white" font-size="18">SUNRISE / SUNSET</text>
-
             <text x="20" y="80" fill="white" font-size="20">Sunrise: $SR12</text>
             <text x="20" y="115" fill="white" font-size="20">Sunset: $SS12</text>
-
             <circle cx="240" cy="70" r="18" fill="#FFD700" opacity="0.9">
               <animate attributeName="cy" values="70;40;70" dur="4s" repeatCount="indefinite"/>
               <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
             </circle>
-
           </svg>
           EOF
 
       # =========================
       # SLIDE TILE
       # =========================
+
       - name: Slide tile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          REPOS=$(curl -s \
+          REPOS=$(curl -fsSL \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
-            "https://api.github.com/search/repositories?q=user:JaswantVathanam&per_page=100" \
+            "https://api.github.com/search/repositories?q=user:$USERNAME&per_page=100" \
             | jq -r '.items[].name' | sed '/^$/d')
 
-          if [ -z "$REPOS" ]; then
-            REPOS="No repositories found"
-          fi
+          [ -z "$REPOS" ] && REPOS="No repositories found"
 
           TOTAL=$(echo "$REPOS" | wc -l | tr -d ' ')
           [ "$TOTAL" -lt 1 ] && TOTAL=1
-
-          CYCLE=20   # total loop duration (seconds)
+          CYCLE=20
 
           {
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" style="font-family:'\''Segoe UI'\'','\''Segoe UI Variable'\'',sans-serif">'
@@ -424,12 +411,9 @@ jobs:
             INDEX=$((INDEX+1))
             ESC_NAME=$(printf '%s' "$NAME" | sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g')
 
-            # slot boundaries in normalized [0..1] timeline
             SLOT_START=$(awk "BEGIN { printf \"%.6f\", ($INDEX-1)/$TOTAL }")
             SLOT_END=$(awk "BEGIN { printf \"%.6f\", $INDEX/$TOTAL }")
             SLOT_LEN=$(awk "BEGIN { printf \"%.6f\", 1/$TOTAL }")
-
-            # fade in/out portions within each slot
             FADE_IN_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.15) }")
             HOLD_END=$(awk "BEGIN { printf \"%.6f\", $SLOT_START + ($SLOT_LEN*0.85) }")
 
@@ -445,42 +429,46 @@ jobs:
           done <<< "$REPOS"
 
           echo '</svg>' >> tiles/slide.svg
+
       # =========================
-      # SPOTIFY TILES (REAL API)
+      # SPOTIFY + INSIGHTS (optional-safe)
       # =========================
 
       - name: Spotify Now Playing
+        if: ${{ hashFiles('scripts/spotify-now-playing.js') != '' }}
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: |
-          node scripts/spotify-now-playing.js
+        run: node scripts/spotify-now-playing.js
 
       - name: Spotify Recently Played
+        if: ${{ hashFiles('scripts/spotify-recently-played.js') != '' }}
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: |
-          node scripts/spotify-recently-played.js
+        run: node scripts/spotify-recently-played.js
+
+      - name: GitHub Insights Tile
+        if: ${{ hashFiles('scripts/github-insights.js') != '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/github-insights.js
 
       # =========================
-      # CONTRIBUTIONS TILE
+      # CONTRIBUTIONS TILES
       # =========================
+
       - name: Contributions 7d grid tile
         run: |
-          # Get last 7 days (0 = today, 6 = 6 days ago)
-          DAYS=()
           COUNTS=()
           for i in $(seq 6 -1 0); do
             D=$(date -d "$i days ago" +%Y-%m-%d)
-            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
-            DAYS+=("$D")
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l | tr -d ' ')
             COUNTS+=("$C")
           done
 
-          # Map count -> color
           get_color() {
             local c=$1
             if   [ "$c" -eq 0 ]; then echo "#1B1B1B"
@@ -507,7 +495,7 @@ jobs:
           done
 
           echo "</svg>" >> tiles/contrib-7d.svg
-          
+
       - name: Contributions 30d grid tile
         run: |
           git fetch --unshallow || true
@@ -515,7 +503,7 @@ jobs:
           COUNTS=()
           for i in $(seq 29 -1 0); do
             D=$(date -d "$i days ago" +%Y-%m-%d)
-            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l | tr -d ' ')
             COUNTS+=("$C")
           done
 
@@ -537,7 +525,7 @@ jobs:
           EOF
 
           IDX=0
-          Y=50   # moved up to fit all rows
+          Y=50
           for row in $(seq 0 5); do
             X=20
             for col in $(seq 0 4); do
@@ -552,31 +540,25 @@ jobs:
 
           echo "</svg>" >> tiles/contrib-30d.svg
 
-
       - name: Contributions line graph tile
         run: |
-          DAYS=()
           COUNTS=()
           for i in $(seq 6 -1 0); do
             D=$(date -d "$i days ago" +%Y-%m-%d)
-            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l)
-            DAYS+=("$D")
+            C=$(git log --since="$D 00:00" --until="$D 23:59" --pretty=oneline | wc -l | tr -d ' ')
             COUNTS+=("$C")
           done
 
-          # Find max
           MAX=0
           for c in "${COUNTS[@]}"; do
             [ "$c" -gt "$MAX" ] && MAX=$c
           done
           [ "$MAX" -eq 0 ] && MAX=1
 
-          # Build polyline points (x from 40..260, y from 100..40)
           POINTS=""
           X=40
           STEP=$(( (260-40)/6 ))
           for c in "${COUNTS[@]}"; do
-            # scale: higher count -> lower y
             Y=$((100 - (c * 60 / MAX)))
             POINTS="$POINTS $X,$Y"
             X=$((X+STEP))
@@ -587,41 +569,31 @@ jobs:
                style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
             <rect width="300" height="140" fill="#0078D4"/>
             <text x="20" y="25" fill="white" font-size="16">CONTRIBUTIONS (LAST 7 DAYS)</text>
-
-            <!-- Axes -->
             <line x1="40" y1="100" x2="260" y2="100" stroke="white" stroke-width="2"/>
             <line x1="40" y1="40"  x2="40"  y2="100" stroke="white" stroke-width="2"/>
-
-            <!-- Line -->
-            <polyline fill="none" stroke="white" stroke-width="2"
-                      points="$POINTS"/>
+            <polyline fill="none" stroke="white" stroke-width="2" points="$POINTS"/>
           </svg>
           EOF
 
       # =========================
-      # GITHUB INSIGHTS TILE
-      # =========================
-
-      - name: GitHub Insights Tile
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          node scripts/github-insights.js
-
-
-      # =========================
       # COMMIT ALL TILES
       # =========================
+
       - name: Commit tiles
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git add tiles/*.svg tiles/*.png
-          git commit -m "Updated live tiles" || { echo "No changes"; exit 0; }
+          # Add only existing files safely
+          find tiles -maxdepth 1 -type f \( -name "*.svg" -o -name "*.png" \) -print0 | xargs -0 -r git add
 
-          # sync with remote to avoid non-fast-forward push failure
-          git fetch origin main
-          git rebase origin/main || { echo "Rebase conflict, skipping push"; git rebase --abort; exit 0; }
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "Updated live tiles"
 
-          git push origin HEAD:main
+          # Sync and push safely
+          git fetch origin "$DEFAULT_BRANCH"
+          git rebase "origin/$DEFAULT_BRANCH" || { echo "Rebase conflict, skipping push"; git rebase --abort; exit 0; }
+
+          git push origin "HEAD:$DEFAULT_BRANCH"
