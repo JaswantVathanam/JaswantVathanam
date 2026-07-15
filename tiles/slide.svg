@@ -57,14 +57,14 @@
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">Pea-Plant-Disease-Prediction
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">GrowNet
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.800000;0.815000;0.885000;0.900000;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">GrowNet
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">Pea-Plant-Disease-Prediction
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.900000;0.915000;0.985000;1.000000;1"
