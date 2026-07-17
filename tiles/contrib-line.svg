@@ -4,5 +4,5 @@
   <text x="20" y="25" fill="white" font-size="16">CONTRIBUTIONS (LAST 7 DAYS)</text>
   <line x1="40" y1="100" x2="260" y2="100" stroke="white" stroke-width="2"/>
   <line x1="40" y1="40"  x2="40"  y2="100" stroke="white" stroke-width="2"/>
-  <polyline fill="none" stroke="white" stroke-width="2" points=" 40,40 76,42 112,60 148,48 184,48 220,50 256,62"/>
+  <polyline fill="none" stroke="white" stroke-width="2" points=" 40,40 76,42 112,60 148,48 184,48 220,50 256,60"/>
 </svg>
