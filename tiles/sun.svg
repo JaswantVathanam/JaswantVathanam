@@ -3,7 +3,7 @@
   <rect width="300" height="140" fill="#F7630C"/>
   <text x="20" y="35" fill="white" font-size="18">SUNRISE / SUNSET</text>
   <text x="20" y="80" fill="white" font-size="20">Sunrise: 06:03 AM</text>
-  <text x="20" y="115" fill="white" font-size="20">Sunset: 06:39 PM</text>
+  <text x="20" y="115" fill="white" font-size="20">Sunset: 06:38 PM</text>
   <circle cx="240" cy="70" r="18" fill="#FFD700" opacity="0.9">
     <animate attributeName="cy" values="70;40;70" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
