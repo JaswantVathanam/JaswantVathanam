@@ -19,55 +19,45 @@
 
 <hr/>
 
-<p><code>Deep Dive</code></p>
-
-### [JurisAI — an AI legal assistant for Indian law workflows](https://github.com/JaswantVathanam/JurisAI)
-
-Research and document automation grounded in real statutes, built for how legal work actually gets done.
-
-<sub>2026.07.20</sub>
-
-<br/>
-
-<p><code>Experiments</code></p>
-
-### [NeuroPath — adaptive cognitive rehabilitation, one session at a time](https://github.com/JaswantVathanam/NeuroPath)
-
-Personalized cognitive games, wellness activities, and therapist monitoring for neurodiverse users.
-
-<sub>2026.06.15</sub>
-
-<br/>
-
-<p><code>Open Source</code></p>
-
-### [Smart-Care-Monitoring-System — real-time patient telemetry off ESP32](https://github.com/JaswantVathanam/Smart-Care-Monitoring-System)
-
-A React + TypeScript dashboard talking to a Node.js serial-bridge backend, visualizing live vitals as they happen.
-
-<sub>2026.05.02</sub>
-
-<br/>
-
-<p><code>Conversations</code></p>
-
-### Currently learning: cognitive science, legal NLP, and cloud computing
-
-Notes from a final-year AI/ML student figuring out where research meets shipping — and where .NET fits into both.
-
-<sub>2026.07.23</sub>
-
-<br/>
-
-<p><code>Deep Dive</code></p>
-
-### Academic Portals (SIS/EDU) — resilient systems for universities
-
-Institutional platforms designed to stay dependable under the exact conditions that break most of them: registration week.
-
-<sub>2026.03.11</sub>
-
-<br/>
+<table>
+<tr>
+<td width="50%" valign="top">
+  <p><code>Deep Dive</code></p>
+  <h4><a href="https://github.com/JaswantVathanam/JurisAI">JurisAI — an AI legal assistant for Indian law workflows</a></h4>
+  <p>Research and document automation grounded in real statutes, built for how legal work actually gets done.</p>
+  <sub>2026.07.20</sub>
+</td>
+<td width="50%" valign="top">
+  <p><code>Experiments</code></p>
+  <h4><a href="https://github.com/JaswantVathanam/NeuroPath">NeuroPath — adaptive cognitive rehabilitation, one session at a time</a></h4>
+  <p>Personalized cognitive games, wellness activities, and therapist monitoring for neurodiverse users.</p>
+  <sub>2026.06.15</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <p><code>Open Source</code></p>
+  <h4><a href="https://github.com/JaswantVathanam/Smart-Care-Monitoring-System">Smart-Care-Monitoring-System — real-time patient telemetry off ESP32</a></h4>
+  <p>A React + TypeScript dashboard talking to a Node.js serial-bridge backend, visualizing live vitals as they happen.</p>
+  <sub>2026.05.02</sub>
+</td>
+<td width="50%" valign="top">
+  <p><code>Conversations</code></p>
+  <h4>Currently learning: cognitive science, legal NLP, and cloud computing</h4>
+  <p>Notes from a final-year AI/ML student figuring out where research meets shipping — and where .NET fits into both.</p>
+  <sub>2026.07.23</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <p><code>Deep Dive</code></p>
+  <h4>Academic Portals (SIS/EDU) — resilient systems for universities</h4>
+  <p>Institutional platforms designed to stay dependable under the exact conditions that break most of them: registration week.</p>
+  <sub>2026.03.11</sub>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
 <hr/>
 
@@ -88,6 +78,10 @@ Institutional platforms designed to stay dependable under the exact conditions t
   <img src="https://img.shields.io/badge/Git-1e2327?style=for-the-badge&logo=git&logoColor=4FC3F7" alt="Git" />
 </p>
 
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JaswantVathanam&show_icons=true&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&icon_color=4FC3F7&text_color=E6F1FF" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaswantVathanam&layout=compact&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&text_color=E6F1FF" alt="Top languages" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=JaswantVathanam&theme=github-dark-blue&hide_border=true&background=0B0E14&stroke=4FC3F7&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7" alt="Streak stats" />
@@ -95,7 +89,7 @@ Institutional platforms designed to stay dependable under the exact conditions t
 
 <hr/>
 
-## 🪟 START
+## START
 
 <sub><code>PS C:\Jaswant&gt; Search-Apps</code></sub>
 
