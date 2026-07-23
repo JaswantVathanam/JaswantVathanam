@@ -88,10 +88,6 @@ Institutional platforms designed to stay dependable under the exact conditions t
   <img src="https://img.shields.io/badge/Git-1e2327?style=for-the-badge&logo=git&logoColor=4FC3F7" alt="Git" />
 </p>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JaswantVathanam&show_icons=true&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&icon_color=4FC3F7&text_color=E6F1FF" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaswantVathanam&layout=compact&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&text_color=E6F1FF" alt="Top languages" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=JaswantVathanam&theme=github-dark-blue&hide_border=true&background=0B0E14&stroke=4FC3F7&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7" alt="Streak stats" />
