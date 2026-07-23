@@ -1,0 +1,63 @@
+<svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Consolas','Courier New',monospace">
+  <style>
+    .win    { fill:#0c0c0c; }
+    .tabbar { fill:#1f1f1f; }
+    .tab    { fill:#0c0c0c; }
+    .ttxt   { fill:#e6e6e6; font-size:12px; font-family:'Segoe UI',sans-serif; }
+    .dimtxt { fill:#9a9a9a; font-size:14px; font-family:'Segoe UI',sans-serif; }
+    .btn    { fill:#c9c9c9; font-size:11px; font-family:'Segoe UI',sans-serif; }
+    .l      { font-size:16px; opacity:0; animation:reveal .35s ease-out forwards; }
+    .dim    { fill:#7d8590; }
+    .txt    { fill:#e6f1ff; }
+    .ok     { fill:#3fb950; }
+    .acc    { fill:#4fc3f7; }
+    .prm    { fill:#57e389; }
+    .cur    { fill:#e6f1ff; opacity:0; animation:blink 1s steps(1) infinite; animation-delay:4.30s; }
+    @keyframes reveal { from{opacity:0; transform:translateY(3px);} to{opacity:1; transform:translateY(0);} }
+    @keyframes blink  { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
+  </style>
+
+  <!-- window base -->
+  <rect class="win" x="0" y="0" width="900" height="440" rx="8"/>
+
+  <!-- tab bar (acrylic strip) -->
+  <rect class="tabbar" x="0" y="0" width="900" height="40" rx="8"/>
+  <rect class="tabbar" x="0" y="20" width="900" height="20"/>
+
+  <!-- active tab -->
+  <rect class="tab" x="8" y="7" width="196" height="28" rx="6"/>
+  <rect class="acc" x="8" y="33" width="196" height="2" opacity="0.9"/>
+  <circle cx="24" cy="21" r="6" fill="#01458C"/>
+  <text x="24" y="25" text-anchor="middle" class="ttxt" fill="#ffffff" font-size="9">PS</text>
+  <text x="40" y="25" class="ttxt">Windows PowerShell</text>
+  <text x="192" y="24" class="btn">&#10005;</text>
+
+  <!-- new tab button -->
+  <text x="222" y="25" class="ttxt" font-size="16">+</text>
+
+  <!-- window controls -->
+  <g class="btn">
+    <text x="800" y="24" text-anchor="middle">&#8212;</text>
+    <text x="846" y="24" text-anchor="middle">&#9633;</text>
+    <text x="884" y="24" text-anchor="middle">&#10005;</text>
+  </g>
+
+  <!-- terminal content -->
+  <g transform="translate(28,78)">
+    <text class="l dim" x="0" y="0"  style="animation-delay:.10s">Windows PowerShell&#160;&#160;Copyright (C) Jaswant Vathanam</text>
+    <text class="l dim" x="0" y="24" style="animation-delay:.35s">Try the new cross-platform PowerShell — Personal build log.</text>
+
+    <text class="l" x="0" y="72" style="animation-delay:.75s"><tspan class="prm">PS C:\Users\Jaswant&gt;</tspan><tspan class="txt"> whoami</tspan></text>
+    <text class="l acc" x="0" y="96" style="animation-delay:1.05s">jaswant-vathanam</text>
+
+    <text class="l" x="0" y="144" style="animation-delay:1.45s"><tspan class="prm">PS C:\Users\Jaswant&gt;</tspan><tspan class="txt"> Initialize-Profile</tspan></text>
+    <text class="l" x="0" y="168" style="animation-delay:1.80s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Import-Module Ai.Ml</tspan></text>
+    <text class="l" x="0" y="192" style="animation-delay:2.10s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Import-Module DotNet.Runtime</tspan></text>
+    <text class="l" x="0" y="216" style="animation-delay:2.40s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Mount-Platform NeuroPath</tspan></text>
+    <text class="l" x="0" y="240" style="animation-delay:2.70s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Mount-Platform JurisAI</tspan></text>
+    <text class="l" x="0" y="264" style="animation-delay:3.00s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Start-Process README.exe</tspan></text>
+
+    <text class="l" x="0" y="312" style="animation-delay:3.55s"><tspan class="prm">PS C:\Users\Jaswant&gt;</tspan><tspan class="txt"> Open-Item .\Profile.md</tspan></text>
+    <text class="l acc" x="0" y="336" style="animation-delay:3.90s">Profile ready.<tspan class="cur"> &#9608;</tspan></text>
+  </g>
+</svg>
