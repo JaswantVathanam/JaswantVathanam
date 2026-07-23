@@ -1,8 +1,10 @@
 <svg viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Consolas','Courier New',monospace">
   <style>
     .win   { fill:#0b0e14; }
-    .bar   { fill:#161b22; }
-    .title { fill:#7d8590; font-size:13px; }
+    .bar   { fill:#1f2430; }
+    .title { fill:#c9d1d9; font-size:13px; }
+    .btn   { fill:#c9d1d9; font-size:12px; font-family:'Segoe UI',sans-serif; }
+    .close { fill:#c9d1d9; }
     .l     { font-size:16px; opacity:0; animation:reveal .35s ease-out forwards; }
     .dim   { fill:#7d8590; }
     .txt   { fill:#e6f1ff; }
@@ -14,15 +16,23 @@
     @keyframes blink  { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
   </style>
 
-  <rect class="win" x="0" y="0" width="900" height="430" rx="10"/>
-  <rect class="bar" x="0" y="0" width="900" height="36" rx="10"/>
-  <rect class="bar" x="0" y="18" width="900" height="18"/>
-  <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
-  <circle cx="46" cy="18" r="6" fill="#ffbd2e"/>
-  <circle cx="68" cy="18" r="6" fill="#27c93f"/>
-  <text x="450" y="23" text-anchor="middle" class="title">Windows PowerShell — jaswant@github</text>
+  <rect class="win" x="0" y="0" width="900" height="430" rx="8"/>
+  <rect class="bar" x="0" y="0" width="900" height="32" rx="8"/>
+  <rect class="bar" x="0" y="16" width="900" height="16"/>
 
-  <g transform="translate(28,70)">
+  <text x="14" y="20" class="title">Windows PowerShell — jaswant@github</text>
+
+  <!-- Windows-style window controls -->
+  <g class="btn">
+    <text x="800" y="21" text-anchor="middle">&#8212;</text>
+    <text x="846" y="21" text-anchor="middle">&#9633;</text>
+    <g>
+      <rect x="868" y="0" width="32" height="32" fill="transparent"/>
+      <text x="884" y="21" text-anchor="middle" class="close">&#10005;</text>
+    </g>
+  </g>
+
+  <g transform="translate(28,66)">
     <text class="l dim" x="0" y="0"  style="animation-delay:.10s">Windows PowerShell&#160;&#160;Copyright (C) Jaswant Vathanam</text>
     <text class="l dim" x="0" y="24" style="animation-delay:.35s">Try the new cross-platform PowerShell — Personal build log.</text>
 
@@ -36,6 +46,6 @@
     <text class="l" x="0" y="240" style="animation-delay:2.70s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Mount-Platform JurisAI</tspan></text>
     <text class="l" x="0" y="264" style="animation-delay:3.00s"><tspan class="ok">[OK]</tspan><tspan class="txt"> Start-Process README.exe</tspan></text>
 
-    <text class="l" x="0" y="312" style="animation-delay:3.55s"><tspan class="txt">Welcome back, </tspan><tspan class="acc">Jaswant</tspan><tspan class="txt">.</tspan><tspan class="cur"> &#9608;</tspan></text>
+    <text class="l" x="0" y="312" style="animation-delay:3.55s"><tspan class="txt">Profile ready.</tspan><tspan class="cur"> &#9608;</tspan></text>
   </g>
 </svg>
