@@ -1,127 +1,143 @@
-# 💫 About Me
+<p align="center">
+  <img src="./tiles/boot_3.svg" width="100%" alt="boot sequence" />
+</p>
 
-Hi, I'm **Jaswant B** — a final‑year **B.Tech CSE (AI/ML)** student and a developer who loves building systems that feel reliable, intentional, and human‑centered.
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/125746556?v=4" width="56" alt="avatar" />
+</p>
 
-I work at the intersection of **AI, .NET, cognitive science, and institutional platforms**, designing tools that make learning, recovery, and administration smoother for everyone.
+<p align="center">
+  <b>By builders, for builders.</b><br/>
+  <sub>A one-person publication</sub>
+</p>
 
-### 🔭 What I’m Building
-- **Cognitive Rehabilitation Platform (AI‑driven)** — adaptive recovery tools for neurodiverse users  
-- **AI Legal Assistant** — intelligent research & document automation for law  
-- **Academic Portals (SIS/EDU)** — resilient systems for universities  
+<h1 align="center">Jaswant Vathanam</h1>
 
-### 👯 I’m Looking to Collaborate On
-- AI/ML projects with real‑world impact  
-- .NET applications  
-- Educational and institutional systems  
+<p align="center">
+  <code>Filter by</code>&nbsp;&nbsp;<b>All</b>&nbsp;&middot;&nbsp;Deep Dives&nbsp;&middot;&nbsp;Experiments&nbsp;&middot;&nbsp;Open Source&nbsp;&middot;&nbsp;Conversations
+</p>
 
-### 🤝 I’m Looking for Help With
-- Cloud‑native deployment  
-- Legal domain modeling for AI  
+<hr/>
 
-### 🌱 Currently Learning
-- Cognitive science + AI  
-- Legal NLP & ontology design  
-- Cloud computing  
-- .NET ecosystem  
+<p><code>Deep Dive</code></p>
 
-### 💬 Ask Me About
-- Academic portals (SIS/EDU)  
-- .NET development  
-- AI/ML in education, healthcare, and law  
+### [JurisAI — an AI legal assistant for Indian law workflows](https://github.com/JaswantVathanam/JurisAI)
 
-### ⚡ Fun Fact
-I treat clarity as a form of care — every system, module, or document I build is a quiet act of leadership.
+Research and document automation grounded in real statutes, built for how legal work actually gets done.
 
----
-<!-- WINDOWS SYSTEM MODE -->
-<div style="background:#000; padding:30px; border-radius:12px; font-family:'Segoe UI', sans-serif; color:white;">
+<sub>2026.07.20</sub>
 
-<!-- START HEADER -->
-<h1 style="margin-top:0; font-weight:700;">START</h1>
+<br/>
+
+<p><code>Experiments</code></p>
+
+### [NeuroPath — adaptive cognitive rehabilitation, one session at a time](https://github.com/JaswantVathanam/NeuroPath)
+
+Personalized cognitive games, wellness activities, and therapist monitoring for neurodiverse users.
+
+<sub>2026.06.15</sub>
+
+<br/>
+
+<p><code>Open Source</code></p>
+
+### [Smart-Care-Monitoring-System — real-time patient telemetry off ESP32](https://github.com/JaswantVathanam/Smart-Care-Monitoring-System)
+
+A React + TypeScript dashboard talking to a Node.js serial-bridge backend, visualizing live vitals as they happen.
+
+<sub>2026.05.02</sub>
+
+<br/>
+
+<p><code>Conversations</code></p>
+
+### Currently learning: cognitive science, legal NLP, and cloud computing
+
+Notes from a final-year AI/ML student figuring out where research meets shipping — and where .NET fits into both.
+
+<sub>2026.07.23</sub>
+
+<br/>
+
+<p><code>Deep Dive</code></p>
+
+### Academic Portals (SIS/EDU) — resilient systems for universities
+
+Institutional platforms designed to stay dependable under the exact conditions that break most of them: registration week.
+
+<sub>2026.03.11</sub>
+
+<br/>
+
+<hr/>
+
+<p align="center">
+  <a href="https://github.com/JaswantVathanam?tab=repositories">View more on GitHub &rarr;</a>
+</p>
+
+### `$env:TECH_STACK`
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-1e2327?style=for-the-badge&logo=python&logoColor=4FC3F7" alt="Python" />
+  <img src="https://img.shields.io/badge/C%23-1e2327?style=for-the-badge&logo=csharp&logoColor=4FC3F7" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-1e2327?style=for-the-badge&logo=dotnet&logoColor=4FC3F7" alt=".NET" />
+  <img src="https://img.shields.io/badge/TypeScript-1e2327?style=for-the-badge&logo=typescript&logoColor=4FC3F7" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-1e2327?style=for-the-badge&logo=react&logoColor=4FC3F7" alt="React" />
+  <img src="https://img.shields.io/badge/Azure-1e2327?style=for-the-badge&logo=microsoftazure&logoColor=4FC3F7" alt="Azure" />
+  <img src="https://img.shields.io/badge/Node.js-1e2327?style=for-the-badge&logo=nodedotjs&logoColor=4FC3F7" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Git-1e2327?style=for-the-badge&logo=git&logoColor=4FC3F7" alt="Git" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JaswantVathanam&show_icons=true&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&icon_color=4FC3F7&text_color=E6F1FF" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaswantVathanam&layout=compact&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=4FC3F7&text_color=E6F1FF" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JaswantVathanam&theme=github-dark-blue&hide_border=true&background=0B0E14&stroke=4FC3F7&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7" alt="Streak stats" />
+</p>
+
+<hr/>
+
+## 🪟 START
+
+<sub><code>PS C:\Jaswant&gt; Search-Apps</code></sub>
 
 <table>
+<tr><td align="center" colspan="6"><b>Productivity</b></td></tr>
 <tr>
-
-<!-- LEFT SIDE -->
-<td width="220" valign="top" style="color:white;">
-
-
-<b>Recently added</b><br>
-• Live Tiles Engine<br><br>
-
-<b>A</b><br>
-• About Me<br>
-• Activity Feed<br><br>
-
-<b>C</b><br>
-• Calendar<br>
-• Commits<br>
-• Contribution Graph<br><br>
-
-<b>D</b><br>
-• Developer Stats<br>
-• Dashboard<br><br>
-
-<b>P</b><br>
-• Projects<br>
-• Productivity<br><br>
-
-<b>S</b><br>
-• Social<br>
-• Settings<br><br>
-
-<b>T</b><br>
-• Tools<br>
-
-</td>
-
-<!-- RIGHT SIDE -->
-<td valign="top" style="color:white;">
-
-<!-- Productivity -->
-<h3>Productivity</h3>
-<img src="tiles/slide.svg" width="300">
-<img src="tiles/calendar.svg" width="300">
-<img src="tiles/commits.svg" width="300">
-<img src="tiles/contrib-7d.svg" width="300">
-<img src="tiles/contrib-30d.svg" width="300">
-<img src="tiles/contrib-line.svg" width="300">
-
-<!-- Developer -->
-<h3 style="margin-top:25px;">Developer</h3>
-<img src="tiles/github-insights.svg" width="300">
-<img src="tiles/projects.svg" width="300">
-<img src="tiles/languages.svg" width="300">
-<img src="tiles/learning.svg" width="300">
-
-<!-- Tools -->
-<h3 style="margin-top:25px;">Tools</h3>
-<img src="tiles/rotateText.svg" width="300">
-
-<!-- Explore -->
-<h3 style="margin-top:25px;">Explore</h3>
-<img src="tiles/weather.svg" width="300">
-<img src="tiles/loc.svg" width="300">
-<img src="tiles/sun.svg" width="300">
-
-<!-- Social -->
-<h3 style="margin-top:25px;">Social</h3>
-<img src="tiles/social.svg" width="300">
-
-<!-- System -->
-<h3 style="margin-top:25px;">System</h3>
-<img src="tiles/status.svg" width="300">
-<img src="tiles/energy.svg" width="300">
-<img src="tiles/streak.svg" width="300">
-
-</td>
-
+<td><img src="./tiles/slide.svg" width="140" alt="" /></td>
+<td><img src="./tiles/calendar.svg" width="140" alt="" /></td>
+<td><img src="./tiles/commits.svg" width="140" alt="" /></td>
+<td><img src="./tiles/contrib-7d.svg" width="140" alt="" /></td>
+<td><img src="./tiles/contrib-30d.svg" width="140" alt="" /></td>
+<td><img src="./tiles/contrib-line.svg" width="140" alt="" /></td>
+</tr>
+<tr><td align="center" colspan="4"><b>Developer</b></td></tr>
+<tr>
+<td><img src="./tiles/github-insights.svg" width="140" alt="" /></td>
+<td><img src="./tiles/projects.svg" width="140" alt="" /></td>
+<td><img src="./tiles/languages.svg" width="140" alt="" /></td>
+<td><img src="./tiles/learning.svg" width="140" alt="" /></td>
+</tr>
+<tr><td align="center" colspan="3"><b>Explore</b></td></tr>
+<tr>
+<td><img src="./tiles/weather.svg" width="140" alt="" /></td>
+<td><img src="./tiles/loc.svg" width="140" alt="" /></td>
+<td><img src="./tiles/sun.svg" width="140" alt="" /></td>
+</tr>
+<tr><td align="center" colspan="3"><b>Social &middot; System</b></td></tr>
+<tr>
+<td><img src="./tiles/social.svg" width="140" alt="" /></td>
+<td><img src="./tiles/status.svg" width="140" alt="" /></td>
+<td><img src="./tiles/streak.svg" width="140" alt="" /></td>
 </tr>
 </table>
 
-</div>
+<hr/>
 
-<img src="https://octodex.github.com/images/codercat.jpg" width="200" align="right" />
-
-### 🐱‍💻 Happy coding… ✨
-
+<p align="center">
+  Follow the build as it ships, breaks, and gets rebuilt.<br/>
+  <sub>&copy; 2026 A one-person publication</sub><br/>
+  <a href="https://www.linkedin.com/in/jaswant-b-vathanam">LinkedIn</a> &middot; <a href="https://jaswantvathanam.github.io">Portfolio</a>
+</p>
