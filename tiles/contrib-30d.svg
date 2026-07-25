@@ -2,9 +2,9 @@
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="220" fill="#0078D4"/>
   <text x="20" y="30" fill="white" font-size="18">LAST 30 DAYS</text>
-  <rect x="20" y="50" width="20" height="20" rx="4" fill="#4CAF50"/>
+  <rect x="20" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
   <rect x="45" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
-  <rect x="70" y="50" width="20" height="20" rx="4" fill="#0F2A0F"/>
+  <rect x="70" y="50" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="95" y="50" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="120" y="50" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="20" y="75" width="20" height="20" rx="4" fill="#2E7D32"/>
@@ -31,5 +31,5 @@
   <rect x="45" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="70" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
   <rect x="95" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
-  <rect x="120" y="175" width="20" height="20" rx="4" fill="#2E7D32"/>
+  <rect x="120" y="175" width="20" height="20" rx="4" fill="#0F2A0F"/>
 </svg>
