@@ -4,42 +4,49 @@
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"HTML"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.000000;0.025000;0.141667;0.166667;1"
+             keyTimes="0;0.000000;0.021429;0.121428;0.142857;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"C#"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.166667;0.191667;0.308334;0.333333;1"
+             keyTimes="0;0.142857;0.164286;0.264285;0.285714;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"CSS"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.333333;0.358333;0.475000;0.500000;1"
+             keyTimes="0;0.285714;0.307143;0.407142;0.428571;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"TypeScript"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.500000;0.525000;0.641667;0.666667;1"
+             keyTimes="0;0.428571;0.450000;0.549999;0.571429;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"JavaScript"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.666667;0.691667;0.808334;0.833333;1"
+             keyTimes="0;0.571429;0.592858;0.692857;0.714286;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
   <text x="20" y="90" fill="white" font-size="24" opacity="0">"Python"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
-             keyTimes="0;0.833333;0.858333;0.975000;1.000000;1"
+             keyTimes="0;0.714286;0.735715;0.835714;0.857143;1"
+             dur="15s"
+             repeatCount="indefinite"/>
+  </text>
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">"Java"
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.857143;0.878572;0.978571;1.000000;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
