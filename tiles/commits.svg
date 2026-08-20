@@ -3,5 +3,5 @@
   <rect width="300" height="120" fill="#0078D4"/>
   <text x="20" y="40" fill="white" font-size="20">COMMITS (WEEK)</text>
   <text x="20" y="75" fill="white" font-size="26">█████████████████████████████████████████████████████████████████████████</text>
-  <text x="20" y="105" fill="white" font-size="20">360 commits</text>
+  <text x="20" y="105" fill="white" font-size="20">361 commits</text>
 </svg>
