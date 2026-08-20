@@ -64,14 +64,14 @@
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">Advanced-Algo-and-Elective-Lab
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">GrowNet
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.818182;0.831818;0.895455;0.909091;1"
              dur="20s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="85" fill="white" font-size="18" opacity="0">GrowNet
+  <text x="20" y="85" fill="white" font-size="18" opacity="0">Advanced-Algo-and-Elective-Lab
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.909091;0.922727;0.986364;1.000000;1"

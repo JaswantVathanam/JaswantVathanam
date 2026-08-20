@@ -36,14 +36,14 @@
              dur="15s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="90" fill="white" font-size="24" opacity="0">"Python"
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">"Java"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.714286;0.735715;0.835714;0.857143;1"
              dur="15s"
              repeatCount="indefinite"/>
   </text>
-  <text x="20" y="90" fill="white" font-size="24" opacity="0">"Java"
+  <text x="20" y="90" fill="white" font-size="24" opacity="0">"Python"
     <animate attributeName="opacity"
              values="0;0;1;1;0;0"
              keyTimes="0;0.857143;0.878572;0.978571;1.000000;1"
