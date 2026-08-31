@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="140"
      style="font-family:'Segoe UI','Segoe UI Variable',sans-serif">
   <rect width="300" height="140" fill="#C239B3"/>
-  <text x="20" y="40" fill="white" font-size="18">Mon</text>
-  <text x="20" y="85" fill="white" font-size="48">31</text>
-  <text x="90" y="85" fill="white" font-size="18">Aug 2026</text>
+  <text x="20" y="40" fill="white" font-size="18">Tue</text>
+  <text x="20" y="85" fill="white" font-size="48">01</text>
+  <text x="90" y="85" fill="white" font-size="18">Sep 2026</text>
   <text x="280" y="130" fill="#E0E0E0" font-size="12" text-anchor="end">(+5:30 GMT)</text>
   <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
 </svg>
