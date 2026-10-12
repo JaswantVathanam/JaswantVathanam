@@ -1,85 +1,84 @@
 {
-  "updatedAt": "2026-10-12T18:25:36.705Z",
+  "updatedAt": "2026-10-12T18:55:41.344Z",
   "nowPlaying": {
-    "name": "Vella Bambaram",
+    "name": "Vilambara Idaiveli - From \"Imaikkaa Nodigal\"",
     "artists": [
-      "Baba Sehgal",
-      "Priya Hemesh",
-      "G. V. Prakash",
-      "Viveka"
+      "Hiphop Tamizha",
+      "Christopher Stanley",
+      "Sudarshan Ashok",
+      "Srinisha Jayaseelan"
     ],
-    "album": "Saguni",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b3fa398758a0c540c430e29f",
-    "url": "https://open.spotify.com/track/5oeyPtLsdt7Hr96BfEuW8S",
-    "durationMs": 282750,
-    "isPlaying": true,
-    "progressMs": 102718
+    "album": "Vilambara Idaiveli (From \"Imaikkaa Nodigal\")",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e023790f4a6ab5674708b8fa36f",
+    "url": "https://open.spotify.com/track/4sCcDvX30uu39ozvxcRsqB",
+    "durationMs": 273396,
+    "isPlaying": false,
+    "progressMs": 125926
   },
   "recent": [
     {
-      "name": "Manasellam Mazhaiye",
+      "name": "Nizhaliyae (From \"Hi Nanna\")",
       "artists": [
-        "Sonu Nigam",
-        "Saindhavi",
+        "Anurag Kulkarni",
+        "Chinmayi",
+        "Hesham Abdul Wahab"
+      ],
+      "album": "Nizhaliyae (From \"Hi Nanna\")",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0268a32166f1c7eef221b23688",
+      "url": "https://open.spotify.com/track/0HGG3ASk21htkWoR8O3MUG",
+      "durationMs": 204138,
+      "playedAt": "2026-10-12T18:49:20.097Z"
+    },
+    {
+      "name": "Im Back",
+      "artists": [
+        "Yuvan Shankar Raja"
+      ],
+      "album": "Billa (Original Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e026e673341096095bc25a21800",
+      "url": "https://open.spotify.com/track/0NEG76v9DL2B3FBKwR8Pqz",
+      "durationMs": 42041,
+      "playedAt": "2026-10-12T18:45:55.499Z"
+    },
+    {
+      "name": "Engagement Ring - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/2RUTwDbXpuzHyDlJdWLXxG",
+      "durationMs": 111000,
+      "playedAt": "2026-10-12T18:45:13.001Z"
+    },
+    {
+      "name": "Annachi Ammachi",
+      "artists": [
+        "Pushpavanam Kuppusamy",
+        "Maya Manikandan",
+        "Chorus",
         "G. V. Prakash",
-        "Na.Muthukumar"
+        "Shankar Dayal. N."
       ],
       "album": "Saguni",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02b3fa398758a0c540c430e29f",
-      "url": "https://open.spotify.com/track/32R7r1j2r13XwF62fT8sNt",
-      "durationMs": 326495,
-      "playedAt": "2026-10-12T18:23:53.679Z"
+      "url": "https://open.spotify.com/track/7wHyN16m1jVROkjAgVeCbl",
+      "durationMs": 239328,
+      "playedAt": "2026-10-12T18:34:04.737Z"
     },
     {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "name": "Pottadhu Pathala",
       "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
+        "Velmurugan",
+        "Chorus",
+        "G. V. Prakash",
+        "Annamalai"
       ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-12T17:24:55.307Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-12T15:49:41.469Z"
-    },
-    {
-      "name": "Rakkamma",
-      "artists": [
-        "S. P. Balasubrahmanyam",
-        "Swarnalatha",
-        "Ilaiyaraaja",
-        "Vaali"
-      ],
-      "album": "Thalapathi",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-      "url": "https://open.spotify.com/track/4OP6YKN3QBAE1LPnzmILq9",
-      "durationMs": 431098,
-      "playedAt": "2026-10-12T15:45:07.308Z"
-    },
-    {
-      "name": "Oorellaam Unnai Kandu",
-      "artists": [
-        "Harris Jayaraj",
-        "Unnikrishnan",
-        "Bombay Jayashri"
-      ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/4bct3Eg1CJlq464hYgHzXc",
-      "durationMs": 296786,
-      "playedAt": "2026-10-12T15:44:19.062Z"
+      "album": "Saguni",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b3fa398758a0c540c430e29f",
+      "url": "https://open.spotify.com/track/3zXS2Btn4SMantWylOr1d2",
+      "durationMs": 290505,
+      "playedAt": "2026-10-12T18:33:26.938Z"
     }
   ]
 }
