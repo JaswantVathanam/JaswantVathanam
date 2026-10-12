@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T11:10:56.463Z",
+  "updatedAt": "2026-10-12T11:36:54.105Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 464,
@@ -38,7 +38,7 @@
   },
   "lastHeartbeat": {
     "at": "2026-10-12T11:04:55.787Z",
-    "language": null,
+    "language": "JavaScript",
     "category": "AI Coding"
   }
 }

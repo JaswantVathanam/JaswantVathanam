@@ -1,21 +1,46 @@
 {
-  "updatedAt": "2026-10-12T11:10:49.798Z",
+  "updatedAt": "2026-10-12T11:36:39.086Z",
   "nowPlaying": {
-    "name": "Rakkamma",
+    "name": "Thaene Thaene Sendhaene",
     "artists": [
-      "S. P. Balasubrahmanyam",
-      "Swarnalatha",
-      "Ilaiyaraaja",
-      "Vaali"
+      "Harris Jayaraj",
+      "Haricharan",
+      "Pravin Saivi"
     ],
-    "album": "Thalapathi",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-    "url": "https://open.spotify.com/track/4OP6YKN3QBAE1LPnzmILq9",
-    "durationMs": 431098,
-    "isPlaying": false,
-    "progressMs": 350289
+    "album": "Nannbenda (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+    "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
+    "durationMs": 220799,
+    "isPlaying": true,
+    "progressMs": 115077
   },
   "recent": [
+    {
+      "name": "Nenjil Mamazhai (From \"Nimir\")",
+      "artists": [
+        "B. Ajaneesh Loknath",
+        "Haricharan",
+        "Shweta Mohan"
+      ],
+      "album": "Nenjil Mamazhai (From \"Nimir\")",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021e021b5dece52b4d073f1ade",
+      "url": "https://open.spotify.com/track/5QvMezzDn2I1twGnnjSmN6",
+      "durationMs": 278970,
+      "playedAt": "2026-10-12T11:32:52.683Z"
+    },
+    {
+      "name": "Neeraambal Poovae",
+      "artists": [
+        "Harris Jayaraj",
+        "Arjun Menon",
+        "MC Vickey"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
+      "durationMs": 177213,
+      "playedAt": "2026-10-12T11:28:13.236Z"
+    },
     {
       "name": "Kattu Kuyilu",
       "artists": [
@@ -56,33 +81,6 @@
       "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
       "durationMs": 177213,
       "playedAt": "2026-10-12T03:54:22.795Z"
-    },
-    {
-      "name": "Pookkalae Sattru Oyivedungal",
-      "artists": [
-        "A.R. Rahman",
-        "Haricharan",
-        "Shreya Ghoshal",
-        "Madhan Karky"
-      ],
-      "album": "I (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0215e03c812f666be9c7d4ad45",
-      "url": "https://open.spotify.com/track/5Nuv6312XkkZd82AnnSc9g",
-      "durationMs": 308161,
-      "playedAt": "2026-10-12T03:32:49.200Z"
-    },
-    {
-      "name": "Thaen Kaatru",
-      "artists": [
-        "Harris Jayaraj",
-        "Haricharan",
-        "Shashaa Tirupati"
-      ],
-      "album": "Gethu (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e028e9762684d14221625a17fb4",
-      "url": "https://open.spotify.com/track/3lz9kmODyskG3BAtMoTMwu",
-      "durationMs": 305920,
-      "playedAt": "2026-10-12T03:27:39.020Z"
     }
   ]
 }
