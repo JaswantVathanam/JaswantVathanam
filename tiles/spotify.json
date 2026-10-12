@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:55:30.538Z",
+  "updatedAt": "2026-10-12T17:58:33.740Z",
   "nowPlaying": {
     "name": "Bad Boy",
     "artists": [
@@ -11,7 +11,7 @@
     "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
     "durationMs": 271209,
     "isPlaying": true,
-    "progressMs": 51325
+    "progressMs": 234434
   },
   "recent": [
     {
