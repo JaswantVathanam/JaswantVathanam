@@ -2,8 +2,9 @@ name: Update Live Tiles
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (safer than every 5)
-    - cron: "0 * * * *"      # hourly
+    # Every 30 minutes at :07 and :37. GitHub runs schedules best-effort and drops many
+    # at the busy :00/:15/:30/:45 marks, so off-peak minutes are honoured far more often.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 # Required for committing back to repo
@@ -13,7 +14,7 @@ permissions:
 # Avoid overlapping runs fighting over git push/rebase
 concurrency:
   group: update-live-tiles
-  cancel-in-progress: true
+  cancel-in-progress: false  # queue instead of cancelling a run mid-publish
 
 jobs:
   build:
