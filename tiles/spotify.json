@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-12T18:55:41.344Z",
-  "nowPlaying": {
-    "name": "Vilambara Idaiveli - From \"Imaikkaa Nodigal\"",
-    "artists": [
-      "Hiphop Tamizha",
-      "Christopher Stanley",
-      "Sudarshan Ashok",
-      "Srinisha Jayaseelan"
-    ],
-    "album": "Vilambara Idaiveli (From \"Imaikkaa Nodigal\")",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e023790f4a6ab5674708b8fa36f",
-    "url": "https://open.spotify.com/track/4sCcDvX30uu39ozvxcRsqB",
-    "durationMs": 273396,
-    "isPlaying": false,
-    "progressMs": 125926
-  },
+  "updatedAt": "2026-10-12T19:25:38.338Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Nizhaliyae (From \"Hi Nanna\")",

@@ -7,7 +7,7 @@
   </style>
 
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" class="title">Now Playing</text>
-  <text x="20" y="75" class="name">Vilambara Idaiveli - From "Imaikkaa Nodigal"</text>
-  <text x="20" y="105" class="artist">Hiphop Tamizha, Christopher Stanley, Sudarshan Ashok, Srinisha Jayaseelan</text>
+  <text x="20" y="35" class="title">Last Played</text>
+  <text x="20" y="75" class="name">Nizhaliyae (From "Hi Nanna")</text>
+  <text x="20" y="105" class="artist">Anurag Kulkarni, Chinmayi, Hesham Abdul Wahab</text>
 </svg>
