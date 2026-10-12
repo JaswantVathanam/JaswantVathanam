@@ -1,39 +1,49 @@
 {
-  "updatedAt": "2026-10-12T15:34:57.865Z",
+  "updatedAt": "2026-10-12T17:55:32.998Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 464,
-    "text": "7 mins",
+    "seconds": 3205,
+    "text": "53 mins",
     "languages": [
       {
+        "name": "Razor",
+        "seconds": 1458,
+        "percent": 45.51
+      },
+      {
         "name": "JavaScript",
-        "seconds": 464,
-        "percent": 100
+        "seconds": 831,
+        "percent": 25.92
+      },
+      {
+        "name": "Other",
+        "seconds": 682,
+        "percent": 21.27
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 458,
-        "percent": 98.69
+        "seconds": 3153,
+        "percent": 98.38
       },
       {
         "name": "VS Code",
-        "seconds": 6,
-        "percent": 1.31
+        "seconds": 52,
+        "percent": 1.62
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 464,
+        "seconds": 3205,
         "percent": 100
       }
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-12T15:29:12.908Z",
-    "language": null,
+    "at": "2026-10-12T15:55:13.241Z",
+    "language": "Markdown",
     "category": "AI Coding"
   }
 }

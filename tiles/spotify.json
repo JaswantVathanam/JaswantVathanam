@@ -1,72 +1,82 @@
 {
-  "updatedAt": "2026-10-12T15:34:54.364Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-12T17:55:30.538Z",
+  "nowPlaying": {
+    "name": "Bad Boy",
+    "artists": [
+      "Priya Hemesh",
+      "Baba Sehgal"
+    ],
+    "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+    "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
+    "durationMs": 271209,
+    "isPlaying": true,
+    "progressMs": 51325
+  },
   "recent": [
     {
-      "name": "Enai Marubadi Marubadi",
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
-        "Harris Jayaraj",
-        "Vijay Prakash",
-        "Megha",
-        "Madhan Karky"
+        "Yuvan Shankar Raja",
+        "Prithivee"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0y7LTgTjnXbIFPE7TTs1Zo",
-      "durationMs": 350466,
-      "playedAt": "2026-10-12T15:11:00.241Z"
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-12T17:24:55.307Z"
     },
     {
-      "name": "Thaene Thaene Sendhaene",
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
-        "Harris Jayaraj",
-        "Haricharan",
-        "Pravin Saivi"
+        "Yuvan Shankar Raja",
+        "Prithivee"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
-      "durationMs": 220799,
-      "playedAt": "2026-10-12T15:04:13.026Z"
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-12T15:49:41.469Z"
     },
     {
-      "name": "Dappankuthu Mettula",
+      "name": "Rakkamma",
       "artists": [
-        "Harris Jayaraj",
-        "Gana Bala",
-        "Ujjayinee Roy"
+        "S. P. Balasubrahmanyam",
+        "Swarnalatha",
+        "Ilaiyaraaja",
+        "Vaali"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/6iDVvFznOXkn6LZh4BVCIx",
-      "durationMs": 258159,
-      "playedAt": "2026-10-12T15:00:32.124Z"
+      "album": "Thalapathi",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
+      "url": "https://open.spotify.com/track/4OP6YKN3QBAE1LPnzmILq9",
+      "durationMs": 431098,
+      "playedAt": "2026-10-12T15:45:07.308Z"
     },
     {
-      "name": "Neeraambal Poovae",
+      "name": "Oorellaam Unnai Kandu",
       "artists": [
         "Harris Jayaraj",
-        "Arjun Menon",
-        "MC Vickey"
+        "Unnikrishnan",
+        "Bombay Jayashri"
       ],
       "album": "Nannbenda (Original Motion Picture Soundtrack)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
-      "durationMs": 177213,
-      "playedAt": "2026-10-12T14:56:13.918Z"
+      "url": "https://open.spotify.com/track/4bct3Eg1CJlq464hYgHzXc",
+      "durationMs": 296786,
+      "playedAt": "2026-10-12T15:44:19.062Z"
     },
     {
-      "name": "Neeraambal Poovae",
+      "name": "Oorellaam Unnai Kandu",
       "artists": [
         "Harris Jayaraj",
-        "Arjun Menon",
-        "MC Vickey"
+        "Unnikrishnan",
+        "Bombay Jayashri"
       ],
       "album": "Nannbenda (Original Motion Picture Soundtrack)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
-      "durationMs": 177213,
-      "playedAt": "2026-10-12T14:53:11.733Z"
+      "url": "https://open.spotify.com/track/4bct3Eg1CJlq464hYgHzXc",
+      "durationMs": 296786,
+      "playedAt": "2026-10-12T15:28:16.766Z"
     }
   ]
 }
