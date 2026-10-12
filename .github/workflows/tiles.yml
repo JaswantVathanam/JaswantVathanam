@@ -463,6 +463,18 @@ jobs:
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: node scripts/spotify-json.js
 
+      - name: Microsoft Learn data for portfolio
+        if: ${{ hashFiles('scripts/learn-json.js') != '' }}
+        continue-on-error: true
+        run: node scripts/learn-json.js
+
+      - name: WakaTime status for portfolio dashboard
+        if: ${{ hashFiles('scripts/wakatime-status.js') != '' }}
+        continue-on-error: true
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: node scripts/wakatime-status.js
+
 
 # - name: GitHub Insights Tile
 #   if: ${{ hashFiles('scripts/github-insights.js') != '' }}
