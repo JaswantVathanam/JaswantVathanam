@@ -1,19 +1,35 @@
 {
-  "updatedAt": "2026-10-12T17:58:33.740Z",
+  "updatedAt": "2026-10-12T18:25:36.705Z",
   "nowPlaying": {
-    "name": "Bad Boy",
+    "name": "Vella Bambaram",
     "artists": [
+      "Baba Sehgal",
       "Priya Hemesh",
-      "Baba Sehgal"
+      "G. V. Prakash",
+      "Viveka"
     ],
-    "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-    "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-    "durationMs": 271209,
+    "album": "Saguni",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b3fa398758a0c540c430e29f",
+    "url": "https://open.spotify.com/track/5oeyPtLsdt7Hr96BfEuW8S",
+    "durationMs": 282750,
     "isPlaying": true,
-    "progressMs": 234434
+    "progressMs": 102718
   },
   "recent": [
+    {
+      "name": "Manasellam Mazhaiye",
+      "artists": [
+        "Sonu Nigam",
+        "Saindhavi",
+        "G. V. Prakash",
+        "Na.Muthukumar"
+      ],
+      "album": "Saguni",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b3fa398758a0c540c430e29f",
+      "url": "https://open.spotify.com/track/32R7r1j2r13XwF62fT8sNt",
+      "durationMs": 326495,
+      "playedAt": "2026-10-12T18:23:53.679Z"
+    },
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -64,19 +80,6 @@
       "url": "https://open.spotify.com/track/4bct3Eg1CJlq464hYgHzXc",
       "durationMs": 296786,
       "playedAt": "2026-10-12T15:44:19.062Z"
-    },
-    {
-      "name": "Oorellaam Unnai Kandu",
-      "artists": [
-        "Harris Jayaraj",
-        "Unnikrishnan",
-        "Bombay Jayashri"
-      ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/4bct3Eg1CJlq464hYgHzXc",
-      "durationMs": 296786,
-      "playedAt": "2026-10-12T15:28:16.766Z"
     }
   ]
 }
