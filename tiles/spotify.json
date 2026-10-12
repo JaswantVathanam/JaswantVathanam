@@ -1,32 +1,46 @@
 {
-  "updatedAt": "2026-10-12T11:36:39.086Z",
-  "nowPlaying": {
-    "name": "Thaene Thaene Sendhaene",
-    "artists": [
-      "Harris Jayaraj",
-      "Haricharan",
-      "Pravin Saivi"
-    ],
-    "album": "Nannbenda (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-    "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
-    "durationMs": 220799,
-    "isPlaying": true,
-    "progressMs": 115077
-  },
+  "updatedAt": "2026-10-12T15:34:54.364Z",
+  "nowPlaying": null,
   "recent": [
     {
-      "name": "Nenjil Mamazhai (From \"Nimir\")",
+      "name": "Enai Marubadi Marubadi",
       "artists": [
-        "B. Ajaneesh Loknath",
+        "Harris Jayaraj",
+        "Vijay Prakash",
+        "Megha",
+        "Madhan Karky"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/0y7LTgTjnXbIFPE7TTs1Zo",
+      "durationMs": 350466,
+      "playedAt": "2026-10-12T15:11:00.241Z"
+    },
+    {
+      "name": "Thaene Thaene Sendhaene",
+      "artists": [
+        "Harris Jayaraj",
         "Haricharan",
-        "Shweta Mohan"
+        "Pravin Saivi"
       ],
-      "album": "Nenjil Mamazhai (From \"Nimir\")",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e021e021b5dece52b4d073f1ade",
-      "url": "https://open.spotify.com/track/5QvMezzDn2I1twGnnjSmN6",
-      "durationMs": 278970,
-      "playedAt": "2026-10-12T11:32:52.683Z"
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
+      "durationMs": 220799,
+      "playedAt": "2026-10-12T15:04:13.026Z"
+    },
+    {
+      "name": "Dappankuthu Mettula",
+      "artists": [
+        "Harris Jayaraj",
+        "Gana Bala",
+        "Ujjayinee Roy"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/6iDVvFznOXkn6LZh4BVCIx",
+      "durationMs": 258159,
+      "playedAt": "2026-10-12T15:00:32.124Z"
     },
     {
       "name": "Neeraambal Poovae",
@@ -39,35 +53,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
       "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
       "durationMs": 177213,
-      "playedAt": "2026-10-12T11:28:13.236Z"
-    },
-    {
-      "name": "Kattu Kuyilu",
-      "artists": [
-        "S. P. Balasubrahmanyam",
-        "K. J. Yesudas",
-        "Ilaiyaraaja",
-        "Vaali"
-      ],
-      "album": "Thalapathi",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-      "url": "https://open.spotify.com/track/2dD59iR0pxIyNbZr5Rw5kP",
-      "durationMs": 329769,
-      "playedAt": "2026-10-12T11:03:37.520Z"
-    },
-    {
-      "name": "Sundari",
-      "artists": [
-        "S. P. Balasubrahmanyam",
-        "S. Janaki",
-        "Ilaiyaraaja",
-        "Vaali"
-      ],
-      "album": "Thalapathi",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-      "url": "https://open.spotify.com/track/7yVQoJaJEBIscknIZmYV9v",
-      "durationMs": 432457,
-      "playedAt": "2026-10-12T10:47:45.720Z"
+      "playedAt": "2026-10-12T14:56:13.918Z"
     },
     {
       "name": "Neeraambal Poovae",
@@ -80,7 +66,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
       "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
       "durationMs": 177213,
-      "playedAt": "2026-10-12T03:54:22.795Z"
+      "playedAt": "2026-10-12T14:53:11.733Z"
     }
   ]
 }

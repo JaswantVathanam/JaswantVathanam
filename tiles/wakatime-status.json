@@ -1,19 +1,14 @@
 {
-  "updatedAt": "2026-10-12T11:36:54.105Z",
+  "updatedAt": "2026-10-12T15:34:57.865Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 464,
     "text": "7 mins",
     "languages": [
       {
-        "name": "Other",
-        "seconds": 458,
-        "percent": 98.69
-      },
-      {
         "name": "JavaScript",
-        "seconds": 6,
-        "percent": 1.31
+        "seconds": 464,
+        "percent": 100
       }
     ],
     "editors": [
@@ -37,8 +32,8 @@
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-12T11:04:55.787Z",
-    "language": "JavaScript",
+    "at": "2026-10-12T15:29:12.908Z",
+    "language": null,
     "category": "AI Coding"
   }
 }
