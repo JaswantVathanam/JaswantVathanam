@@ -1,0 +1,925 @@
+{
+  "updatedAt": "2026-10-12T11:10:55.660Z",
+  "totals": {
+    "modules": 106,
+    "learningPaths": 19,
+    "trainingMinutes": 5022,
+    "appliedSkills": 7
+  },
+  "appliedSkills": [
+    {
+      "title": "Integrate model context protocol tools with agents in Microsoft Foundry",
+      "credentialId": "3C8FE7E553817811",
+      "awardedOn": "2026-05-30T18:19:50+00:00"
+    },
+    {
+      "title": "Get started developing agents in Microsoft Foundry",
+      "credentialId": "C4A42B9E5C7705FE",
+      "awardedOn": "2026-05-30T17:16:14+00:00"
+    },
+    {
+      "title": "Get started with classes, properties, and methods in C#",
+      "credentialId": "C164B9EACF26B62D",
+      "awardedOn": "2026-05-18T15:35:10+00:00"
+    },
+    {
+      "title": "Get started with identities and access using Microsoft Entra",
+      "credentialId": "F9A5E1B83182C71C",
+      "awardedOn": "2026-03-14T17:16:11+00:00"
+    },
+    {
+      "title": "Get started with Azure management tasks",
+      "credentialId": "A83E3A5034FAD5F6",
+      "awardedOn": "2026-03-12T17:47:51+00:00"
+    },
+    {
+      "title": "Create an AI agent",
+      "credentialId": "E559F8BC83DA86C6",
+      "awardedOn": "2026-03-12T10:37:24+00:00"
+    },
+    {
+      "title": "Develop a Generative AI Chat App Using the Microsoft Foundry SDK",
+      "credentialId": "8C6C56E97675DFCF",
+      "awardedOn": "2026-03-12T11:03:01+00:00"
+    }
+  ],
+  "learningPaths": [
+    {
+      "title": "Implement classes, properties, and methods",
+      "description": "Learn how to create classes and objects in C# and how to securely access and manage encapsulated data using class properties and methods.",
+      "completedOn": "2026-05-18T15:03:16.563034+00:00",
+      "minutes": 283,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Enhance your productivity with prebuilt Microsoft 365 Copilot agents",
+      "description": "This Learning Path explores how prebuilt agents in Microsoft 365 Copilot enable users to streamline tasks, retrieve information efficiently, and enhance productivity through AI-powered conversational tools.",
+      "completedOn": "2026-03-16T07:55:18.5163365+00:00",
+      "minutes": 72,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Perform basic identity and access tasks",
+      "description": "Learn to create and manage identity and access using Microsoft Entra ID. Explore the basics of creating users, groups, and how to control access with conditional access.",
+      "completedOn": "2026-03-14T16:06:38.278892+00:00",
+      "minutes": 227,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Introduction to Microsoft Azure Management tasks",
+      "description": "This learning path helps you explore basic management tasks for Azure resources. You'll have the opportunity to learn about managing virtual machines, virtual networks, and storage accounts, and then a guided project will give you hands-on experience actually managing Azure resources.",
+      "completedOn": "2026-03-12T16:18:09.2155413+00:00",
+      "minutes": 121,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Build a generative AI chat app",
+      "description": "Learn how to build a generative AI chat app using Microsoft Foundry. (MAS-3030)",
+      "completedOn": "2026-03-12T10:28:57.3358281+00:00",
+      "minutes": 55,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Create an AI agent with Microsoft Foundry",
+      "description": "Learn how to create an AI agent using Microsoft Foundry. (MAS-3031)",
+      "completedOn": "2026-03-12T09:32:59.9443759+00:00",
+      "minutes": 49,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Build web apps with ASP.NET Core for beginners",
+      "description": "Get started with web development using ASP.NET Core. In this beginner-friendly pathway, you'll learn the basics of C#, HTML, Razor Pages, and more!",
+      "completedOn": "2026-03-12T08:58:04.2302268+00:00",
+      "minutes": 172,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "Understand ASP.NET Core fundamentals",
+      "description": "Learn the fundamentals of building web applications with ASP.NET Core. This learning path teaches the basics required for front-end and back-end development with ASP.NET Core.",
+      "completedOn": "2026-02-24T15:26:02.4604637+00:00",
+      "minutes": 122,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "AI Fluency",
+      "description": "This learning path is designed to provide a comprehensive understanding of AI fluency. It includes modules that cover various aspects of AI, starting with foundational concepts and progressing to more advanced topics. Each module is tailored to help individuals and organizations use AI technologies to enhance their philanthropic efforts.",
+      "completedOn": "2026-02-22T17:35:12.5232747+00:00",
+      "minutes": 278,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Debug C# console applications (Get started with C#, Part 6)",
+      "description": "Debug C# console applications (Get started with C#, Part 6)",
+      "completedOn": "2025-08-16T18:19:15.1231534+00:00",
+      "minutes": 327,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Create methods in C# console applications (Get started with C#, Part 5)",
+      "description": "This learning path covers the syntax of creating and using methods in C# console applications.",
+      "completedOn": "2025-08-16T16:01:57.3847855+00:00",
+      "minutes": 235,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Work with variable data in C# console applications (Get started with C#, Part 4)",
+      "description": "Work with variable data in C# console applications (Get started with C#, Part 4)",
+      "completedOn": "2025-08-16T13:28:48.7584382+00:00",
+      "minutes": 381,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Add logic to C# console applications (Get started with C#, Part 3)",
+      "description": "Examine the relationship between code blocks and variable scope, and deepen your C# coding experience with Boolean expressions, selection statements, and iteration statements.",
+      "completedOn": "2025-07-23T03:24:24.8918582+00:00",
+      "minutes": 381,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "AZ-104: Deploy and manage Azure compute resources",
+      "description": "Learn how to deploy and configure Azure compute resources and prepare for Exam AZ-104: Microsoft Azure Administrator.",
+      "completedOn": "2025-02-28T17:52:41.4480556+00:00",
+      "minutes": 222,
+      "assessmentsPassed": true
+    },
+    {
+      "title": "Deploy and administer Linux virtual machines on Azure",
+      "description": "Deploy and administer Linux virtual machines on Azure",
+      "completedOn": "2025-02-28T16:43:41.116195+00:00",
+      "minutes": 397,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "AZ-104: Prerequisites for Azure administrators",
+      "description": "Learn the basic concepts you'll need to know as an Azure administrator and prepare for Exam AZ-104: Microsoft Azure Administrator.",
+      "completedOn": "2025-02-28T03:43:28.536529+00:00",
+      "minutes": 185,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "Create and run simple C# console applications (Get started with C#, Part 2)",
+      "description": "Use Visual Studio Code to develop C# console applications that implement arrays, foreach loops, and if statements.",
+      "completedOn": "2024-08-15T07:40:27.7478447+00:00",
+      "minutes": 393,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "Write your first code using C# (Get started with C#, Part 1)",
+      "description": "Learn the basic syntax and thought processes required to build simple applications using C#",
+      "completedOn": "2024-08-04T18:17:29.7270951+00:00",
+      "minutes": 277,
+      "assessmentsPassed": false
+    },
+    {
+      "title": "Develop AI solutions with Azure OpenAI",
+      "description": "Develop AI solutions with Azure OpenAI",
+      "completedOn": "2024-05-23T17:22:05.8205017+00:00",
+      "minutes": 334,
+      "assessmentsPassed": false
+    }
+  ],
+  "modules": [
+    {
+      "title": "Integrate MCP Tools with Azure AI Agents",
+      "completedOn": "2026-05-30T17:40:01.897229+00:00",
+      "minutes": 51,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/connect-agent-to-mcp-tools/"
+    },
+    {
+      "title": "Get started with generative AI and agents in Azure",
+      "completedOn": "2026-05-30T16:04:02.9972748+00:00",
+      "minutes": 58,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/get-started-with-generative-ai-and-agents/"
+    },
+    {
+      "title": "Plan with DevOps",
+      "completedOn": "2026-05-19T15:43:02.920448+00:00",
+      "minutes": 70,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/plan-with-devops/"
+    },
+    {
+      "title": "Manage class implementations",
+      "completedOn": "2026-05-18T15:03:16.563032+00:00",
+      "minutes": 106,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/manage-class-implementations/"
+    },
+    {
+      "title": "Implement class properties and methods",
+      "completedOn": "2026-05-18T14:23:05.6680486+00:00",
+      "minutes": 106,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/implement-class-properties-methods/"
+    },
+    {
+      "title": "Get started with classes and objects",
+      "completedOn": "2026-05-13T12:12:19.9269164+00:00",
+      "minutes": 71,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/get-started-classes-objects/"
+    },
+    {
+      "title": "Discover DevOps",
+      "completedOn": "2026-05-12T17:10:22.7581403+00:00",
+      "minutes": 26,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/discover-devops/"
+    },
+    {
+      "title": "Explore prebuilt Microsoft 365 Copilot agents",
+      "completedOn": "2026-03-16T07:55:18.5163352+00:00",
+      "minutes": 72,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-prebuilt-microsoft-365-copilot-agents/"
+    },
+    {
+      "title": "Get started with identity and access labs",
+      "completedOn": "2026-03-14T16:06:38.2788911+00:00",
+      "minutes": 65,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/get-started-identity-access-labs/"
+    },
+    {
+      "title": "Describe the identity protection and governance capabilities of Azure AD",
+      "completedOn": "2026-03-14T15:58:26.540696+00:00",
+      "minutes": 37,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/describe-identity-protection-governance-capabilities/"
+    },
+    {
+      "title": "Describe the access management capabilities of Azure AD",
+      "completedOn": "2026-03-14T15:18:34.7223739+00:00",
+      "minutes": 34,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-access-management-capabilities/"
+    },
+    {
+      "title": "Describe the authentication capabilities of Azure AD",
+      "completedOn": "2026-03-13T16:50:24.6404102+00:00",
+      "minutes": 27,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-authentication-capabilities/"
+    },
+    {
+      "title": "Create, configure, and manage identities",
+      "completedOn": "2026-03-13T16:41:23.0552721+00:00",
+      "minutes": 64,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/create-configure-manage-identities/"
+    },
+    {
+      "title": "Guided project – Update and maintain resources",
+      "completedOn": "2026-03-12T16:18:09.2155386+00:00",
+      "minutes": 71,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-update-maintain-resources/"
+    },
+    {
+      "title": "Describe Microsoft Azure resources management",
+      "completedOn": "2026-03-12T16:12:19.3401603+00:00",
+      "minutes": 50,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/describe-microsoft-azure-resources-management/"
+    },
+    {
+      "title": "Develop an AI app with the Azure AI Foundry SDK",
+      "completedOn": "2026-03-12T10:28:57.3358272+00:00",
+      "minutes": 55,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/ai-foundry-sdk/"
+    },
+    {
+      "title": "Fundamentals of AI agents on Azure",
+      "completedOn": "2026-03-12T09:32:59.9443749+00:00",
+      "minutes": 49,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/ai-agent-fundamentals/"
+    },
+    {
+      "title": "Create a web API with ASP.NET Core controllers",
+      "completedOn": "2026-03-12T08:58:04.2302258+00:00",
+      "minutes": 41,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/build-web-api-aspnet-core/"
+    },
+    {
+      "title": "Create a web UI with ASP.NET Core",
+      "completedOn": "2026-03-10T16:46:32.4529005+00:00",
+      "minutes": 45,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/create-razor-pages-aspnet-core/"
+    },
+    {
+      "title": "Learn the basics of web accessibility",
+      "completedOn": "2026-02-25T18:00:53.9345303+00:00",
+      "minutes": 15,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/web-development-101-accessibility/"
+    },
+    {
+      "title": "Build a simple website using HTML, CSS, and JavaScript",
+      "completedOn": "2026-02-25T17:09:16.627237+00:00",
+      "minutes": 44,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/get-started-with-web-development/"
+    },
+    {
+      "title": "Publish an ASP.NET Core app",
+      "completedOn": "2026-02-24T15:26:02.4604624+00:00",
+      "minutes": 29,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/publish-aspnetcore-app/"
+    },
+    {
+      "title": "Configure services with dependency injection in ASP.NET Core",
+      "completedOn": "2026-02-23T14:58:02.3364313+00:00",
+      "minutes": 44,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-dependency-injection/"
+    },
+    {
+      "title": "Customize ASP.NET Core behavior with middleware",
+      "completedOn": "2026-02-22T19:11:14.4844478+00:00",
+      "minutes": 29,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/aspnetcore-middleware/"
+    },
+    {
+      "title": "Build your first ASP.NET Core web app",
+      "completedOn": "2026-02-22T18:49:25.852799+00:00",
+      "minutes": 13,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/build-your-first-aspnet-core-web-app/"
+    },
+    {
+      "title": "Introduction to .NET web development with ASP.NET Core",
+      "completedOn": "2026-02-22T18:23:15.6026092+00:00",
+      "minutes": 7,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/introduction-to-aspnet-core/"
+    },
+    {
+      "title": "Explore AI for All",
+      "completedOn": "2026-02-22T17:35:12.5232732+00:00",
+      "minutes": 25,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-ai-for-all/"
+    },
+    {
+      "title": "Boost your productivity with Microsoft Copilot",
+      "completedOn": "2026-02-22T17:34:04.8585024+00:00",
+      "minutes": 45,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/boost-productivity-with-copilot/"
+    },
+    {
+      "title": "Get started with Microsoft Copilot",
+      "completedOn": "2026-02-22T17:32:31.2249037+00:00",
+      "minutes": 31,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/get-started-with-copilot/"
+    },
+    {
+      "title": "Explore responsible AI",
+      "completedOn": "2026-02-22T17:30:53.3652566+00:00",
+      "minutes": 34,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/responsible-ai/"
+    },
+    {
+      "title": "Explore internet search and beyond",
+      "completedOn": "2026-02-22T17:28:53.9575594+00:00",
+      "minutes": 48,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-internet-search-beyond/"
+    },
+    {
+      "title": "Explore Generative AI",
+      "completedOn": "2026-02-22T17:02:26.2879736+00:00",
+      "minutes": 37,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-generative-ai/"
+    },
+    {
+      "title": "Explore AI basics",
+      "completedOn": "2026-02-06T15:15:00.0445552+00:00",
+      "minutes": 58,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/explore-ai-basics/"
+    },
+    {
+      "title": "Challenge project - Debug a C# console application using Visual Studio Code",
+      "completedOn": "2025-08-16T18:19:15.1231516+00:00",
+      "minutes": 37,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/"
+    },
+    {
+      "title": "Guided project - Debug and handle exceptions in a C# console application using Visual Studio Code",
+      "completedOn": "2025-08-16T17:55:46.4565219+00:00",
+      "minutes": 50,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/"
+    },
+    {
+      "title": "Create and throw exceptions in C# console applications",
+      "completedOn": "2025-08-16T17:49:21.1549651+00:00",
+      "minutes": 55,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/"
+    },
+    {
+      "title": "Implement exception handling in C# console applications",
+      "completedOn": "2025-08-16T16:49:38.3709316+00:00",
+      "minutes": 78,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/"
+    },
+    {
+      "title": "Implement the Visual Studio Code debugging tools for C#",
+      "completedOn": "2025-08-16T16:39:04.3161356+00:00",
+      "minutes": 81,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/"
+    },
+    {
+      "title": "Review the principles of code debugging and exception handling",
+      "completedOn": "2025-08-16T16:08:23.1932096+00:00",
+      "minutes": 26,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/"
+    },
+    {
+      "title": "Challenge project - Create a mini-game",
+      "completedOn": "2025-08-16T16:01:57.3847834+00:00",
+      "minutes": 45,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/"
+    },
+    {
+      "title": "Guided project - Plan a Petting Zoo Visit",
+      "completedOn": "2025-08-16T15:59:48.9188003+00:00",
+      "minutes": 28,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-visit-petting-zoo/"
+    },
+    {
+      "title": "Create C# methods that return values",
+      "completedOn": "2025-08-16T15:52:09.1796176+00:00",
+      "minutes": 55,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/"
+    },
+    {
+      "title": "Write your first C# method",
+      "completedOn": "2025-08-16T14:37:35.9286668+00:00",
+      "minutes": 55,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/write-first-c-sharp-method/"
+    },
+    {
+      "title": "Create C# methods with parameters",
+      "completedOn": "2025-08-16T14:15:08.5027593+00:00",
+      "minutes": 52,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/"
+    },
+    {
+      "title": "Challenge project - Work with variable data in C#",
+      "completedOn": "2025-08-16T13:28:48.7584366+00:00",
+      "minutes": 43,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/"
+    },
+    {
+      "title": "Guided project - Work with variable data in C#",
+      "completedOn": "2025-08-16T13:26:18.4623439+00:00",
+      "minutes": 38,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/"
+    },
+    {
+      "title": "Modify the content of strings using built-in string data type methods in C#",
+      "completedOn": "2025-08-16T11:43:28.5813035+00:00",
+      "minutes": 75,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-modify-content/"
+    },
+    {
+      "title": "Format alphanumeric data for presentation in C#",
+      "completedOn": "2025-08-12T18:18:48.8416308+00:00",
+      "minutes": 58,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-format-strings/"
+    },
+    {
+      "title": "Perform operations on arrays using helper methods in C#",
+      "completedOn": "2025-07-29T16:30:24.6874883+00:00",
+      "minutes": 58,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-arrays-operations/"
+    },
+    {
+      "title": "Convert data types using casting and conversion techniques in C#",
+      "completedOn": "2025-07-26T16:14:42.1548015+00:00",
+      "minutes": 62,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-convert-cast/"
+    },
+    {
+      "title": "Choose the correct data type in your C# code",
+      "completedOn": "2025-07-26T07:00:12.8401543+00:00",
+      "minutes": 47,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-choose-data-type/"
+    },
+    {
+      "title": "Challenge project - Develop branching and looping structures in C#",
+      "completedOn": "2025-07-23T03:24:24.8918573+00:00",
+      "minutes": 68,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/"
+    },
+    {
+      "title": "Guided project - Develop conditional branching and looping structures in C#",
+      "completedOn": "2025-07-23T03:15:36.1665613+00:00",
+      "minutes": 100,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/"
+    },
+    {
+      "title": "Add looping logic to your code using the do-while and while statements in C#",
+      "completedOn": "2025-07-22T04:24:36.1548307+00:00",
+      "minutes": 55,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-do-while/"
+    },
+    {
+      "title": "Iterate through a code block using for statement in C#",
+      "completedOn": "2025-07-17T03:04:27.4686317+00:00",
+      "minutes": 37,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/csharp-for/"
+    },
+    {
+      "title": "Configure Azure Container Instances",
+      "completedOn": "2025-02-28T17:52:41.4480537+00:00",
+      "minutes": 30,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-azure-container-instances/"
+    },
+    {
+      "title": "Configure Azure App Services",
+      "completedOn": "2025-02-28T17:50:04.4744068+00:00",
+      "minutes": 67,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-azure-app-services/"
+    },
+    {
+      "title": "Configure app service plans",
+      "completedOn": "2025-02-28T17:44:42.2928077+00:00",
+      "minutes": 24,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-app-service-plans/"
+    },
+    {
+      "title": "Configure virtual machine availability",
+      "completedOn": "2025-02-28T17:42:51.0472929+00:00",
+      "minutes": 34,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-virtual-machine-availability/"
+    },
+    {
+      "title": "Plan your Linux environment in Azure",
+      "completedOn": "2025-02-28T17:39:03.4372375+00:00",
+      "minutes": 35,
+      "assessmentPassed": true,
+      "url": null
+    },
+    {
+      "title": "Introduction to Azure virtual machines",
+      "completedOn": "2025-02-28T17:37:53.4883186+00:00",
+      "minutes": 67,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/intro-to-azure-virtual-machines/"
+    },
+    {
+      "title": "Understand Azure Active Directory",
+      "completedOn": "2025-02-28T17:35:41.7642364+00:00",
+      "minutes": 23,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/understand-azure-active-directory/"
+    },
+    {
+      "title": "Guided Project: Deploy and administer Linux virtual machines on Azure",
+      "completedOn": "2025-02-28T16:43:41.1161931+00:00",
+      "minutes": 180,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-deploy-administer-linux-virtual-machines-azure/"
+    },
+    {
+      "title": "Configure Azure files and Azure File Sync",
+      "completedOn": "2025-02-28T16:41:13.0308457+00:00",
+      "minutes": 36,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/configure-azure-files-file-sync/"
+    },
+    {
+      "title": "Implement access management for Azure resources",
+      "completedOn": "2025-02-28T16:39:22.9213535+00:00",
+      "minutes": 33,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/implement-access-management-for-azure-resources/"
+    },
+    {
+      "title": "Protect your virtual machines by using Azure Backup",
+      "completedOn": "2025-02-28T16:35:11.9261915+00:00",
+      "minutes": 35,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/protect-virtual-machines-with-azure-backup/"
+    },
+    {
+      "title": "Monitor the health of your Azure virtual machine by using Azure Metrics Explorer and metric alerts",
+      "completedOn": "2025-02-28T10:04:32.5246763+00:00",
+      "minutes": 35,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/monitor-azure-vm-using-diagnostic-data/"
+    },
+    {
+      "title": "Add and size disks in Azure virtual machines",
+      "completedOn": "2025-02-28T09:58:44.1722521+00:00",
+      "minutes": 36,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/add-and-size-disks-in-azure-virtual-machines/"
+    },
+    {
+      "title": "Manage virtual machines with the Azure CLI",
+      "completedOn": "2025-02-28T03:57:53.2690624+00:00",
+      "minutes": 51,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Deploy Azure infrastructure by using JSON ARM templates",
+      "completedOn": "2025-02-28T03:43:28.5365274+00:00",
+      "minutes": 43,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/create-azure-resource-manager-template-vs-code/"
+    },
+    {
+      "title": "Introduction to PowerShell",
+      "completedOn": "2025-02-27T18:28:39.2703656+00:00",
+      "minutes": 16,
+      "assessmentPassed": true,
+      "url": null
+    },
+    {
+      "title": "Introduction to Bash",
+      "completedOn": "2025-02-27T18:21:34.900292+00:00",
+      "minutes": 57,
+      "assessmentPassed": true,
+      "url": null
+    },
+    {
+      "title": "Introduction to Azure Cloud Shell",
+      "completedOn": "2025-02-27T18:13:24.2188201+00:00",
+      "minutes": 20,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/intro-to-azure-cloud-shell/"
+    },
+    {
+      "title": "Manage services with the Azure portal",
+      "completedOn": "2025-02-26T18:56:49.1660215+00:00",
+      "minutes": 49,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Describe the benefits of using cloud services",
+      "completedOn": "2024-12-06T07:34:16.4704223+00:00",
+      "minutes": 17,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/describe-benefits-use-cloud-services/"
+    },
+    {
+      "title": "Describe cloud computing",
+      "completedOn": "2024-12-03T07:30:02.1296603+00:00",
+      "minutes": 23,
+      "assessmentPassed": true,
+      "url": "https://learn.microsoft.com/training/modules/describe-cloud-compute/"
+    },
+    {
+      "title": "Branch the flow of code using the switch-case construct in C#",
+      "completedOn": "2024-09-05T11:11:28.2276132+00:00",
+      "minutes": 34,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-switch-case/"
+    },
+    {
+      "title": "Control variable scope and logic using code blocks in C#",
+      "completedOn": "2024-09-05T10:32:06.5033841+00:00",
+      "minutes": 37,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-code-blocks/"
+    },
+    {
+      "title": "Evaluate Boolean expressions to make decisions in C#",
+      "completedOn": "2024-09-01T07:47:36.2531744+00:00",
+      "minutes": 50,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/"
+    },
+    {
+      "title": "Challenge project - Develop foreach and if-elseif-else structures to process array data in C#",
+      "completedOn": "2024-08-15T07:40:27.7478426+00:00",
+      "minutes": 56,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/"
+    },
+    {
+      "title": "Guided project - Develop foreach and if-elseif-else structures to process array data in C#",
+      "completedOn": "2024-08-15T07:18:26.9984839+00:00",
+      "minutes": 93,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/"
+    },
+    {
+      "title": "Create readable code with conventions, whitespace, and comments in C#",
+      "completedOn": "2024-08-14T18:13:24.9408172+00:00",
+      "minutes": 48,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-readable-code/"
+    },
+    {
+      "title": "Store and iterate through sequences of data using Arrays and the foreach statement in C#",
+      "completedOn": "2024-08-14T17:30:26.7245391+00:00",
+      "minutes": 51,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-arrays/"
+    },
+    {
+      "title": "Add decision logic to your code using the if-elseif-else statement in C#",
+      "completedOn": "2024-08-13T05:02:02.3967503+00:00",
+      "minutes": 56,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-if-elseif-else/"
+    },
+    {
+      "title": "Call methods from the .NET Class Library using C#",
+      "completedOn": "2024-08-08T06:22:15.210059+00:00",
+      "minutes": 54,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-call-methods/"
+    },
+    {
+      "title": "Install and configure Visual Studio Code",
+      "completedOn": "2024-08-04T18:28:55.3650839+00:00",
+      "minutes": 35,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/install-configure-visual-studio-code/"
+    },
+    {
+      "title": "Guided project - Calculate final GPA",
+      "completedOn": "2024-08-04T18:17:29.7270936+00:00",
+      "minutes": 54,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-calculate-final-gpa/"
+    },
+    {
+      "title": "Guided project - Calculate and print student grades",
+      "completedOn": "2024-08-04T17:45:41.3045979+00:00",
+      "minutes": 44,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/"
+    },
+    {
+      "title": "Perform basic operations on numbers in C#",
+      "completedOn": "2024-08-04T17:31:38.9117257+00:00",
+      "minutes": 50,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-basic-operations/"
+    },
+    {
+      "title": "Perform basic string formatting in C#",
+      "completedOn": "2024-08-04T16:28:48.8947852+00:00",
+      "minutes": 54,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-basic-formatting/"
+    },
+    {
+      "title": "Store and retrieve data using literal and variable values in C#",
+      "completedOn": "2024-08-04T16:10:13.4160326+00:00",
+      "minutes": 48,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-literals-variables/"
+    },
+    {
+      "title": "Write your first C# code",
+      "completedOn": "2024-08-04T15:42:14.4860376+00:00",
+      "minutes": 27,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/csharp-write-first/"
+    },
+    {
+      "title": "Responsible Generative AI",
+      "completedOn": "2024-05-23T17:22:05.8204998+00:00",
+      "minutes": 50,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Use your own data with Azure OpenAI Service",
+      "completedOn": "2024-05-23T17:06:27.6418323+00:00",
+      "minutes": 33,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Generate images with Azure OpenAI Service",
+      "completedOn": "2024-05-23T15:52:31.8694546+00:00",
+      "minutes": 38,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/generate-images-azure-openai/"
+    },
+    {
+      "title": "Generate code with Azure OpenAI Service",
+      "completedOn": "2024-05-22T16:15:53.2401569+00:00",
+      "minutes": 50,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Apply prompt engineering with Azure OpenAI Service",
+      "completedOn": "2024-05-22T15:42:35.9084587+00:00",
+      "minutes": 63,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Build natural language solutions with Azure OpenAI",
+      "completedOn": "2024-05-22T15:07:52.1845937+00:00",
+      "minutes": 57,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Get started with Azure OpenAI Service",
+      "completedOn": "2024-05-20T13:48:40.5810333+00:00",
+      "minutes": 43,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Introduction to end-to-end analytics using Microsoft Fabric",
+      "completedOn": "2024-01-06T15:29:12.8094754+00:00",
+      "minutes": 22,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/introduction-end-analytics-use-microsoft-fabric/"
+    },
+    {
+      "title": "Write your first Python programs",
+      "completedOn": "2023-12-17T06:56:06.016078+00:00",
+      "minutes": 30,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Introduction to Azure DevOps",
+      "completedOn": "2023-12-13T16:45:25.8980582+00:00",
+      "minutes": 21,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Introduction to Python",
+      "completedOn": "2023-06-08T04:45:21.8276107+00:00",
+      "minutes": 16,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Introduction to Azure fundamentals",
+      "completedOn": "2023-06-05T09:15:38.2539639+00:00",
+      "minutes": 43,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Set up your Python beginner development environment with Visual Studio Code",
+      "completedOn": "2023-05-24T06:10:45.6867548+00:00",
+      "minutes": 28,
+      "assessmentPassed": false,
+      "url": null
+    },
+    {
+      "title": "Get started with Power Automate",
+      "completedOn": "2021-11-26T14:30:37.1130701+00:00",
+      "minutes": 66,
+      "assessmentPassed": false,
+      "url": "https://learn.microsoft.com/training/modules/get-started-flows/"
+    }
+  ]
+}

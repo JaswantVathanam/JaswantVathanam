@@ -1,0 +1,44 @@
+{
+  "updatedAt": "2026-10-12T11:10:56.463Z",
+  "timeZone": "Asia/Kolkata",
+  "today": {
+    "seconds": 464,
+    "text": "7 mins",
+    "languages": [
+      {
+        "name": "Other",
+        "seconds": 458,
+        "percent": 98.69
+      },
+      {
+        "name": "JavaScript",
+        "seconds": 6,
+        "percent": 1.31
+      }
+    ],
+    "editors": [
+      {
+        "name": "Claude Code",
+        "seconds": 458,
+        "percent": 98.69
+      },
+      {
+        "name": "VS Code",
+        "seconds": 6,
+        "percent": 1.31
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "seconds": 464,
+        "percent": 100
+      }
+    ]
+  },
+  "lastHeartbeat": {
+    "at": "2026-10-12T11:04:55.787Z",
+    "language": null,
+    "category": "AI Coding"
+  }
+}

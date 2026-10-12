@@ -1,21 +1,49 @@
 {
-  "updatedAt": "2026-10-12T10:45:21.608Z",
+  "updatedAt": "2026-10-12T11:10:49.798Z",
   "nowPlaying": {
-    "name": "Sundari",
+    "name": "Rakkamma",
     "artists": [
       "S. P. Balasubrahmanyam",
-      "S. Janaki",
+      "Swarnalatha",
       "Ilaiyaraaja",
       "Vaali"
     ],
     "album": "Thalapathi",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-    "url": "https://open.spotify.com/track/7yVQoJaJEBIscknIZmYV9v",
-    "durationMs": 432457,
-    "isPlaying": true,
-    "progressMs": 287281
+    "url": "https://open.spotify.com/track/4OP6YKN3QBAE1LPnzmILq9",
+    "durationMs": 431098,
+    "isPlaying": false,
+    "progressMs": 350289
   },
   "recent": [
+    {
+      "name": "Kattu Kuyilu",
+      "artists": [
+        "S. P. Balasubrahmanyam",
+        "K. J. Yesudas",
+        "Ilaiyaraaja",
+        "Vaali"
+      ],
+      "album": "Thalapathi",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
+      "url": "https://open.spotify.com/track/2dD59iR0pxIyNbZr5Rw5kP",
+      "durationMs": 329769,
+      "playedAt": "2026-10-12T11:03:37.520Z"
+    },
+    {
+      "name": "Sundari",
+      "artists": [
+        "S. P. Balasubrahmanyam",
+        "S. Janaki",
+        "Ilaiyaraaja",
+        "Vaali"
+      ],
+      "album": "Thalapathi",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
+      "url": "https://open.spotify.com/track/7yVQoJaJEBIscknIZmYV9v",
+      "durationMs": 432457,
+      "playedAt": "2026-10-12T10:47:45.720Z"
+    },
     {
       "name": "Neeraambal Poovae",
       "artists": [
@@ -55,29 +83,6 @@
       "url": "https://open.spotify.com/track/3lz9kmODyskG3BAtMoTMwu",
       "durationMs": 305920,
       "playedAt": "2026-10-12T03:27:39.020Z"
-    },
-    {
-      "name": "Adiyae Azhagae - From \"Oru Naal Koothu\"",
-      "artists": [
-        "Justin Prabhakaran"
-      ],
-      "album": "Adiyae Azhagae (From \"Oru Naal Koothu\")",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dbf94edea716d4c16234757f",
-      "url": "https://open.spotify.com/track/68dGKf5eIchw0bxpuhk4g8",
-      "durationMs": 289404,
-      "playedAt": "2026-10-12T02:56:31.889Z"
-    },
-    {
-      "name": "Vellai Pandhu",
-      "artists": [
-        "Prasad S.N",
-        "Haricharan"
-      ],
-      "album": "Yaamirukka Bayamey (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e026df5a04210a90b834a118783",
-      "url": "https://open.spotify.com/track/5DQcWzS2GG169jfiusoAGy",
-      "durationMs": 196424,
-      "playedAt": "2026-10-12T02:51:41.928Z"
     }
   ]
 }
