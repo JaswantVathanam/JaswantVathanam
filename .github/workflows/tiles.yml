@@ -5,6 +5,7 @@ on:
     # Every 30 minutes at :07 and :37. GitHub runs schedules best-effort and drops many
     # at the busy :00/:15/:30/:45 marks, so off-peak minutes are honoured far more often.
     - cron: "7,37 * * * *"
+      timezone: "Asia/Kolkata"  # backup only; Keep Live Tiles Fresh drives the 30-minute cadence
   workflow_dispatch:
 
 # Required for committing back to repo
