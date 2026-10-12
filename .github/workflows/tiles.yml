@@ -454,6 +454,15 @@ jobs:
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: node scripts/spotify-recently-played.js
 
+      - name: Spotify data for portfolio dashboard
+        if: ${{ hashFiles('scripts/spotify-json.js') != '' }}
+        continue-on-error: true
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: node scripts/spotify-json.js
+
 
 # - name: GitHub Insights Tile
 #   if: ${{ hashFiles('scripts/github-insights.js') != '' }}
@@ -593,7 +602,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
           # Add only existing files safely
-          find tiles -maxdepth 1 -type f \( -name "*.svg" -o -name "*.png" \) -print0 | xargs -0 -r git add
+          find tiles -maxdepth 1 -type f \( -name "*.svg" -o -name "*.png" -o -name "*.json" \) -print0 | xargs -0 -r git add
 
           git diff --cached --quiet && { echo "No changes"; exit 0; }
           git commit -m "Updated live tiles"
