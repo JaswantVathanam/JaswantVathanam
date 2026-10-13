@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-13T12:27:13.521Z",
-  "nowPlaying": {
-    "name": "Onnam Class",
-    "artists": [
-      "Mukesh",
-      "Priyadarshini"
-    ],
-    "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-    "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
-    "durationMs": 250125,
-    "isPlaying": false,
-    "progressMs": 119732
-  },
+  "updatedAt": "2026-10-13T12:57:19.742Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Bad Boy",
