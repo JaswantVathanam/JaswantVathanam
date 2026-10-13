@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-13T03:26:24.268Z",
-  "nowPlaying": {
-    "name": "En Fuse Pochu",
-    "artists": [
-      "Yuvan Shankar Raja",
-      "Karthik",
-      "Ramya NSK"
-    ],
-    "album": "Arrambam (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
-    "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
-    "durationMs": 282853,
-    "isPlaying": true,
-    "progressMs": 228525
-  },
+  "updatedAt": "2026-10-13T03:56:23.527Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Bad Boy",
