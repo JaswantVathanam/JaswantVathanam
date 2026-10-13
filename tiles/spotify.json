@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-10-13T03:56:23.527Z",
+  "updatedAt": "2026-10-13T04:26:31.644Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "En Fuse Pochu",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Karthik",
+        "Ramya NSK"
+      ],
+      "album": "Arrambam (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
+      "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
+      "durationMs": 282853,
+      "playedAt": "2026-10-13T03:51:08.028Z"
+    },
     {
       "name": "Bad Boy",
       "artists": [
@@ -53,19 +66,6 @@
       "url": "https://open.spotify.com/track/4sCcDvX30uu39ozvxcRsqB",
       "durationMs": 273396,
       "playedAt": "2026-10-12T19:30:11.472Z"
-    },
-    {
-      "name": "Nizhaliyae (From \"Hi Nanna\")",
-      "artists": [
-        "Anurag Kulkarni",
-        "Chinmayi",
-        "Hesham Abdul Wahab"
-      ],
-      "album": "Nizhaliyae (From \"Hi Nanna\")",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0268a32166f1c7eef221b23688",
-      "url": "https://open.spotify.com/track/0HGG3ASk21htkWoR8O3MUG",
-      "durationMs": 204138,
-      "playedAt": "2026-10-12T18:49:20.097Z"
     }
   ]
 }
