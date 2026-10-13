@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-13T06:56:47.497Z",
-  "nowPlaying": {
-    "name": "Bad Boy",
-    "artists": [
-      "Priya Hemesh",
-      "Baba Sehgal"
-    ],
-    "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-    "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-    "durationMs": 271209,
-    "isPlaying": true,
-    "progressMs": 123182
-  },
+  "updatedAt": "2026-10-13T07:06:16.904Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "En Fuse Pochu",
