@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-13T17:57:52.402Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-13T18:27:59.419Z",
+  "nowPlaying": {
+    "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+    "artists": [
+      "Yuvan Shankar Raja",
+      "Prithivee"
+    ],
+    "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+    "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+    "durationMs": 276262,
+    "isPlaying": false,
+    "progressMs": 275400
+  },
   "recent": [
+    {
+      "name": "Bad Boy",
+      "artists": [
+        "Priya Hemesh",
+        "Baba Sehgal"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
+      "durationMs": 271209,
+      "playedAt": "2026-10-13T18:22:01.778Z"
+    },
     {
       "name": "Onnam Class",
       "artists": [
@@ -49,19 +73,6 @@
       "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
       "durationMs": 271209,
       "playedAt": "2026-10-13T12:06:14.183Z"
-    },
-    {
-      "name": "Yamma Yamma",
-      "artists": [
-        "Harris Jayaraj",
-        "S. P. Balasubrahmanyam",
-        "Kabilan"
-      ],
-      "album": "7 Aum Arivu (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0294992e7241baf2efd4f8c368",
-      "url": "https://open.spotify.com/track/1dmTEETgoWQVeNZb1g8dZc",
-      "durationMs": 367493,
-      "playedAt": "2026-10-13T10:52:28.358Z"
     }
   ]
 }
