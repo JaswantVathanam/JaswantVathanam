@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-13T19:58:17.187Z",
+  "updatedAt": "2026-10-13T20:28:22.657Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-13T18:37:19.576Z"
+    },
     {
       "name": "Bad Boy",
       "artists": [
@@ -49,18 +61,6 @@
       "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
       "durationMs": 250125,
       "playedAt": "2026-10-13T12:11:02.088Z"
-    },
-    {
-      "name": "Bad Boy",
-      "artists": [
-        "Priya Hemesh",
-        "Baba Sehgal"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-      "durationMs": 271209,
-      "playedAt": "2026-10-13T12:06:14.183Z"
     }
   ]
 }
