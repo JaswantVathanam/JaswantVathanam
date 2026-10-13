@@ -1,20 +1,59 @@
 {
-  "updatedAt": "2026-10-13T09:27:05.518Z",
-  "nowPlaying": {
-    "name": "Bad Boy",
-    "artists": [
-      "Priya Hemesh",
-      "Baba Sehgal"
-    ],
-    "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-    "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-    "durationMs": 271209,
-    "isPlaying": true,
-    "progressMs": 21839
-  },
+  "updatedAt": "2026-10-13T09:57:02.910Z",
+  "nowPlaying": null,
   "recent": [
     {
+      "name": "Unnaal Unnaal",
+      "artists": [
+        "A.R. Rahman",
+        "Hariharan",
+        "Haricharan",
+        "Pooja"
+      ],
+      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
+      "url": "https://open.spotify.com/track/6TEPHCFsVz4C0giqDPRFmO",
+      "durationMs": 307529,
+      "playedAt": "2026-10-13T09:51:56.114Z"
+    },
+    {
+      "name": "Kalaarasiga",
+      "artists": [
+        "A.R. Rahman",
+        "Shweta Mohan"
+      ],
+      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
+      "url": "https://open.spotify.com/track/7kvlhTrxrB84Pq169LHKsB",
+      "durationMs": 290725,
+      "playedAt": "2026-10-13T09:51:50.812Z"
+    },
+    {
+      "name": "Ambikapathy",
+      "artists": [
+        "A.R. Rahman",
+        "Naresh Iyer",
+        "Vairamuthu"
+      ],
+      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
+      "url": "https://open.spotify.com/track/0QBuP7vvKyoGAMlUBDJVWn",
+      "durationMs": 255545,
+      "playedAt": "2026-10-13T09:50:51.151Z"
+    },
+    {
+      "name": "Onnam Class",
+      "artists": [
+        "Mukesh",
+        "Priyadarshini"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
+      "durationMs": 250125,
+      "playedAt": "2026-10-13T09:40:05.618Z"
+    },
+    {
       "name": "Bad Boy",
       "artists": [
         "Priya Hemesh",
@@ -24,57 +63,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
       "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
       "durationMs": 271209,
-      "playedAt": "2026-10-13T09:26:29.315Z"
-    },
-    {
-      "name": "Bad Boy",
-      "artists": [
-        "Priya Hemesh",
-        "Baba Sehgal"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-      "durationMs": 271209,
-      "playedAt": "2026-10-13T09:26:16.561Z"
-    },
-    {
-      "name": "En Fuse Pochu",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Karthik",
-        "Ramya NSK"
-      ],
-      "album": "Arrambam (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
-      "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
-      "durationMs": 282853,
-      "playedAt": "2026-10-13T03:51:08.028Z"
-    },
-    {
-      "name": "Bad Boy",
-      "artists": [
-        "Priya Hemesh",
-        "Baba Sehgal"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-      "durationMs": 271209,
-      "playedAt": "2026-10-13T02:55:19.710Z"
-    },
-    {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-13T00:49:41.648Z"
+      "playedAt": "2026-10-13T09:35:54.852Z"
     }
   ]
 }
