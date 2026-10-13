@@ -1,7 +1,45 @@
 {
-  "updatedAt": "2026-10-13T02:26:18.617Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-13T02:56:23.023Z",
+  "nowPlaying": {
+    "name": "En Fuse Pochu",
+    "artists": [
+      "Yuvan Shankar Raja",
+      "Karthik",
+      "Ramya NSK"
+    ],
+    "album": "Arrambam (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
+    "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
+    "durationMs": 282853,
+    "isPlaying": true,
+    "progressMs": 40566
+  },
   "recent": [
+    {
+      "name": "Bad Boy",
+      "artists": [
+        "Priya Hemesh",
+        "Baba Sehgal"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
+      "durationMs": 271209,
+      "playedAt": "2026-10-13T02:55:19.710Z"
+    },
+    {
+      "name": "Idhayame Idhayame",
+      "artists": [
+        "Thaman S",
+        "Manojna",
+        "Vivek"
+      ],
+      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
+      "durationMs": 270000,
+      "playedAt": "2026-10-13T00:49:41.648Z"
+    },
     {
       "name": "En Fuse Pochu",
       "artists": [
@@ -41,28 +79,6 @@
       "url": "https://open.spotify.com/track/0HGG3ASk21htkWoR8O3MUG",
       "durationMs": 204138,
       "playedAt": "2026-10-12T18:49:20.097Z"
-    },
-    {
-      "name": "Im Back",
-      "artists": [
-        "Yuvan Shankar Raja"
-      ],
-      "album": "Billa (Original Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e026e673341096095bc25a21800",
-      "url": "https://open.spotify.com/track/0NEG76v9DL2B3FBKwR8Pqz",
-      "durationMs": 42041,
-      "playedAt": "2026-10-12T18:45:55.499Z"
-    },
-    {
-      "name": "Engagement Ring - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/2RUTwDbXpuzHyDlJdWLXxG",
-      "durationMs": 111000,
-      "playedAt": "2026-10-12T18:45:13.001Z"
     }
   ]
 }
