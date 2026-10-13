@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-13T10:27:09.781Z",
-  "nowPlaying": {
-    "name": "Yamma Yamma",
-    "artists": [
-      "Harris Jayaraj",
-      "S. P. Balasubrahmanyam",
-      "Kabilan"
-    ],
-    "album": "7 Aum Arivu (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0294992e7241baf2efd4f8c368",
-    "url": "https://open.spotify.com/track/1dmTEETgoWQVeNZb1g8dZc",
-    "durationMs": 367493,
-    "isPlaying": false,
-    "progressMs": 244440
-  },
+  "updatedAt": "2026-10-13T10:57:11.946Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Neethane Enthan Pon Vasantham",
