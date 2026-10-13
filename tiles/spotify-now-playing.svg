@@ -7,7 +7,7 @@
   </style>
 
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" class="title">Last Played</text>
-  <text x="20" y="75" class="name">Unnaal Unnaal</text>
-  <text x="20" y="105" class="artist">A.R. Rahman, Hariharan, Haricharan, Pooja</text>
+  <text x="20" y="35" class="title">Now Playing</text>
+  <text x="20" y="75" class="name">Yamma Yamma</text>
+  <text x="20" y="105" class="artist">Harris Jayaraj, S. P. Balasubrahmanyam, Kabilan</text>
 </svg>
