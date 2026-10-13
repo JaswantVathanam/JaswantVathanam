@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T02:56:23.023Z",
+  "updatedAt": "2026-10-13T03:26:24.268Z",
   "nowPlaying": {
     "name": "En Fuse Pochu",
     "artists": [
@@ -12,7 +12,7 @@
     "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
     "durationMs": 282853,
     "isPlaying": true,
-    "progressMs": 40566
+    "progressMs": 228525
   },
   "recent": [
     {
