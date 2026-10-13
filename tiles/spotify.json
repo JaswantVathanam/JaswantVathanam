@@ -1,19 +1,55 @@
 {
-  "updatedAt": "2026-10-13T11:57:14.064Z",
+  "updatedAt": "2026-10-13T12:27:13.521Z",
   "nowPlaying": {
-    "name": "Bad Boy",
+    "name": "Onnam Class",
     "artists": [
-      "Priya Hemesh",
-      "Baba Sehgal"
+      "Mukesh",
+      "Priyadarshini"
     ],
     "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-    "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-    "durationMs": 271209,
-    "isPlaying": true,
-    "progressMs": 46406
+    "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
+    "durationMs": 250125,
+    "isPlaying": false,
+    "progressMs": 119732
   },
   "recent": [
+    {
+      "name": "Bad Boy",
+      "artists": [
+        "Priya Hemesh",
+        "Baba Sehgal"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
+      "durationMs": 271209,
+      "playedAt": "2026-10-13T12:24:20.066Z"
+    },
+    {
+      "name": "Onnam Class",
+      "artists": [
+        "Mukesh",
+        "Priyadarshini"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
+      "durationMs": 250125,
+      "playedAt": "2026-10-13T12:11:02.088Z"
+    },
+    {
+      "name": "Bad Boy",
+      "artists": [
+        "Priya Hemesh",
+        "Baba Sehgal"
+      ],
+      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
+      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
+      "durationMs": 271209,
+      "playedAt": "2026-10-13T12:06:14.183Z"
+    },
     {
       "name": "Yamma Yamma",
       "artists": [
@@ -38,46 +74,6 @@
       "url": "https://open.spotify.com/track/7cKijdKH6rq6R9kJ91EI55",
       "durationMs": 258124,
       "playedAt": "2026-10-13T10:17:17.004Z"
-    },
-    {
-      "name": "Unnaal Unnaal",
-      "artists": [
-        "A.R. Rahman",
-        "Hariharan",
-        "Haricharan",
-        "Pooja"
-      ],
-      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
-      "url": "https://open.spotify.com/track/6TEPHCFsVz4C0giqDPRFmO",
-      "durationMs": 307529,
-      "playedAt": "2026-10-13T10:12:17.259Z"
-    },
-    {
-      "name": "Unnaal Unnaal",
-      "artists": [
-        "A.R. Rahman",
-        "Hariharan",
-        "Haricharan",
-        "Pooja"
-      ],
-      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
-      "url": "https://open.spotify.com/track/6TEPHCFsVz4C0giqDPRFmO",
-      "durationMs": 307529,
-      "playedAt": "2026-10-13T09:51:56.114Z"
-    },
-    {
-      "name": "Kalaarasiga",
-      "artists": [
-        "A.R. Rahman",
-        "Shweta Mohan"
-      ],
-      "album": "Ambikapathy (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e021d6eb6ff850cbafec58c42a6",
-      "url": "https://open.spotify.com/track/7kvlhTrxrB84Pq169LHKsB",
-      "durationMs": 290725,
-      "playedAt": "2026-10-13T09:51:50.812Z"
     }
   ]
 }
