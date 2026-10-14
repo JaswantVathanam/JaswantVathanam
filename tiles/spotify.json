@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-14T15:30:08.222Z",
+  "updatedAt": "2026-10-14T16:00:09.333Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "The Family - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
+      "durationMs": 100999,
+      "playedAt": "2026-10-14T15:39:04.989Z"
+    },
     {
       "name": "Doctor Theme - Background Score",
       "artists": [
@@ -47,17 +58,6 @@
       "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
       "durationMs": 132500,
       "playedAt": "2026-10-14T13:13:55.378Z"
-    },
-    {
-      "name": "Varun Intro - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/6WOogz2odCa6Udwfn4v9kK",
-      "durationMs": 101437,
-      "playedAt": "2026-10-14T12:59:57.568Z"
     }
   ]
 }
