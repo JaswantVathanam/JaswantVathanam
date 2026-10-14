@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T02:28:49.750Z",
+  "updatedAt": "2026-10-14T02:58:55.139Z",
   "nowPlaying": {
     "name": "Agalaathey - From \"Nerkonda Paarvai\"",
     "artists": [
@@ -11,9 +11,45 @@
     "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
     "durationMs": 276262,
     "isPlaying": true,
-    "progressMs": 19313
+    "progressMs": 149761
   },
   "recent": [
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T02:56:17.081Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T02:51:34.745Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T02:42:13.588Z"
+    },
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -37,43 +73,6 @@
       "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
       "durationMs": 276262,
       "playedAt": "2026-10-14T02:20:14.503Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-14T02:10:34.236Z"
-    },
-    {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-14T02:01:42.868Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-13T18:37:19.576Z"
     }
   ]
 }
