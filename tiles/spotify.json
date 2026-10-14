@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-10-14T11:29:42.248Z",
+  "updatedAt": "2026-10-14T11:59:45.307Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Nee Maaya Nizhal",
+      "artists": [
+        "Bhadra Rajin",
+        "Vineeth Sreenivasan",
+        "Hesham Abdul Wahab"
+      ],
+      "album": "Hi Nanna (TAMIL)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0206b3d2510f591930d76ba196",
+      "url": "https://open.spotify.com/track/3w998bRm0IWuj08vXW3C84",
+      "durationMs": 257255,
+      "playedAt": "2026-10-14T11:45:14.144Z"
+    },
     {
       "name": "Onnam Class",
       "artists": [
@@ -50,19 +63,6 @@
       "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
       "durationMs": 276262,
       "playedAt": "2026-10-14T09:37:06.620Z"
-    },
-    {
-      "name": "Yamma Yamma",
-      "artists": [
-        "Harris Jayaraj",
-        "S. P. Balasubrahmanyam",
-        "Kabilan"
-      ],
-      "album": "7 Aum Arivu (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0294992e7241baf2efd4f8c368",
-      "url": "https://open.spotify.com/track/1dmTEETgoWQVeNZb1g8dZc",
-      "durationMs": 367493,
-      "playedAt": "2026-10-14T09:32:44.518Z"
     }
   ]
 }
