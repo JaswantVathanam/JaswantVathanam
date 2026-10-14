@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-14T17:00:14.781Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-14T17:30:18.644Z",
+  "nowPlaying": {
+    "name": "The Family - Background Score",
+    "artists": [
+      "Anirudh Ravichander"
+    ],
+    "album": "Doctor (Original Background Score)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+    "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
+    "durationMs": 100999,
+    "isPlaying": false,
+    "progressMs": 39665
+  },
   "recent": [
+    {
+      "name": "The Family - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
+      "durationMs": 100999,
+      "playedAt": "2026-10-14T17:18:29.366Z"
+    },
     {
       "name": "The Family - Background Score",
       "artists": [
@@ -46,18 +68,6 @@
       "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
       "durationMs": 43124,
       "playedAt": "2026-10-14T15:21:30.080Z"
-    },
-    {
-      "name": "Climax Fight - Background Score",
-      "artists": [
-        "Anirudh Ravichander",
-        "Niranjana Ramanan"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
-      "durationMs": 132500,
-      "playedAt": "2026-10-14T13:13:55.378Z"
     }
   ]
 }
