@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T00:16:10.445Z",
+  "updatedAt": "2026-10-14T00:28:36.307Z",
   "nowPlaying": {
     "name": "Idhayame Idhayame",
     "artists": [
@@ -12,7 +12,7 @@
     "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
     "durationMs": 270000,
     "isPlaying": false,
-    "progressMs": 27580
+    "progressMs": 18351
   },
   "recent": [
     {
