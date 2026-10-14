@@ -1,7 +1,44 @@
 {
-  "updatedAt": "2026-10-14T09:29:21.958Z",
+  "updatedAt": "2026-10-14T09:59:17.800Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T09:37:06.620Z"
+    },
+    {
+      "name": "Yamma Yamma",
+      "artists": [
+        "Harris Jayaraj",
+        "S. P. Balasubrahmanyam",
+        "Kabilan"
+      ],
+      "album": "7 Aum Arivu (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0294992e7241baf2efd4f8c368",
+      "url": "https://open.spotify.com/track/1dmTEETgoWQVeNZb1g8dZc",
+      "durationMs": 367493,
+      "playedAt": "2026-10-14T09:32:44.518Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T06:57:50.215Z"
+    },
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -25,43 +62,6 @@
       "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
       "durationMs": 276262,
       "playedAt": "2026-10-14T06:14:11.362Z"
-    },
-    {
-      "name": "En Fuse Pochu",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Karthik",
-        "Ramya NSK"
-      ],
-      "album": "Arrambam (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
-      "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
-      "durationMs": 282853,
-      "playedAt": "2026-10-14T04:18:11.077Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-14T03:01:01.048Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-14T02:56:17.081Z"
     }
   ]
 }
