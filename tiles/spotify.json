@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-10-14T01:58:43.270Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-14T02:28:49.750Z",
+  "nowPlaying": {
+    "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+    "artists": [
+      "Yuvan Shankar Raja",
+      "Prithivee"
+    ],
+    "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+    "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+    "durationMs": 276262,
+    "isPlaying": true,
+    "progressMs": 19313
+  },
   "recent": [
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
@@ -12,55 +24,56 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
       "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
       "durationMs": 276262,
+      "playedAt": "2026-10-14T02:25:34.274Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T02:20:14.503Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T02:10:34.236Z"
+    },
+    {
+      "name": "Idhayame Idhayame",
+      "artists": [
+        "Thaman S",
+        "Manojna",
+        "Vivek"
+      ],
+      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
+      "durationMs": 270000,
+      "playedAt": "2026-10-14T02:01:42.868Z"
+    },
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
       "playedAt": "2026-10-13T18:37:19.576Z"
-    },
-    {
-      "name": "Bad Boy",
-      "artists": [
-        "Priya Hemesh",
-        "Baba Sehgal"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-      "durationMs": 271209,
-      "playedAt": "2026-10-13T18:22:01.778Z"
-    },
-    {
-      "name": "Onnam Class",
-      "artists": [
-        "Mukesh",
-        "Priyadarshini"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
-      "durationMs": 250125,
-      "playedAt": "2026-10-13T12:43:46.178Z"
-    },
-    {
-      "name": "Bad Boy",
-      "artists": [
-        "Priya Hemesh",
-        "Baba Sehgal"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/3uQqGHTGByJ4aIELW2gWwd",
-      "durationMs": 271209,
-      "playedAt": "2026-10-13T12:24:20.066Z"
-    },
-    {
-      "name": "Onnam Class",
-      "artists": [
-        "Mukesh",
-        "Priyadarshini"
-      ],
-      "album": "Alex Pandiyan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02961788c53ea6caaa8d594f7f",
-      "url": "https://open.spotify.com/track/1Uwil2gorKAmvV2UTxyWEE",
-      "durationMs": 250125,
-      "playedAt": "2026-10-13T12:11:02.088Z"
     }
   ]
 }
