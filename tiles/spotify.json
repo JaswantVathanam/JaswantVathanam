@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-14T02:58:55.139Z",
-  "nowPlaying": {
-    "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-    "artists": [
-      "Yuvan Shankar Raja",
-      "Prithivee"
-    ],
-    "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-    "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-    "durationMs": 276262,
-    "isPlaying": true,
-    "progressMs": 149761
-  },
+  "updatedAt": "2026-10-14T03:29:00.396Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Yuvan Shankar Raja",
+        "Prithivee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
+      "durationMs": 276262,
+      "playedAt": "2026-10-14T03:01:01.048Z"
+    },
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -61,18 +61,6 @@
       "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
       "durationMs": 276262,
       "playedAt": "2026-10-14T02:25:34.274Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-14T02:20:14.503Z"
     }
   ]
 }
