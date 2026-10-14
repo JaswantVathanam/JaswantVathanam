@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-14T00:58:35.471Z",
-  "nowPlaying": {
-    "name": "Idhayame Idhayame",
-    "artists": [
-      "Thaman S",
-      "Manojna",
-      "Vivek"
-    ],
-    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-    "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-    "durationMs": 270000,
-    "isPlaying": false,
-    "progressMs": 4636
-  },
+  "updatedAt": "2026-10-14T01:28:40.160Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
