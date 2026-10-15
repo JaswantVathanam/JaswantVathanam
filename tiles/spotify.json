@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-15T00:30:53.846Z",
-  "nowPlaying": {
-    "name": "Idhayame Idhayame",
-    "artists": [
-      "Thaman S",
-      "Manojna",
-      "Vivek"
-    ],
-    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-    "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-    "durationMs": 270000,
-    "isPlaying": false,
-    "progressMs": 14432
-  },
+  "updatedAt": "2026-10-15T01:31:07.082Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "The Family - Background Score",
