@@ -1,7 +1,45 @@
 {
-  "updatedAt": "2026-10-15T19:02:45.179Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-15T19:32:48.458Z",
+  "nowPlaying": {
+    "name": "Kudikara Nenju",
+    "artists": [
+      "Jen Martin",
+      "Dhruv Vikram",
+      "Vishnu Edavan"
+    ],
+    "album": "Hi (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+    "durationMs": 241593,
+    "isPlaying": false,
+    "progressMs": 202979
+  },
   "recent": [
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-15T19:26:23.972Z"
+    },
+    {
+      "name": "Climax Fight - Background Score",
+      "artists": [
+        "Anirudh Ravichander",
+        "Niranjana Ramanan"
+      ],
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
+      "durationMs": 132500,
+      "playedAt": "2026-10-15T19:21:58.728Z"
+    },
     {
       "name": "Doctor Theme - Background Score",
       "artists": [
@@ -34,30 +72,6 @@
       "url": "https://open.spotify.com/track/0MDMCbOT6Gb5IRgLk2PbWn",
       "durationMs": 119500,
       "playedAt": "2026-10-15T16:19:26.491Z"
-    },
-    {
-      "name": "Yaaro Manathile",
-      "artists": [
-        "Harris Jayaraj",
-        "Bombay Jayashri",
-        "Krish"
-      ],
-      "album": "Dhaam Dhoom (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0223b975206c7690370bce2b07",
-      "url": "https://open.spotify.com/track/7dFqLUWUZ7CKsEAFwf3d4H",
-      "durationMs": 303400,
-      "playedAt": "2026-10-15T14:18:10.551Z"
-    },
-    {
-      "name": "Naan Erikarai",
-      "artists": [
-        "Ilaiyaraaja"
-      ],
-      "album": "Chinna Thayee",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a4347940cb1940e641670199",
-      "url": "https://open.spotify.com/track/2lTWGpqnKh0CZwRl5qtFLi",
-      "durationMs": 292896,
-      "playedAt": "2026-10-15T14:04:10.203Z"
     }
   ]
 }
