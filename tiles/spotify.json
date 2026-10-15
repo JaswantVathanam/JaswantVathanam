@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-15T20:32:52.678Z",
-  "nowPlaying": {
-    "name": "Kudikara Nenju",
-    "artists": [
-      "Jen Martin",
-      "Dhruv Vikram",
-      "Vishnu Edavan"
-    ],
-    "album": "Hi (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-    "durationMs": 241593,
-    "isPlaying": true,
-    "progressMs": 43334
-  },
+  "updatedAt": "2026-10-15T21:02:54.122Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-15T20:36:14.161Z"
+    },
     {
       "name": "Kudikara Nenju",
       "artists": [
@@ -65,17 +65,6 @@
       "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
       "durationMs": 132500,
       "playedAt": "2026-10-15T19:21:58.728Z"
-    },
-    {
-      "name": "Doctor Theme - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
-      "durationMs": 43124,
-      "playedAt": "2026-10-15T16:23:16.860Z"
     }
   ]
 }
