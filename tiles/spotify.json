@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-15T03:31:22.809Z",
-  "nowPlaying": {
-    "name": "Nee Kavithaigala",
-    "artists": [
-      "Dhibu Ninan Thomas",
-      "Pradeep Kumar"
-    ],
-    "album": "Maragatha Naanayam (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
-    "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
-    "durationMs": 276250,
-    "isPlaying": true,
-    "progressMs": 174738
-  },
+  "updatedAt": "2026-10-15T04:01:17.436Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Nee Kavithaigala",
+      "artists": [
+        "Dhibu Ninan Thomas",
+        "Pradeep Kumar"
+      ],
+      "album": "Maragatha Naanayam (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
+      "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
+      "durationMs": 276250,
+      "playedAt": "2026-10-15T03:33:04.389Z"
+    },
     {
       "name": "Kaadhal Rojave",
       "artists": [
@@ -67,19 +67,6 @@
       "url": "https://open.spotify.com/track/6iDVvFznOXkn6LZh4BVCIx",
       "durationMs": 258159,
       "playedAt": "2026-10-15T02:45:39.380Z"
-    },
-    {
-      "name": "Neeraambal Poovae",
-      "artists": [
-        "Harris Jayaraj",
-        "Arjun Menon",
-        "MC Vickey"
-      ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
-      "durationMs": 177213,
-      "playedAt": "2026-10-15T02:41:21.182Z"
     }
   ]
 }
