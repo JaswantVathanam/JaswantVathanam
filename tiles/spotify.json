@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-15T14:02:16.658Z",
-  "nowPlaying": {
-    "name": "Naan Erikarai",
-    "artists": [
-      "Ilaiyaraaja"
-    ],
-    "album": "Chinna Thayee",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a4347940cb1940e641670199",
-    "url": "https://open.spotify.com/track/2lTWGpqnKh0CZwRl5qtFLi",
-    "durationMs": 292896,
-    "isPlaying": true,
-    "progressMs": 178787
-  },
+  "updatedAt": "2026-10-15T14:32:16.328Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Naan Erikarai",
+      "artists": [
+        "Ilaiyaraaja"
+      ],
+      "album": "Chinna Thayee",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a4347940cb1940e641670199",
+      "url": "https://open.spotify.com/track/2lTWGpqnKh0CZwRl5qtFLi",
+      "durationMs": 292896,
+      "playedAt": "2026-10-15T14:04:10.203Z"
+    },
     {
       "name": "Nee Kavithaigala",
       "artists": [
@@ -62,18 +62,6 @@
       "url": "https://open.spotify.com/track/4hRwKtnEaQYSrWWDztD8tr",
       "durationMs": 332333,
       "playedAt": "2026-10-15T13:39:15.753Z"
-    },
-    {
-      "name": "Nee Kavithaigala",
-      "artists": [
-        "Dhibu Ninan Thomas",
-        "Pradeep Kumar"
-      ],
-      "album": "Maragatha Naanayam (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
-      "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
-      "durationMs": 276250,
-      "playedAt": "2026-10-15T03:33:04.389Z"
     }
   ]
 }
