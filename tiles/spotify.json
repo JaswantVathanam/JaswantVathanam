@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-15T13:32:32.894Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-15T14:02:16.658Z",
+  "nowPlaying": {
+    "name": "Naan Erikarai",
+    "artists": [
+      "Ilaiyaraaja"
+    ],
+    "album": "Chinna Thayee",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a4347940cb1940e641670199",
+    "url": "https://open.spotify.com/track/2lTWGpqnKh0CZwRl5qtFLi",
+    "durationMs": 292896,
+    "isPlaying": true,
+    "progressMs": 178787
+  },
   "recent": [
     {
       "name": "Nee Kavithaigala",
@@ -12,7 +23,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
       "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
       "durationMs": 276250,
-      "playedAt": "2026-10-15T03:33:04.389Z"
+      "playedAt": "2026-10-15T13:57:41.468Z"
     },
     {
       "name": "Kaadhal Rojave",
@@ -26,47 +37,43 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02fa718d9b5378a9afb3e60f32",
       "url": "https://open.spotify.com/track/7ixjRjfWTVgEKp6YQeCH0d",
       "durationMs": 302994,
-      "playedAt": "2026-10-15T03:28:27.686Z"
+      "playedAt": "2026-10-15T13:53:00.305Z"
     },
     {
-      "name": "Enai Marubadi Marubadi",
+      "name": "Poove Sempoove - Male",
       "artists": [
-        "Harris Jayaraj",
-        "Vijay Prakash",
-        "Megha",
-        "Madhan Karky"
+        "Ilaiyaraaja",
+        "K. J. Yesudas"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0y7LTgTjnXbIFPE7TTs1Zo",
-      "durationMs": 350466,
-      "playedAt": "2026-10-15T03:03:24.294Z"
+      "album": "Solla Thudikuthu Manasu (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dd9103bbc16965727e10e3bf",
+      "url": "https://open.spotify.com/track/4hRwKtnEaQYSrWWDztD8tr",
+      "durationMs": 332333,
+      "playedAt": "2026-10-15T13:47:56.874Z"
     },
     {
-      "name": "Thaene Thaene Sendhaene",
+      "name": "Poove Sempoove - Male",
       "artists": [
-        "Harris Jayaraj",
-        "Haricharan",
-        "Pravin Saivi"
+        "Ilaiyaraaja",
+        "K. J. Yesudas"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
-      "durationMs": 220799,
-      "playedAt": "2026-10-15T02:49:20.220Z"
+      "album": "Solla Thudikuthu Manasu (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02dd9103bbc16965727e10e3bf",
+      "url": "https://open.spotify.com/track/4hRwKtnEaQYSrWWDztD8tr",
+      "durationMs": 332333,
+      "playedAt": "2026-10-15T13:39:15.753Z"
     },
     {
-      "name": "Dappankuthu Mettula",
+      "name": "Nee Kavithaigala",
       "artists": [
-        "Harris Jayaraj",
-        "Gana Bala",
-        "Ujjayinee Roy"
+        "Dhibu Ninan Thomas",
+        "Pradeep Kumar"
       ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/6iDVvFznOXkn6LZh4BVCIx",
-      "durationMs": 258159,
-      "playedAt": "2026-10-15T02:45:39.380Z"
+      "album": "Maragatha Naanayam (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
+      "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
+      "durationMs": 276250,
+      "playedAt": "2026-10-15T03:33:04.389Z"
     }
   ]
 }
