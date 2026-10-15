@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-10-15T06:01:28.055Z",
+  "updatedAt": "2026-10-15T06:31:41.124Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 2982,
-    "text": "49 mins",
+    "seconds": 3031,
+    "text": "50 mins",
     "languages": [
       {
         "name": "C#",
-        "seconds": 2481,
-        "percent": 83.2
-      },
-      {
-        "name": "Other",
-        "seconds": 326,
-        "percent": 10.92
+        "seconds": 2846,
+        "percent": 93.91
       },
       {
         "name": "Python",
         "seconds": 175,
-        "percent": 5.88
+        "percent": 5.79
+      },
+      {
+        "name": "Other",
+        "seconds": 9,
+        "percent": 0.3
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 2818,
-        "percent": 94.5
+        "seconds": 2867,
+        "percent": 94.59
       },
       {
         "name": "VS Code",
         "seconds": 164,
-        "percent": 5.5
+        "percent": 5.41
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 2818,
-        "percent": 94.5
+        "seconds": 2867,
+        "percent": 94.59
       },
       {
         "name": "Coding",
         "seconds": 164,
-        "percent": 5.5
+        "percent": 5.41
       }
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-15T05:35:52.570Z",
+    "at": "2026-10-15T05:36:40.996Z",
     "language": null,
     "category": "AI Coding"
   }
