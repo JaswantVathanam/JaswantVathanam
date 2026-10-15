@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-10-15T03:01:12.487Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-15T03:31:22.809Z",
+  "nowPlaying": {
+    "name": "Nee Kavithaigala",
+    "artists": [
+      "Dhibu Ninan Thomas",
+      "Pradeep Kumar"
+    ],
+    "album": "Maragatha Naanayam (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0274d12651cb5dd41c667f5fc1",
+    "url": "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42",
+    "durationMs": 276250,
+    "isPlaying": true,
+    "progressMs": 174738
+  },
   "recent": [
+    {
+      "name": "Kaadhal Rojave",
+      "artists": [
+        "S. P. Balasubrahmanyam",
+        "Sujatha",
+        "A.R. Rahman",
+        "Vairamuthu"
+      ],
+      "album": "Roja (Tamil)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02fa718d9b5378a9afb3e60f32",
+      "url": "https://open.spotify.com/track/7ixjRjfWTVgEKp6YQeCH0d",
+      "durationMs": 302994,
+      "playedAt": "2026-10-15T03:28:27.686Z"
+    },
+    {
+      "name": "Enai Marubadi Marubadi",
+      "artists": [
+        "Harris Jayaraj",
+        "Vijay Prakash",
+        "Megha",
+        "Madhan Karky"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/0y7LTgTjnXbIFPE7TTs1Zo",
+      "durationMs": 350466,
+      "playedAt": "2026-10-15T03:03:24.294Z"
+    },
     {
       "name": "Thaene Thaene Sendhaene",
       "artists": [
@@ -40,32 +80,6 @@
       "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
       "durationMs": 177213,
       "playedAt": "2026-10-15T02:41:21.182Z"
-    },
-    {
-      "name": "Neeraambal Poovae",
-      "artists": [
-        "Harris Jayaraj",
-        "Arjun Menon",
-        "MC Vickey"
-      ],
-      "album": "Nannbenda (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
-      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
-      "durationMs": 177213,
-      "playedAt": "2026-10-15T02:35:27.623Z"
-    },
-    {
-      "name": "En Fuse Pochu",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Karthik",
-        "Ramya NSK"
-      ],
-      "album": "Arrambam (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02388542ff4666897e78935ced",
-      "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
-      "durationMs": 282853,
-      "playedAt": "2026-10-15T02:26:11.930Z"
     }
   ]
 }
