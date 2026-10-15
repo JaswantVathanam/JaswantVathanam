@@ -1,7 +1,59 @@
 {
-  "updatedAt": "2026-10-15T02:31:10.383Z",
+  "updatedAt": "2026-10-15T03:01:12.487Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Thaene Thaene Sendhaene",
+      "artists": [
+        "Harris Jayaraj",
+        "Haricharan",
+        "Pravin Saivi"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/6xxYGL8zoIRug5Yyt0ILJ9",
+      "durationMs": 220799,
+      "playedAt": "2026-10-15T02:49:20.220Z"
+    },
+    {
+      "name": "Dappankuthu Mettula",
+      "artists": [
+        "Harris Jayaraj",
+        "Gana Bala",
+        "Ujjayinee Roy"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/6iDVvFznOXkn6LZh4BVCIx",
+      "durationMs": 258159,
+      "playedAt": "2026-10-15T02:45:39.380Z"
+    },
+    {
+      "name": "Neeraambal Poovae",
+      "artists": [
+        "Harris Jayaraj",
+        "Arjun Menon",
+        "MC Vickey"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
+      "durationMs": 177213,
+      "playedAt": "2026-10-15T02:41:21.182Z"
+    },
+    {
+      "name": "Neeraambal Poovae",
+      "artists": [
+        "Harris Jayaraj",
+        "Arjun Menon",
+        "MC Vickey"
+      ],
+      "album": "Nannbenda (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e020ecf651eb79447015451bc6f",
+      "url": "https://open.spotify.com/track/0kd2PjOXjxGS2hM6V2YN4m",
+      "durationMs": 177213,
+      "playedAt": "2026-10-15T02:35:27.623Z"
+    },
     {
       "name": "En Fuse Pochu",
       "artists": [
@@ -14,53 +66,6 @@
       "url": "https://open.spotify.com/track/2StGyGUbGAeXiPXbkBvU4s",
       "durationMs": 282853,
       "playedAt": "2026-10-15T02:26:11.930Z"
-    },
-    {
-      "name": "Agalaathey - From \"Nerkonda Paarvai\"",
-      "artists": [
-        "Yuvan Shankar Raja",
-        "Prithivee"
-      ],
-      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
-      "url": "https://open.spotify.com/track/3FPJ0reifWuIxYFDgRVlBR",
-      "durationMs": 276262,
-      "playedAt": "2026-10-15T02:20:42.314Z"
-    },
-    {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-15T02:15:08.767Z"
-    },
-    {
-      "name": "The Family - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
-      "durationMs": 100999,
-      "playedAt": "2026-10-14T17:33:01.703Z"
-    },
-    {
-      "name": "The Family - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
-      "durationMs": 100999,
-      "playedAt": "2026-10-14T17:18:29.366Z"
     }
   ]
 }
