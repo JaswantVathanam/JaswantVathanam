@@ -1,7 +1,46 @@
 {
-  "updatedAt": "2026-10-15T20:02:53.786Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-15T20:32:52.678Z",
+  "nowPlaying": {
+    "name": "Kudikara Nenju",
+    "artists": [
+      "Jen Martin",
+      "Dhruv Vikram",
+      "Vishnu Edavan"
+    ],
+    "album": "Hi (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+    "durationMs": 241593,
+    "isPlaying": true,
+    "progressMs": 43334
+  },
   "recent": [
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-15T20:20:01.165Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-15T19:43:04.413Z"
+    },
     {
       "name": "Kudikara Nenju",
       "artists": [
@@ -37,28 +76,6 @@
       "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
       "durationMs": 43124,
       "playedAt": "2026-10-15T16:23:16.860Z"
-    },
-    {
-      "name": "Varun Fights - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/39WyZxR4qerINhYeZVMniS",
-      "durationMs": 45500,
-      "playedAt": "2026-10-15T16:20:11.864Z"
-    },
-    {
-      "name": "Metro Train Fight - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/0MDMCbOT6Gb5IRgLk2PbWn",
-      "durationMs": 119500,
-      "playedAt": "2026-10-15T16:19:26.491Z"
     }
   ]
 }
