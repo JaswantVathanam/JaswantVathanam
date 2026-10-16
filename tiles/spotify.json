@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-16T18:35:05.112Z",
-  "nowPlaying": {
-    "name": "Endrendrum Punnagai",
-    "artists": [
-      "Srinivas",
-      "Clinton Cerejo",
-      "Praveen",
-      "Shankar"
-    ],
-    "album": "Alaipayuthey",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
-    "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
-    "durationMs": 241973,
-    "isPlaying": false,
-    "progressMs": 217898
-  },
+  "updatedAt": "2026-10-16T19:05:12.251Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Endrendrum Punnagai",
