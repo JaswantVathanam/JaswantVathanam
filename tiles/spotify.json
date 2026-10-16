@@ -1,7 +1,69 @@
 {
-  "updatedAt": "2026-10-16T19:05:12.251Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-16T19:35:15.743Z",
+  "nowPlaying": {
+    "name": "Metro Train Fight - Background Score",
+    "artists": [
+      "Anirudh Ravichander"
+    ],
+    "album": "Doctor (Original Background Score)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+    "url": "https://open.spotify.com/track/0MDMCbOT6Gb5IRgLk2PbWn",
+    "durationMs": 119500,
+    "isPlaying": true,
+    "progressMs": 78032
+  },
   "recent": [
+    {
+      "name": "Yaarukkum Sollaama",
+      "artists": [
+        "Thaman S",
+        "Rahul Nambiar"
+      ],
+      "album": "Yaarukkum Sollaama (From \"All in All Azhagu Raja\")",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e025a5aa36003f8d4987774186b",
+      "url": "https://open.spotify.com/track/1lZGFtuuguWXXxrNAYiFSo",
+      "durationMs": 273906,
+      "playedAt": "2026-10-16T19:32:52.920Z"
+    },
+    {
+      "name": "Aaga Motham Ennai",
+      "artists": [
+        "Gopi Sundar"
+      ],
+      "album": "Bangalore Naatkal (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e021bf494b5d7ba3755887a8c45",
+      "url": "https://open.spotify.com/track/60OKZHIakOZyaXKKzb660F",
+      "durationMs": 302601,
+      "playedAt": "2026-10-16T19:26:15.052Z"
+    },
+    {
+      "name": "Endrendrum Punnagai",
+      "artists": [
+        "Srinivas",
+        "Clinton Cerejo",
+        "Praveen",
+        "Shankar"
+      ],
+      "album": "Alaipayuthey",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
+      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
+      "durationMs": 241973,
+      "playedAt": "2026-10-16T19:19:28.809Z"
+    },
+    {
+      "name": "Endrendrum Punnagai",
+      "artists": [
+        "Srinivas",
+        "Clinton Cerejo",
+        "Praveen",
+        "Shankar"
+      ],
+      "album": "Alaipayuthey",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
+      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
+      "durationMs": 241973,
+      "playedAt": "2026-10-16T18:47:41.769Z"
+    },
     {
       "name": "Endrendrum Punnagai",
       "artists": [
@@ -15,61 +77,6 @@
       "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
       "durationMs": 241973,
       "playedAt": "2026-10-16T18:14:46.417Z"
-    },
-    {
-      "name": "Endrendrum Punnagai",
-      "artists": [
-        "Srinivas",
-        "Clinton Cerejo",
-        "Praveen",
-        "Shankar"
-      ],
-      "album": "Alaipayuthey",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
-      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
-      "durationMs": 241973,
-      "playedAt": "2026-10-16T17:59:14.692Z"
-    },
-    {
-      "name": "Nila Kaaigiradhu",
-      "artists": [
-        "Harini",
-        "A.R. Rahman",
-        "Vairamuthu"
-      ],
-      "album": "Indira",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02015ba8caf21465ad6153a19f",
-      "url": "https://open.spotify.com/track/4Eb2oEEBes3Q2ilMMbedTd",
-      "durationMs": 205374,
-      "playedAt": "2026-10-16T17:55:12.222Z"
-    },
-    {
-      "name": "Mazhai Vara Pogudhae",
-      "artists": [
-        "Harris Jayaraj",
-        "Karthik",
-        "Emcee Jesz",
-        "Thamarai"
-      ],
-      "album": "Yennai Arindhaal (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e027c13279e82e5c35294351bb8",
-      "url": "https://open.spotify.com/track/5ich0wSxDxMryEjwZo6XzG",
-      "durationMs": 342547,
-      "playedAt": "2026-10-16T17:51:46.511Z"
-    },
-    {
-      "name": "Azhaipaya Azhaipaya",
-      "artists": [
-        "Thaman S",
-        "Karthik",
-        "Harini",
-        "Madhan Karky"
-      ],
-      "album": "Kadhalil Sodhapuvadhu Yeppadi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e029cac3e36c695aaf5bd5217d6",
-      "url": "https://open.spotify.com/track/5VF9jpIbk9j1humjVSu2Wl",
-      "durationMs": 254397,
-      "playedAt": "2026-10-16T17:46:00.689Z"
     }
   ]
 }
