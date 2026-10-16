@@ -1,20 +1,32 @@
 {
-  "updatedAt": "2026-10-16T13:34:34.701Z",
-  "nowPlaying": {
-    "name": "Kadhaippoma (From \"Oh My Kadavule\")",
-    "artists": [
-      "Leon James",
-      "Sid Sriram",
-      "Ko Sesha"
-    ],
-    "album": "Kadhaippoma (From \"Oh My Kadavule\")",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b90993f456d70b9859bd665e",
-    "url": "https://open.spotify.com/track/5cfKBuE5XKtlaNOVjQwA9H",
-    "durationMs": 282208,
-    "isPlaying": true,
-    "progressMs": 167039
-  },
+  "updatedAt": "2026-10-16T14:04:41.520Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Elay Keechan",
+      "artists": [
+        "A.R. Rahman",
+        "Madhan Karky"
+      ],
+      "album": "Kadal (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d9cc188164a2282653e349de",
+      "url": "https://open.spotify.com/track/2iXj3eyl9C6ZqCrVC5SJcR",
+      "durationMs": 371440,
+      "playedAt": "2026-10-16T13:49:19.492Z"
+    },
+    {
+      "name": "Kadhaippoma (From \"Oh My Kadavule\")",
+      "artists": [
+        "Leon James",
+        "Sid Sriram",
+        "Ko Sesha"
+      ],
+      "album": "Kadhaippoma (From \"Oh My Kadavule\")",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b90993f456d70b9859bd665e",
+      "url": "https://open.spotify.com/track/5cfKBuE5XKtlaNOVjQwA9H",
+      "durationMs": 282208,
+      "playedAt": "2026-10-16T13:36:29.556Z"
+    },
     {
       "name": "Sakkarakatti",
       "artists": [
@@ -51,33 +63,6 @@
       "url": "https://open.spotify.com/track/78TpWemV7s3oZUpTEz6zP2",
       "durationMs": 159660,
       "playedAt": "2026-10-16T13:11:54.738Z"
-    },
-    {
-      "name": "Sundari",
-      "artists": [
-        "S. P. Balasubrahmanyam",
-        "S. Janaki",
-        "Ilaiyaraaja",
-        "Vaali"
-      ],
-      "album": "Thalapathi",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-      "url": "https://open.spotify.com/track/7yVQoJaJEBIscknIZmYV9v",
-      "durationMs": 432457,
-      "playedAt": "2026-10-16T12:55:35.972Z"
-    },
-    {
-      "name": "Kannakuzhiya",
-      "artists": [
-        "Jen Martin",
-        "G. V. Prakash",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
-      "durationMs": 186551,
-      "playedAt": "2026-10-16T12:29:34.151Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T13:34:37.173Z",
+  "updatedAt": "2026-10-16T14:04:43.735Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 11162,
@@ -7,18 +7,18 @@
     "languages": [
       {
         "name": "C#",
-        "seconds": 8475,
-        "percent": 75.93
-      },
-      {
-        "name": "Other",
-        "seconds": 1001,
-        "percent": 8.97
+        "seconds": 9337,
+        "percent": 83.65
       },
       {
         "name": "Markdown",
         "seconds": 804,
         "percent": 7.2
+      },
+      {
+        "name": "XAML",
+        "seconds": 465,
+        "percent": 4.17
       }
     ],
     "editors": [
@@ -48,7 +48,7 @@
   },
   "lastHeartbeat": {
     "at": "2026-10-16T13:05:15.238Z",
-    "language": null,
+    "language": "C#",
     "category": "AI Coding"
   }
 }

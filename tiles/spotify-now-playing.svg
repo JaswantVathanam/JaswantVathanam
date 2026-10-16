@@ -7,7 +7,7 @@
   </style>
 
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" class="title">Now Playing</text>
-  <text x="20" y="75" class="name">Kadhaippoma (From "Oh My Kadavule")</text>
-  <text x="20" y="105" class="artist">Leon James, Sid Sriram, Ko Sesha</text>
+  <text x="20" y="35" class="title">Last Played</text>
+  <text x="20" y="75" class="name">Elay Keechan</text>
+  <text x="20" y="105" class="artist">A.R. Rahman, Madhan Karky</text>
 </svg>
