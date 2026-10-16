@@ -1,21 +1,57 @@
 {
-  "updatedAt": "2026-10-16T13:04:32.776Z",
+  "updatedAt": "2026-10-16T13:34:34.701Z",
   "nowPlaying": {
-    "name": "Rakkamma",
+    "name": "Kadhaippoma (From \"Oh My Kadavule\")",
     "artists": [
-      "S. P. Balasubrahmanyam",
-      "Swarnalatha",
-      "Ilaiyaraaja",
-      "Vaali"
+      "Leon James",
+      "Sid Sriram",
+      "Ko Sesha"
     ],
-    "album": "Thalapathi",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
-    "url": "https://open.spotify.com/track/4OP6YKN3QBAE1LPnzmILq9",
-    "durationMs": 431098,
+    "album": "Kadhaippoma (From \"Oh My Kadavule\")",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b90993f456d70b9859bd665e",
+    "url": "https://open.spotify.com/track/5cfKBuE5XKtlaNOVjQwA9H",
+    "durationMs": 282208,
     "isPlaying": true,
-    "progressMs": 8883
+    "progressMs": 167039
   },
   "recent": [
+    {
+      "name": "Sakkarakatti",
+      "artists": [
+        "Hiphop Tamizha"
+      ],
+      "album": "Meesaya Murukku (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02542a1fce78b3c44b1b3e8f0b",
+      "url": "https://open.spotify.com/track/1PaxAUxLEVpi75l0nDtwu1",
+      "durationMs": 189358,
+      "playedAt": "2026-10-16T13:30:01.961Z"
+    },
+    {
+      "name": "Kadhal Ara Onnu - Movie Version",
+      "artists": [
+        "Sean Roldan",
+        "Shakthisree Gopalan"
+      ],
+      "album": "Vaayai Moodi Pesavum (Original Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029fb20434796d4c246e8d25cb",
+      "url": "https://open.spotify.com/track/0Prh9J7ntIk1T5tHmuODaS",
+      "durationMs": 260574,
+      "playedAt": "2026-10-16T13:26:52.202Z"
+    },
+    {
+      "name": "Margazhithan",
+      "artists": [
+        "S. P. Balasubrahmanyam",
+        "Swarnalatha",
+        "Ilaiyaraaja",
+        "Vaali"
+      ],
+      "album": "Thalapathi",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ca868e08652256bc21ca1ba9",
+      "url": "https://open.spotify.com/track/78TpWemV7s3oZUpTEz6zP2",
+      "durationMs": 159660,
+      "playedAt": "2026-10-16T13:11:54.738Z"
+    },
     {
       "name": "Sundari",
       "artists": [
@@ -31,51 +67,17 @@
       "playedAt": "2026-10-16T12:55:35.972Z"
     },
     {
-      "name": "Kudikara Nenju",
+      "name": "Kannakuzhiya",
       "artists": [
         "Jen Martin",
-        "Dhruv Vikram",
+        "G. V. Prakash",
         "Vishnu Edavan"
       ],
       "album": "Hi (Original Motion Picture Soundtrack)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T12:19:13.474Z"
-    },
-    {
-      "name": "Senjitaley",
-      "artists": [
-        "Anirudh Ravichander",
-        "Vignesh Shivan"
-      ],
-      "album": "Remo (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
-      "url": "https://open.spotify.com/track/2RB3zzgxWc2RRBaJOkSEka",
-      "durationMs": 251333,
-      "playedAt": "2026-10-16T12:15:34.345Z"
-    },
-    {
-      "name": "Remo Nee Kadhalan",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
-      "url": "https://open.spotify.com/track/0iXMBWV4EvKcxxdUJMOCFu",
-      "durationMs": 243013,
-      "playedAt": "2026-10-16T12:13:44.751Z"
-    },
-    {
-      "name": "Remo Nee Kadhalan",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
-      "url": "https://open.spotify.com/track/0iXMBWV4EvKcxxdUJMOCFu",
-      "durationMs": 243013,
-      "playedAt": "2026-10-16T12:13:13.305Z"
+      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
+      "durationMs": 186551,
+      "playedAt": "2026-10-16T12:29:34.151Z"
     }
   ]
 }
