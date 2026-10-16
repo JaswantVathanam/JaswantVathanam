@@ -1,7 +1,59 @@
 {
-  "updatedAt": "2026-10-16T09:34:05.938Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-16T10:04:15.505Z",
+  "nowPlaying": {
+    "name": "Kudikara Nenju",
+    "artists": [
+      "Jen Martin",
+      "Dhruv Vikram",
+      "Vishnu Edavan"
+    ],
+    "album": "Hi (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+    "durationMs": 241593,
+    "isPlaying": true,
+    "progressMs": 43794
+  },
   "recent": [
+    {
+      "name": "Kannakuzhiya",
+      "artists": [
+        "Jen Martin",
+        "G. V. Prakash",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
+      "durationMs": 186551,
+      "playedAt": "2026-10-16T10:03:23.175Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T09:59:45.511Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T09:56:32.429Z"
+    },
     {
       "name": "Kudikara Nenju",
       "artists": [
@@ -27,45 +79,6 @@
       "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
       "durationMs": 241593,
       "playedAt": "2026-10-16T04:00:31.685Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T03:46:34.509Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T03:42:33.256Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T03:38:10.818Z"
     }
   ]
 }
