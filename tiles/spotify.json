@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-16T01:03:19.004Z",
-  "nowPlaying": {
-    "name": "Idhayame Idhayame",
-    "artists": [
-      "Thaman S",
-      "Manojna",
-      "Vivek"
-    ],
-    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-    "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-    "durationMs": 270000,
-    "isPlaying": false,
-    "progressMs": 24032
-  },
+  "updatedAt": "2026-10-16T01:33:19.016Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Kannakuzhiya",
