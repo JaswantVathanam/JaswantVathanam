@@ -1,69 +1,17 @@
 {
-  "updatedAt": "2026-10-16T11:04:16.057Z",
-  "nowPlaying": {
-    "name": "Kudikara Nenju",
-    "artists": [
-      "Jen Martin",
-      "Dhruv Vikram",
-      "Vishnu Edavan"
-    ],
-    "album": "Hi (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-    "durationMs": 241593,
-    "isPlaying": true,
-    "progressMs": 20899
-  },
+  "updatedAt": "2026-10-16T11:34:16.642Z",
+  "nowPlaying": null,
   "recent": [
     {
-      "name": "Rasagulla",
+      "name": "Varun Intro - Background Score",
       "artists": [
-        "Jen Martin",
-        "Anirudh Ravichander",
-        "Vishnu Edavan"
+        "Anirudh Ravichander"
       ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/6ia4eqVAcwp9t2BmoO3L2L",
-      "durationMs": 226375,
-      "playedAt": "2026-10-16T10:28:35.123Z"
-    },
-    {
-      "name": "Theme of Hi",
-      "artists": [
-        "Jen Martin"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/3Cr150v2kLrB4BW3XfGoWI",
-      "durationMs": 96919,
-      "playedAt": "2026-10-16T10:24:48.262Z"
-    },
-    {
-      "name": "Sakkaraiye",
-      "artists": [
-        "Jen Martin",
-        "Deepthi Suresh",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/75Wf78v1Ot8Vld7f9TIaIs",
-      "durationMs": 164208,
-      "playedAt": "2026-10-16T10:23:11.152Z"
-    },
-    {
-      "name": "Kathakali Kattappa",
-      "artists": [
-        "Jen Martin",
-        "Sathya Narayanan",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/4eZQ4veMpXDkUAidWQhofC",
-      "durationMs": 162857,
-      "playedAt": "2026-10-16T10:20:27.108Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/6WOogz2odCa6Udwfn4v9kK",
+      "durationMs": 101437,
+      "playedAt": "2026-10-16T11:33:49.482Z"
     },
     {
       "name": "Alexa",
@@ -76,7 +24,46 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
       "url": "https://open.spotify.com/track/0ajdxYTBe268CJJdoLzh9e",
       "durationMs": 149124,
-      "playedAt": "2026-10-16T10:13:27.826Z"
+      "playedAt": "2026-10-16T11:31:58.117Z"
+    },
+    {
+      "name": "Kannakuzhiya",
+      "artists": [
+        "Jen Martin",
+        "G. V. Prakash",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
+      "durationMs": 186551,
+      "playedAt": "2026-10-16T11:29:29.020Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T11:26:22.422Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T11:20:05.715Z"
     }
   ]
 }
