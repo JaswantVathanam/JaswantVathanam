@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T03:33:31.903Z",
+  "updatedAt": "2026-10-16T04:03:34.308Z",
   "nowPlaying": {
     "name": "Kudikara Nenju",
     "artists": [
@@ -12,7 +12,7 @@
     "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
     "durationMs": 241593,
     "isPlaying": true,
-    "progressMs": 202179
+    "progressMs": 162546
   },
   "recent": [
     {
@@ -26,59 +26,59 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
       "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
       "durationMs": 241593,
+      "playedAt": "2026-10-16T04:00:31.685Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T03:46:34.509Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T03:42:33.256Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T03:38:10.818Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
       "playedAt": "2026-10-16T02:51:07.216Z"
-    },
-    {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-16T01:50:09.987Z"
-    },
-    {
-      "name": "Kannakuzhiya",
-      "artists": [
-        "Jen Martin",
-        "G. V. Prakash",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
-      "durationMs": 186551,
-      "playedAt": "2026-10-16T00:07:27.086Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-15T20:36:14.161Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-15T20:20:01.165Z"
     }
   ]
 }
