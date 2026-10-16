@@ -1,82 +1,62 @@
 {
-  "updatedAt": "2026-10-16T19:35:15.743Z",
-  "nowPlaying": {
-    "name": "Metro Train Fight - Background Score",
-    "artists": [
-      "Anirudh Ravichander"
-    ],
-    "album": "Doctor (Original Background Score)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-    "url": "https://open.spotify.com/track/0MDMCbOT6Gb5IRgLk2PbWn",
-    "durationMs": 119500,
-    "isPlaying": true,
-    "progressMs": 78032
-  },
+  "updatedAt": "2026-10-16T20:35:14.347Z",
+  "nowPlaying": null,
   "recent": [
     {
-      "name": "Yaarukkum Sollaama",
+      "name": "The Family - Background Score",
       "artists": [
-        "Thaman S",
-        "Rahul Nambiar"
+        "Anirudh Ravichander"
       ],
-      "album": "Yaarukkum Sollaama (From \"All in All Azhagu Raja\")",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e025a5aa36003f8d4987774186b",
-      "url": "https://open.spotify.com/track/1lZGFtuuguWXXxrNAYiFSo",
-      "durationMs": 273906,
-      "playedAt": "2026-10-16T19:32:52.920Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
+      "durationMs": 100999,
+      "playedAt": "2026-10-16T20:28:19.207Z"
     },
     {
-      "name": "Aaga Motham Ennai",
+      "name": "Doctor Theme - Background Score",
       "artists": [
-        "Gopi Sundar"
+        "Anirudh Ravichander"
       ],
-      "album": "Bangalore Naatkal (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e021bf494b5d7ba3755887a8c45",
-      "url": "https://open.spotify.com/track/60OKZHIakOZyaXKKzb660F",
-      "durationMs": 302601,
-      "playedAt": "2026-10-16T19:26:15.052Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
+      "durationMs": 43124,
+      "playedAt": "2026-10-16T20:03:35.531Z"
     },
     {
-      "name": "Endrendrum Punnagai",
+      "name": "Climax Fight - Background Score",
       "artists": [
-        "Srinivas",
-        "Clinton Cerejo",
-        "Praveen",
-        "Shankar"
+        "Anirudh Ravichander",
+        "Niranjana Ramanan"
       ],
-      "album": "Alaipayuthey",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
-      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
-      "durationMs": 241973,
-      "playedAt": "2026-10-16T19:19:28.809Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
+      "durationMs": 132500,
+      "playedAt": "2026-10-16T20:02:52.022Z"
     },
     {
-      "name": "Endrendrum Punnagai",
+      "name": "Daughter Feels - Background Score",
       "artists": [
-        "Srinivas",
-        "Clinton Cerejo",
-        "Praveen",
-        "Shankar"
+        "Anirudh Ravichander"
       ],
-      "album": "Alaipayuthey",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
-      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
-      "durationMs": 241973,
-      "playedAt": "2026-10-16T18:47:41.769Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/1EBFhYnJhpiWx3lxQ2u59q",
+      "durationMs": 131848,
+      "playedAt": "2026-10-16T20:00:39.354Z"
     },
     {
-      "name": "Endrendrum Punnagai",
+      "name": "Terry Theme - Background Score",
       "artists": [
-        "Srinivas",
-        "Clinton Cerejo",
-        "Praveen",
-        "Shankar"
+        "Anirudh Ravichander"
       ],
-      "album": "Alaipayuthey",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
-      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
-      "durationMs": 241973,
-      "playedAt": "2026-10-16T18:14:46.417Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/6blum2krUyz9oBcFqohSUY",
+      "durationMs": 90500,
+      "playedAt": "2026-10-16T19:58:27.512Z"
     }
   ]
 }
