@@ -1,82 +1,90 @@
 {
-  "updatedAt": "2026-10-16T17:35:03.303Z",
+  "updatedAt": "2026-10-16T18:20:33.544Z",
   "nowPlaying": {
-    "name": "Idhayane",
+    "name": "Mei Nigara",
     "artists": [
-      "Anirudh Ravichander",
-      "Neeti Mohan",
+      "A.R. Rahman",
+      "Sid Sriram",
+      "Sanah Moidutty",
+      "Jonita Gandhi",
       "Madhan Karky"
     ],
-    "album": "Velaikkaran (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02c4e92b0aeef53c8ffd0d7a3b",
-    "url": "https://open.spotify.com/track/0If3UxapVCA0NUKgpJkpaj",
-    "durationMs": 222482,
+    "album": "24 (Tamil) [Original Motion Picture Soundtrack]",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0287a159059225cfc17c88429c",
+    "url": "https://open.spotify.com/track/2qN6L6hAiJqXGaIOUu4mLf",
+    "durationMs": 316760,
     "isPlaying": true,
-    "progressMs": 168344
+    "progressMs": 193170
   },
   "recent": [
     {
-      "name": "Mental Manadhil",
+      "name": "Endrendrum Punnagai",
       "artists": [
-        "A.R. Rahman",
-        "Jonita Gandhi",
-        "Mani Ratnam"
+        "Srinivas",
+        "Clinton Cerejo",
+        "Praveen",
+        "Shankar"
       ],
-      "album": "O Kadhal Kanmani (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e029f724b4022137df607810566",
-      "url": "https://open.spotify.com/track/4mOmWSdTmf6fSAibGWCKp7",
-      "durationMs": 205759,
-      "playedAt": "2026-10-16T17:32:13.664Z"
+      "album": "Alaipayuthey",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
+      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
+      "durationMs": 241973,
+      "playedAt": "2026-10-16T18:14:46.417Z"
     },
     {
-      "name": "Kaara Aattakkaara",
+      "name": "Endrendrum Punnagai",
       "artists": [
-        "A.R. Rahman",
-        "Aaryan Dinesh Kanagaratnam",
-        "Darshana K.T.",
-        "Shashaa Tirupati"
+        "Srinivas",
+        "Clinton Cerejo",
+        "Praveen",
+        "Shankar"
       ],
-      "album": "O Kadhal Kanmani (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e029f724b4022137df607810566",
-      "url": "https://open.spotify.com/track/0uEtUhy8xAX1fJFiqNs5sr",
-      "durationMs": 336810,
-      "playedAt": "2026-10-16T17:27:39.397Z"
+      "album": "Alaipayuthey",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
+      "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
+      "durationMs": 241973,
+      "playedAt": "2026-10-16T17:59:14.692Z"
     },
     {
-      "name": "Anjana Anjana",
+      "name": "Nila Kaaigiradhu",
+      "artists": [
+        "Harini",
+        "A.R. Rahman",
+        "Vairamuthu"
+      ],
+      "album": "Indira",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02015ba8caf21465ad6153a19f",
+      "url": "https://open.spotify.com/track/4Eb2oEEBes3Q2ilMMbedTd",
+      "durationMs": 205374,
+      "playedAt": "2026-10-16T17:55:12.222Z"
+    },
+    {
+      "name": "Mazhai Vara Pogudhae",
+      "artists": [
+        "Harris Jayaraj",
+        "Karthik",
+        "Emcee Jesz",
+        "Thamarai"
+      ],
+      "album": "Yennai Arindhaal (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e027c13279e82e5c35294351bb8",
+      "url": "https://open.spotify.com/track/5ich0wSxDxMryEjwZo6XzG",
+      "durationMs": 342547,
+      "playedAt": "2026-10-16T17:51:46.511Z"
+    },
+    {
+      "name": "Azhaipaya Azhaipaya",
       "artists": [
         "Thaman S",
-        "Aalaap Raju"
-      ],
-      "album": "Vandhaan Vendraan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02501212ed30e5ec7eaa405f97",
-      "url": "https://open.spotify.com/track/5aaRWDMUBp4Qvue4h5YgGE",
-      "durationMs": 314093,
-      "playedAt": "2026-10-16T17:22:02.228Z"
-    },
-    {
-      "name": "Muttaalaai Muttaalaai",
-      "artists": [
-        "D. Imman",
-        "Maria Roe Vincent",
+        "Karthik",
+        "Harini",
         "Madhan Karky"
       ],
-      "album": "Yennamo Yedho (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02266c214b552c5256fd360a5c",
-      "url": "https://open.spotify.com/track/740b8aZVUo6XvMW8QX3ZZB",
-      "durationMs": 276440,
-      "playedAt": "2026-10-16T17:16:47.698Z"
-    },
-    {
-      "name": "Kannal Sobi",
-      "artists": [
-        "S. P. Balasubrahmanyam"
-      ],
-      "album": "Mozhi",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0246b53bd97954ceb8bd4f5bd0",
-      "url": "https://open.spotify.com/track/3vXRvAkJpln2GwT8ZYPeeP",
-      "durationMs": 282920,
-      "playedAt": "2026-10-16T17:12:10.849Z"
+      "album": "Kadhalil Sodhapuvadhu Yeppadi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029cac3e36c695aaf5bd5217d6",
+      "url": "https://open.spotify.com/track/5VF9jpIbk9j1humjVSu2Wl",
+      "durationMs": 254397,
+      "playedAt": "2026-10-16T17:46:00.689Z"
     }
   ]
 }
