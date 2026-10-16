@@ -1,72 +1,72 @@
 {
-  "updatedAt": "2026-10-16T21:35:23.360Z",
+  "updatedAt": "2026-10-16T21:41:30.174Z",
   "nowPlaying": {
-    "name": "Almost Won Her Love - Background Score",
+    "name": "At the Saree Store - Background Score",
     "artists": [
       "Anirudh Ravichander"
     ],
     "album": "Remo Special (Original Background Score + Additional Song)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-    "url": "https://open.spotify.com/track/49Zx0n74HfhakGDXSveDzS",
-    "durationMs": 34000,
+    "url": "https://open.spotify.com/track/2BmQiXAev1FdAnfAZVpIWB",
+    "durationMs": 66000,
     "isPlaying": true,
-    "progressMs": 8183
+    "progressMs": 45255
   },
   "recent": [
     {
-      "name": "Remo is a Magician - Background Score",
+      "name": "Following Her - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/25DCIbRRYJV8CE7byadCN9",
-      "durationMs": 40000,
-      "playedAt": "2026-10-16T21:33:30.762Z"
+      "url": "https://open.spotify.com/track/6tNYKqiae2Iy1urKLgLteN",
+      "durationMs": 69000,
+      "playedAt": "2026-10-16T21:40:44.884Z"
     },
     {
-      "name": "Saw Her Again - Background Score",
+      "name": "The Love Bug Has Bitten - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/4VE2qe66Rnvv8ZGTCY5aso",
-      "durationMs": 67843,
-      "playedAt": "2026-10-16T21:32:50.792Z"
+      "url": "https://open.spotify.com/track/7BilZmjar1SwrWeHB8XOFG",
+      "durationMs": 66500,
+      "playedAt": "2026-10-16T21:39:35.844Z"
     },
     {
-      "name": "The Feeling of Love - Background Score",
+      "name": "SK Reveals Himself - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/4ZIC4jfG2FN7DQ7Gav6PVS",
-      "durationMs": 62377,
-      "playedAt": "2026-10-16T21:31:42.935Z"
+      "url": "https://open.spotify.com/track/7rumFGXWrCHWhHswVvdL0z",
+      "durationMs": 34000,
+      "playedAt": "2026-10-16T21:38:27.336Z"
     },
     {
-      "name": "Lovestruck - Background Score",
+      "name": "Happy Birthday - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/4dcFBadcxmfqc9liHi172E",
-      "durationMs": 40834,
-      "playedAt": "2026-10-16T21:30:40.529Z"
+      "url": "https://open.spotify.com/track/2ATrx8hOTXAZCBdlf6jKhs",
+      "durationMs": 124500,
+      "playedAt": "2026-10-16T21:37:53.328Z"
     },
     {
-      "name": "A Broken Heart - Background Score",
+      "name": "Almost Won Her Love - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/0ZeckZcQYKbU1bbQss6MiI",
-      "durationMs": 82442,
-      "playedAt": "2026-10-16T21:29:59.686Z"
+      "url": "https://open.spotify.com/track/49Zx0n74HfhakGDXSveDzS",
+      "durationMs": 34000,
+      "playedAt": "2026-10-16T21:35:48.717Z"
     }
   ]
 }
