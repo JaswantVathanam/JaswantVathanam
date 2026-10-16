@@ -1,73 +1,64 @@
 {
-  "updatedAt": "2026-10-16T12:04:19.414Z",
-  "nowPlaying": {
-    "name": "Hand Game - Background Score",
-    "artists": [
-      "Anirudh Ravichander"
-    ],
-    "album": "Doctor (Original Background Score)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-    "url": "https://open.spotify.com/track/3I2wKS3eeqUfVupU27RuG0",
-    "durationMs": 108875,
-    "isPlaying": true,
-    "progressMs": 5731
-  },
+  "updatedAt": "2026-10-16T12:34:31.356Z",
+  "nowPlaying": null,
   "recent": [
     {
-      "name": "Varun Intro - Background Score",
+      "name": "Kudikara Nenju",
       "artists": [
-        "Anirudh Ravichander"
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
       ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/6WOogz2odCa6Udwfn4v9kK",
-      "durationMs": 101437,
-      "playedAt": "2026-10-16T12:04:14.209Z"
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-16T12:19:13.474Z"
     },
     {
-      "name": "The Family - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
-      "durationMs": 100999,
-      "playedAt": "2026-10-16T11:57:56.177Z"
-    },
-    {
-      "name": "Doctor Theme - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
-      "durationMs": 43124,
-      "playedAt": "2026-10-16T11:56:15.161Z"
-    },
-    {
-      "name": "Climax Fight - Background Score",
+      "name": "Senjitaley",
       "artists": [
         "Anirudh Ravichander",
-        "Niranjana Ramanan"
+        "Vignesh Shivan"
       ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
-      "durationMs": 132500,
-      "playedAt": "2026-10-16T11:55:31.518Z"
+      "album": "Remo (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
+      "url": "https://open.spotify.com/track/2RB3zzgxWc2RRBaJOkSEka",
+      "durationMs": 251333,
+      "playedAt": "2026-10-16T12:15:34.345Z"
     },
     {
-      "name": "Daughter Feels - Background Score",
+      "name": "Remo Nee Kadhalan",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
+      "url": "https://open.spotify.com/track/0iXMBWV4EvKcxxdUJMOCFu",
+      "durationMs": 243013,
+      "playedAt": "2026-10-16T12:13:44.751Z"
+    },
+    {
+      "name": "Remo Nee Kadhalan",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02cfaf0e5c909b35dffd46b61d",
+      "url": "https://open.spotify.com/track/0iXMBWV4EvKcxxdUJMOCFu",
+      "durationMs": 243013,
+      "playedAt": "2026-10-16T12:13:13.305Z"
+    },
+    {
+      "name": "Hand Game - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Doctor (Original Background Score)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/1EBFhYnJhpiWx3lxQ2u59q",
-      "durationMs": 131848,
-      "playedAt": "2026-10-16T11:53:19.070Z"
+      "url": "https://open.spotify.com/track/3I2wKS3eeqUfVupU27RuG0",
+      "durationMs": 108875,
+      "playedAt": "2026-10-16T12:06:03.062Z"
     }
   ]
 }
