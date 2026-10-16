@@ -1,85 +1,82 @@
 {
-  "updatedAt": "2026-10-16T17:04:51.921Z",
+  "updatedAt": "2026-10-16T17:35:03.303Z",
   "nowPlaying": {
-    "name": "Osaka Osaka",
+    "name": "Idhayane",
     "artists": [
       "Anirudh Ravichander",
-      "Pragathi Guruprasad",
+      "Neeti Mohan",
       "Madhan Karky"
     ],
-    "album": "Vanakkam Chennai (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0235e00bf518c28471731ee55c",
-    "url": "https://open.spotify.com/track/7xV3MCJ6YI3K4I6Jt1a9H7",
-    "durationMs": 368106,
+    "album": "Velaikkaran (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02c4e92b0aeef53c8ffd0d7a3b",
+    "url": "https://open.spotify.com/track/0If3UxapVCA0NUKgpJkpaj",
+    "durationMs": 222482,
     "isPlaying": true,
-    "progressMs": 211629
+    "progressMs": 168344
   },
   "recent": [
     {
-      "name": "Ammi Mithichachi",
-      "artists": [
-        "Sirkazhi G. Sivachidambaram",
-        "Naresh Iyer",
-        "Vaali"
-      ],
-      "album": "Sillunu Oru Kadhal (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ff3e3dcc8b72e3315b7a04d9",
-      "url": "https://open.spotify.com/track/0dhhxdZHDtGavszjJCDx0j",
-      "durationMs": 415005,
-      "playedAt": "2026-10-16T17:01:18.906Z"
-    },
-    {
-      "name": "Azhagu Azhagu",
-      "artists": [
-        "Vivek - Mervin",
-        "Shweta Mohan",
-        "Madhan Karky"
-      ],
-      "album": "Sanga Thamizhan (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02ddc89496a85e8876db92664c",
-      "url": "https://open.spotify.com/track/6tTFcPV7WXFSckM8oQWBpu",
-      "durationMs": 290333,
-      "playedAt": "2026-10-16T16:54:19.919Z"
-    },
-    {
-      "name": "Aaruyire",
+      "name": "Mental Manadhil",
       "artists": [
         "A.R. Rahman",
-        "Chinmayi",
-        "Murtuza Khan",
-        "Qadir Khan",
-        "Vairamuthu"
+        "Jonita Gandhi",
+        "Mani Ratnam"
       ],
-      "album": "Guru (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e3aa55e80ac80eb120076775",
-      "url": "https://open.spotify.com/track/3RVKJOoIVKXicFvNO7b2iK",
-      "durationMs": 308786,
-      "playedAt": "2026-10-16T16:47:48.966Z"
+      "album": "O Kadhal Kanmani (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029f724b4022137df607810566",
+      "url": "https://open.spotify.com/track/4mOmWSdTmf6fSAibGWCKp7",
+      "durationMs": 205759,
+      "playedAt": "2026-10-16T17:32:13.664Z"
     },
     {
-      "name": "Elay Keechan",
+      "name": "Kaara Aattakkaara",
       "artists": [
         "A.R. Rahman",
-        "Madhan Karky"
+        "Aaryan Dinesh Kanagaratnam",
+        "Darshana K.T.",
+        "Shashaa Tirupati"
       ],
-      "album": "Kadal (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02d9cc188164a2282653e349de",
-      "url": "https://open.spotify.com/track/2iXj3eyl9C6ZqCrVC5SJcR",
-      "durationMs": 371440,
-      "playedAt": "2026-10-16T13:49:19.492Z"
+      "album": "O Kadhal Kanmani (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e029f724b4022137df607810566",
+      "url": "https://open.spotify.com/track/0uEtUhy8xAX1fJFiqNs5sr",
+      "durationMs": 336810,
+      "playedAt": "2026-10-16T17:27:39.397Z"
     },
     {
-      "name": "Kadhaippoma (From \"Oh My Kadavule\")",
+      "name": "Anjana Anjana",
       "artists": [
-        "Leon James",
-        "Sid Sriram",
-        "Ko Sesha"
+        "Thaman S",
+        "Aalaap Raju"
       ],
-      "album": "Kadhaippoma (From \"Oh My Kadavule\")",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02b90993f456d70b9859bd665e",
-      "url": "https://open.spotify.com/track/5cfKBuE5XKtlaNOVjQwA9H",
-      "durationMs": 282208,
-      "playedAt": "2026-10-16T13:36:29.556Z"
+      "album": "Vandhaan Vendraan (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02501212ed30e5ec7eaa405f97",
+      "url": "https://open.spotify.com/track/5aaRWDMUBp4Qvue4h5YgGE",
+      "durationMs": 314093,
+      "playedAt": "2026-10-16T17:22:02.228Z"
+    },
+    {
+      "name": "Muttaalaai Muttaalaai",
+      "artists": [
+        "D. Imman",
+        "Maria Roe Vincent",
+        "Madhan Karky"
+      ],
+      "album": "Yennamo Yedho (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02266c214b552c5256fd360a5c",
+      "url": "https://open.spotify.com/track/740b8aZVUo6XvMW8QX3ZZB",
+      "durationMs": 276440,
+      "playedAt": "2026-10-16T17:16:47.698Z"
+    },
+    {
+      "name": "Kannal Sobi",
+      "artists": [
+        "S. P. Balasubrahmanyam"
+      ],
+      "album": "Mozhi",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0246b53bd97954ceb8bd4f5bd0",
+      "url": "https://open.spotify.com/track/3vXRvAkJpln2GwT8ZYPeeP",
+      "durationMs": 282920,
+      "playedAt": "2026-10-16T17:12:10.849Z"
     }
   ]
 }

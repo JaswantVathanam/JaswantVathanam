@@ -8,6 +8,6 @@
 
   <rect width="300" height="140" fill="#000"/>
   <text x="20" y="35" class="title">Now Playing</text>
-  <text x="20" y="75" class="name">Osaka Osaka</text>
-  <text x="20" y="105" class="artist">Anirudh Ravichander, Pragathi Guruprasad, Madhan Karky</text>
+  <text x="20" y="75" class="name">Idhayane</text>
+  <text x="20" y="105" class="artist">Anirudh Ravichander, Neeti Mohan, Madhan Karky</text>
 </svg>
