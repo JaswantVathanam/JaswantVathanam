@@ -1,73 +1,72 @@
 {
-  "updatedAt": "2026-10-16T21:05:25.048Z",
+  "updatedAt": "2026-10-16T21:35:23.360Z",
   "nowPlaying": {
-    "name": "SK's First Proposal - Background Score",
+    "name": "Almost Won Her Love - Background Score",
     "artists": [
       "Anirudh Ravichander"
     ],
     "album": "Remo Special (Original Background Score + Additional Song)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-    "url": "https://open.spotify.com/track/6ygx7hSGUHVRnDhOrtjoVH",
-    "durationMs": 73896,
+    "url": "https://open.spotify.com/track/49Zx0n74HfhakGDXSveDzS",
+    "durationMs": 34000,
     "isPlaying": true,
-    "progressMs": 56585
+    "progressMs": 8183
   },
   "recent": [
     {
-      "name": "First Sight - Background Score",
+      "name": "Remo is a Magician - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/7erpYDh90C0YBPcMqdSXJg",
-      "durationMs": 100000,
-      "playedAt": "2026-10-16T21:04:28.085Z"
+      "url": "https://open.spotify.com/track/25DCIbRRYJV8CE7byadCN9",
+      "durationMs": 40000,
+      "playedAt": "2026-10-16T21:33:30.762Z"
     },
     {
-      "name": "The Family - Background Score",
+      "name": "Saw Her Again - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
-      "durationMs": 100999,
-      "playedAt": "2026-10-16T20:28:19.207Z"
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/4VE2qe66Rnvv8ZGTCY5aso",
+      "durationMs": 67843,
+      "playedAt": "2026-10-16T21:32:50.792Z"
     },
     {
-      "name": "Doctor Theme - Background Score",
+      "name": "The Feeling of Love - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
-      "durationMs": 43124,
-      "playedAt": "2026-10-16T20:03:35.531Z"
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/4ZIC4jfG2FN7DQ7Gav6PVS",
+      "durationMs": 62377,
+      "playedAt": "2026-10-16T21:31:42.935Z"
     },
     {
-      "name": "Climax Fight - Background Score",
-      "artists": [
-        "Anirudh Ravichander",
-        "Niranjana Ramanan"
-      ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
-      "durationMs": 132500,
-      "playedAt": "2026-10-16T20:02:52.022Z"
-    },
-    {
-      "name": "Daughter Feels - Background Score",
+      "name": "Lovestruck - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
-      "album": "Doctor (Original Background Score)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
-      "url": "https://open.spotify.com/track/1EBFhYnJhpiWx3lxQ2u59q",
-      "durationMs": 131848,
-      "playedAt": "2026-10-16T20:00:39.354Z"
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/4dcFBadcxmfqc9liHi172E",
+      "durationMs": 40834,
+      "playedAt": "2026-10-16T21:30:40.529Z"
+    },
+    {
+      "name": "A Broken Heart - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/0ZeckZcQYKbU1bbQss6MiI",
+      "durationMs": 82442,
+      "playedAt": "2026-10-16T21:29:59.686Z"
     }
   ]
 }
