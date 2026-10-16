@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-10-16T18:20:33.544Z",
+  "updatedAt": "2026-10-16T18:35:05.112Z",
   "nowPlaying": {
-    "name": "Mei Nigara",
+    "name": "Endrendrum Punnagai",
     "artists": [
-      "A.R. Rahman",
-      "Sid Sriram",
-      "Sanah Moidutty",
-      "Jonita Gandhi",
-      "Madhan Karky"
+      "Srinivas",
+      "Clinton Cerejo",
+      "Praveen",
+      "Shankar"
     ],
-    "album": "24 (Tamil) [Original Motion Picture Soundtrack]",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0287a159059225cfc17c88429c",
-    "url": "https://open.spotify.com/track/2qN6L6hAiJqXGaIOUu4mLf",
-    "durationMs": 316760,
-    "isPlaying": true,
-    "progressMs": 193170
+    "album": "Alaipayuthey",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02b2aa9e9104987ff6bef1b8ff",
+    "url": "https://open.spotify.com/track/3mrFhHALZLJ4ZIEiS5IPy1",
+    "durationMs": 241973,
+    "isPlaying": false,
+    "progressMs": 217898
   },
   "recent": [
     {
