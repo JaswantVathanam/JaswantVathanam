@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-16T10:34:23.282Z",
+  "updatedAt": "2026-10-16T11:04:18.133Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 1468,
-    "text": "24 mins",
+    "seconds": 3216,
+    "text": "53 mins",
     "languages": [
       {
         "name": "C#",
-        "seconds": 820,
-        "percent": 55.89
+        "seconds": 2480,
+        "percent": 77.11
       },
       {
         "name": "XAML",
-        "seconds": 215,
-        "percent": 14.63
+        "seconds": 289,
+        "percent": 8.98
       },
       {
         "name": "XML",
         "seconds": 147,
-        "percent": 10.04
+        "percent": 4.58
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 1388,
-        "percent": 94.6
+        "seconds": 2914,
+        "percent": 90.6
       },
       {
         "name": "VS Code",
-        "seconds": 79,
-        "percent": 5.4
+        "seconds": 302,
+        "percent": 9.4
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 1468,
+        "seconds": 3216,
         "percent": 100
       }
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-16T10:33:03.771Z",
+    "at": "2026-10-16T11:02:34.813Z",
     "language": "C#",
     "category": "AI Coding"
   }

@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-16T10:34:16.331Z",
+  "updatedAt": "2026-10-16T11:04:16.057Z",
   "nowPlaying": {
-    "name": "Pacha Pulla",
+    "name": "Kudikara Nenju",
     "artists": [
       "Jen Martin",
-      "Sathya Narayanan",
-      "Ashique AR"
+      "Dhruv Vikram",
+      "Vishnu Edavan"
     ],
     "album": "Hi (Original Motion Picture Soundtrack)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-    "url": "https://open.spotify.com/track/5fTlUsamMxnh4kVG3UCazS",
-    "durationMs": 220000,
+    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+    "durationMs": 241593,
     "isPlaying": true,
-    "progressMs": 62097
+    "progressMs": 20899
   },
   "recent": [
     {
