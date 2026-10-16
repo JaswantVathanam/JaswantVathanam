@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-16T11:34:16.642Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-16T12:04:19.414Z",
+  "nowPlaying": {
+    "name": "Hand Game - Background Score",
+    "artists": [
+      "Anirudh Ravichander"
+    ],
+    "album": "Doctor (Original Background Score)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+    "url": "https://open.spotify.com/track/3I2wKS3eeqUfVupU27RuG0",
+    "durationMs": 108875,
+    "isPlaying": true,
+    "progressMs": 5731
+  },
   "recent": [
     {
       "name": "Varun Intro - Background Score",
@@ -11,59 +22,52 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
       "url": "https://open.spotify.com/track/6WOogz2odCa6Udwfn4v9kK",
       "durationMs": 101437,
-      "playedAt": "2026-10-16T11:33:49.482Z"
+      "playedAt": "2026-10-16T12:04:14.209Z"
     },
     {
-      "name": "Alexa",
+      "name": "The Family - Background Score",
       "artists": [
-        "Jen Martin",
-        "Ananya Chakraborty",
-        "Vishnu Edavan"
+        "Anirudh Ravichander"
       ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/0ajdxYTBe268CJJdoLzh9e",
-      "durationMs": 149124,
-      "playedAt": "2026-10-16T11:31:58.117Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/0BnyyBXbfxHZqGFHHrLtPW",
+      "durationMs": 100999,
+      "playedAt": "2026-10-16T11:57:56.177Z"
     },
     {
-      "name": "Kannakuzhiya",
+      "name": "Doctor Theme - Background Score",
       "artists": [
-        "Jen Martin",
-        "G. V. Prakash",
-        "Vishnu Edavan"
+        "Anirudh Ravichander"
       ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
-      "durationMs": 186551,
-      "playedAt": "2026-10-16T11:29:29.020Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/2sW8zbqjQsOnwTcjC2JWBO",
+      "durationMs": 43124,
+      "playedAt": "2026-10-16T11:56:15.161Z"
     },
     {
-      "name": "Kudikara Nenju",
+      "name": "Climax Fight - Background Score",
       "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
+        "Anirudh Ravichander",
+        "Niranjana Ramanan"
       ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T11:26:22.422Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/4p46drbsPctvyMpjxpk6XN",
+      "durationMs": 132500,
+      "playedAt": "2026-10-16T11:55:31.518Z"
     },
     {
-      "name": "Kudikara Nenju",
+      "name": "Daughter Feels - Background Score",
       "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
+        "Anirudh Ravichander"
       ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-16T11:20:05.715Z"
+      "album": "Doctor (Original Background Score)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02a15a6d49902743d0cae3fe06",
+      "url": "https://open.spotify.com/track/1EBFhYnJhpiWx3lxQ2u59q",
+      "durationMs": 131848,
+      "playedAt": "2026-10-16T11:53:19.070Z"
     }
   ]
 }
