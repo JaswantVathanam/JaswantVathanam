@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-10-17T16:39:16.451Z",
-  "nowPlaying": {
-    "name": "Saw Her Again - Background Score",
-    "artists": [
-      "Anirudh Ravichander"
-    ],
-    "album": "Remo Special (Original Background Score + Additional Song)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-    "url": "https://open.spotify.com/track/4VE2qe66Rnvv8ZGTCY5aso",
-    "durationMs": 67843,
-    "isPlaying": false,
-    "progressMs": 3821
-  },
+  "updatedAt": "2026-10-17T17:07:06.090Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "The Feeling of Love - Background Score",
