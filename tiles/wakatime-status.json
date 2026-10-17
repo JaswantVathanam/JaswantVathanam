@@ -1,15 +1,33 @@
 {
-  "updatedAt": "2026-10-17T11:36:38.773Z",
+  "updatedAt": "2026-10-17T12:06:42.928Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 0,
-    "text": "0 secs",
-    "languages": [],
-    "editors": [],
-    "categories": []
+    "seconds": 1269,
+    "text": "21 mins",
+    "languages": [
+      {
+        "name": "Other",
+        "seconds": 1269,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Claude Code",
+        "seconds": 1269,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "seconds": 1269,
+        "percent": 100
+      }
+    ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-17T11:33:52.018Z",
+    "at": "2026-10-17T12:00:32.670Z",
     "language": null,
     "category": "AI Coding"
   }

@@ -1,18 +1,51 @@
 {
-  "updatedAt": "2026-10-17T11:36:35.767Z",
+  "updatedAt": "2026-10-17T12:06:40.595Z",
   "nowPlaying": {
-    "name": "Veshangalil Poiyillai - Additional Song",
+    "name": "A Broken Heart - Background Score",
     "artists": [
       "Anirudh Ravichander"
     ],
     "album": "Remo Special (Original Background Score + Additional Song)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-    "url": "https://open.spotify.com/track/1Uxuizxwr1ODjC9RTiisz2",
-    "durationMs": 64285,
-    "isPlaying": true,
-    "progressMs": 56821
+    "url": "https://open.spotify.com/track/0ZeckZcQYKbU1bbQss6MiI",
+    "durationMs": 82442,
+    "isPlaying": false,
+    "progressMs": 1359
   },
   "recent": [
+    {
+      "name": "SK's First Proposal - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/6ygx7hSGUHVRnDhOrtjoVH",
+      "durationMs": 73896,
+      "playedAt": "2026-10-17T12:02:33.697Z"
+    },
+    {
+      "name": "First Sight - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/7erpYDh90C0YBPcMqdSXJg",
+      "durationMs": 100000,
+      "playedAt": "2026-10-17T12:01:19.788Z"
+    },
+    {
+      "name": "Veshangalil Poiyillai - Additional Song",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/1Uxuizxwr1ODjC9RTiisz2",
+      "durationMs": 64285,
+      "playedAt": "2026-10-17T11:59:39.331Z"
+    },
     {
       "name": "SK Fight Theme - Background Score",
       "artists": [
@@ -22,7 +55,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
       "url": "https://open.spotify.com/track/3mU5zLje9UHxwzDGl5ErVh",
       "durationMs": 86000,
-      "playedAt": "2026-10-17T11:35:38.853Z"
+      "playedAt": "2026-10-17T11:58:35.029Z"
     },
     {
       "name": "Engagement Ring - Background Score",
@@ -33,40 +66,7 @@
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
       "url": "https://open.spotify.com/track/2RUTwDbXpuzHyDlJdWLXxG",
       "durationMs": 111000,
-      "playedAt": "2026-10-17T11:34:10.333Z"
-    },
-    {
-      "name": "The Bus Diaries - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/2X2opUjIlaTP9hXweEM0jm",
-      "durationMs": 91000,
-      "playedAt": "2026-10-17T11:32:19.388Z"
-    },
-    {
-      "name": "Unexpected Sleepover - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/0q0C9KLo865iCa9mLfUK8m",
-      "durationMs": 57000,
-      "playedAt": "2026-10-17T11:30:48.249Z"
-    },
-    {
-      "name": "At the Saree Store - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/2BmQiXAev1FdAnfAZVpIWB",
-      "durationMs": 66000,
-      "playedAt": "2026-10-17T11:29:51.253Z"
+      "playedAt": "2026-10-17T11:57:08.999Z"
     }
   ]
 }
