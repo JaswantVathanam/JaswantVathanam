@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T13:36:50.771Z",
+  "updatedAt": "2026-10-17T14:06:52.712Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 7077,
@@ -7,18 +7,18 @@
     "languages": [
       {
         "name": "C#",
-        "seconds": 2454,
-        "percent": 34.67
+        "seconds": 3160,
+        "percent": 44.65
       },
       {
         "name": "Markdown",
-        "seconds": 2423,
-        "percent": 34.23
+        "seconds": 2833,
+        "percent": 40.03
       },
       {
-        "name": "Other",
-        "seconds": 1117,
-        "percent": 15.78
+        "name": "XML",
+        "seconds": 836,
+        "percent": 11.81
       }
     ],
     "editors": [
