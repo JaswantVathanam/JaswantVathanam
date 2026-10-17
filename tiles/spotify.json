@@ -1,72 +1,72 @@
 {
-  "updatedAt": "2026-10-17T12:06:40.595Z",
+  "updatedAt": "2026-10-17T12:36:39.568Z",
   "nowPlaying": {
-    "name": "A Broken Heart - Background Score",
+    "name": "Nurse Fight Theme - Background Score",
     "artists": [
       "Anirudh Ravichander"
     ],
     "album": "Remo Special (Original Background Score + Additional Song)",
     "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-    "url": "https://open.spotify.com/track/0ZeckZcQYKbU1bbQss6MiI",
-    "durationMs": 82442,
-    "isPlaying": false,
-    "progressMs": 1359
+    "url": "https://open.spotify.com/track/52NIEReHCw5F3qmQ9u8z4t",
+    "durationMs": 104000,
+    "isPlaying": true,
+    "progressMs": 28459
   },
   "recent": [
     {
-      "name": "SK's First Proposal - Background Score",
+      "name": "Remo is a Magician - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/6ygx7hSGUHVRnDhOrtjoVH",
-      "durationMs": 73896,
-      "playedAt": "2026-10-17T12:02:33.697Z"
+      "url": "https://open.spotify.com/track/25DCIbRRYJV8CE7byadCN9",
+      "durationMs": 40000,
+      "playedAt": "2026-10-17T12:36:11.202Z"
     },
     {
-      "name": "First Sight - Background Score",
+      "name": "Saw Her Again - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/7erpYDh90C0YBPcMqdSXJg",
-      "durationMs": 100000,
-      "playedAt": "2026-10-17T12:01:19.788Z"
+      "url": "https://open.spotify.com/track/4VE2qe66Rnvv8ZGTCY5aso",
+      "durationMs": 67843,
+      "playedAt": "2026-10-17T12:35:31.274Z"
     },
     {
-      "name": "Veshangalil Poiyillai - Additional Song",
+      "name": "The Feeling of Love - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/1Uxuizxwr1ODjC9RTiisz2",
-      "durationMs": 64285,
-      "playedAt": "2026-10-17T11:59:39.331Z"
+      "url": "https://open.spotify.com/track/4ZIC4jfG2FN7DQ7Gav6PVS",
+      "durationMs": 62377,
+      "playedAt": "2026-10-17T12:34:22.359Z"
     },
     {
-      "name": "SK Fight Theme - Background Score",
+      "name": "Lovestruck - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/3mU5zLje9UHxwzDGl5ErVh",
-      "durationMs": 86000,
-      "playedAt": "2026-10-17T11:58:35.029Z"
+      "url": "https://open.spotify.com/track/4dcFBadcxmfqc9liHi172E",
+      "durationMs": 40834,
+      "playedAt": "2026-10-17T12:33:20.027Z"
     },
     {
-      "name": "Engagement Ring - Background Score",
+      "name": "A Broken Heart - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/2RUTwDbXpuzHyDlJdWLXxG",
-      "durationMs": 111000,
-      "playedAt": "2026-10-17T11:57:08.999Z"
+      "url": "https://open.spotify.com/track/0ZeckZcQYKbU1bbQss6MiI",
+      "durationMs": 82442,
+      "playedAt": "2026-10-17T12:32:39.127Z"
     }
   ]
 }

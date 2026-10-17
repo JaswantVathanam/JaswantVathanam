@@ -1,34 +1,49 @@
 {
-  "updatedAt": "2026-10-17T12:06:42.928Z",
+  "updatedAt": "2026-10-17T12:36:44.108Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 1269,
-    "text": "21 mins",
+    "seconds": 4356,
+    "text": "1 hr 12 mins",
     "languages": [
       {
         "name": "Other",
-        "seconds": 1269,
-        "percent": 100
+        "seconds": 2338,
+        "percent": 53.66
+      },
+      {
+        "name": "Markdown",
+        "seconds": 970,
+        "percent": 22.27
+      },
+      {
+        "name": "XML",
+        "seconds": 836,
+        "percent": 19.18
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 1269,
-        "percent": 100
+        "seconds": 4330,
+        "percent": 99.41
+      },
+      {
+        "name": "VS Code",
+        "seconds": 26,
+        "percent": 0.59
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 1269,
+        "seconds": 4356,
         "percent": 100
       }
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-17T12:00:32.670Z",
-    "language": null,
+    "at": "2026-10-17T12:36:03.206Z",
+    "language": "XAML",
     "category": "AI Coding"
   }
 }
