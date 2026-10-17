@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-17T00:25:24.603Z",
-  "nowPlaying": {
-    "name": "Idhayame Idhayame",
-    "artists": [
-      "Thaman S",
-      "Manojna",
-      "Vivek"
-    ],
-    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-    "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-    "durationMs": 270000,
-    "isPlaying": false,
-    "progressMs": 3287
-  },
+  "updatedAt": "2026-10-17T00:35:41.277Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "The Love Bug Has Bitten - Background Score",
