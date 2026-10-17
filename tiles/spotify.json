@@ -1,63 +1,72 @@
 {
-  "updatedAt": "2026-10-17T11:06:32.939Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-17T11:36:35.767Z",
+  "nowPlaying": {
+    "name": "Veshangalil Poiyillai - Additional Song",
+    "artists": [
+      "Anirudh Ravichander"
+    ],
+    "album": "Remo Special (Original Background Score + Additional Song)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+    "url": "https://open.spotify.com/track/1Uxuizxwr1ODjC9RTiisz2",
+    "durationMs": 64285,
+    "isPlaying": true,
+    "progressMs": 56821
+  },
   "recent": [
     {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-17T01:01:07.724Z"
-    },
-    {
-      "name": "The Love Bug Has Bitten - Background Score",
+      "name": "SK Fight Theme - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/7BilZmjar1SwrWeHB8XOFG",
-      "durationMs": 66500,
-      "playedAt": "2026-10-17T00:08:20.827Z"
+      "url": "https://open.spotify.com/track/3mU5zLje9UHxwzDGl5ErVh",
+      "durationMs": 86000,
+      "playedAt": "2026-10-17T11:35:38.853Z"
     },
     {
-      "name": "SK Reveals Himself - Background Score",
+      "name": "Engagement Ring - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/7rumFGXWrCHWhHswVvdL0z",
-      "durationMs": 34000,
-      "playedAt": "2026-10-16T22:01:24.542Z"
+      "url": "https://open.spotify.com/track/2RUTwDbXpuzHyDlJdWLXxG",
+      "durationMs": 111000,
+      "playedAt": "2026-10-17T11:34:10.333Z"
     },
     {
-      "name": "Happy Birthday - Background Score",
+      "name": "The Bus Diaries - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/2ATrx8hOTXAZCBdlf6jKhs",
-      "durationMs": 124500,
-      "playedAt": "2026-10-16T22:00:50.532Z"
+      "url": "https://open.spotify.com/track/2X2opUjIlaTP9hXweEM0jm",
+      "durationMs": 91000,
+      "playedAt": "2026-10-17T11:32:19.388Z"
     },
     {
-      "name": "Almost Won Her Love - Background Score",
+      "name": "Unexpected Sleepover - Background Score",
       "artists": [
         "Anirudh Ravichander"
       ],
       "album": "Remo Special (Original Background Score + Additional Song)",
       "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/49Zx0n74HfhakGDXSveDzS",
-      "durationMs": 34000,
-      "playedAt": "2026-10-16T21:58:45.990Z"
+      "url": "https://open.spotify.com/track/0q0C9KLo865iCa9mLfUK8m",
+      "durationMs": 57000,
+      "playedAt": "2026-10-17T11:30:48.249Z"
+    },
+    {
+      "name": "At the Saree Store - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/2BmQiXAev1FdAnfAZVpIWB",
+      "durationMs": 66000,
+      "playedAt": "2026-10-17T11:29:51.253Z"
     }
   ]
 }
