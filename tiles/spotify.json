@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-17T00:05:36.588Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-17T00:25:24.603Z",
+  "nowPlaying": {
+    "name": "Idhayame Idhayame",
+    "artists": [
+      "Thaman S",
+      "Manojna",
+      "Vivek"
+    ],
+    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+    "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
+    "durationMs": 270000,
+    "isPlaying": false,
+    "progressMs": 3287
+  },
   "recent": [
+    {
+      "name": "The Love Bug Has Bitten - Background Score",
+      "artists": [
+        "Anirudh Ravichander"
+      ],
+      "album": "Remo Special (Original Background Score + Additional Song)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
+      "url": "https://open.spotify.com/track/7BilZmjar1SwrWeHB8XOFG",
+      "durationMs": 66500,
+      "playedAt": "2026-10-17T00:08:20.827Z"
+    },
     {
       "name": "SK Reveals Himself - Background Score",
       "artists": [
@@ -45,17 +69,6 @@
       "url": "https://open.spotify.com/track/52NIEReHCw5F3qmQ9u8z4t",
       "durationMs": 104000,
       "playedAt": "2026-10-16T21:58:12.046Z"
-    },
-    {
-      "name": "Remo is a Magician - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/25DCIbRRYJV8CE7byadCN9",
-      "durationMs": 40000,
-      "playedAt": "2026-10-16T21:56:27.907Z"
     }
   ]
 }
