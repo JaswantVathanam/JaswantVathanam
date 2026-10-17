@@ -1,42 +1,42 @@
 {
-  "updatedAt": "2026-10-17T19:07:16.992Z",
+  "updatedAt": "2026-10-17T19:19:34.864Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 593,
-    "text": "9 mins",
+    "seconds": 1694,
+    "text": "28 mins",
     "languages": [
       {
-        "name": "PowerShell",
-        "seconds": 361,
-        "percent": 60.93
-      },
-      {
-        "name": "Other",
-        "seconds": 108,
-        "percent": 18.13
-      },
-      {
         "name": "C#",
-        "seconds": 99,
-        "percent": 16.76
+        "seconds": 1127,
+        "percent": 66.53
+      },
+      {
+        "name": "PowerShell",
+        "seconds": 450,
+        "percent": 26.58
+      },
+      {
+        "name": "XML",
+        "seconds": 73,
+        "percent": 4.32
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 494,
-        "percent": 83.24
+        "seconds": 1595,
+        "percent": 94.13
       },
       {
         "name": "VS Code",
         "seconds": 99,
-        "percent": 16.76
+        "percent": 5.87
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 593,
+        "seconds": 1694,
         "percent": 100
       }
     ]
