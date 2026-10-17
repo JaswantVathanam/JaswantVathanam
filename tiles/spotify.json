@@ -1,20 +1,33 @@
 {
-  "updatedAt": "2026-10-17T17:37:02.386Z",
-  "nowPlaying": {
-    "name": "Kudikara Nenju",
-    "artists": [
-      "Jen Martin",
-      "Dhruv Vikram",
-      "Vishnu Edavan"
-    ],
-    "album": "Hi (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-    "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-    "durationMs": 241593,
-    "isPlaying": true,
-    "progressMs": 107365
-  },
+  "updatedAt": "2026-10-17T18:07:17.760Z",
+  "nowPlaying": null,
   "recent": [
+    {
+      "name": "Kannakuzhiya",
+      "artists": [
+        "Jen Martin",
+        "G. V. Prakash",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
+      "durationMs": 186551,
+      "playedAt": "2026-10-17T17:48:16.889Z"
+    },
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-17T17:47:28.955Z"
+    },
     {
       "name": "Idhayame Idhayame",
       "artists": [
@@ -49,28 +62,6 @@
       "url": "https://open.spotify.com/track/4ZIC4jfG2FN7DQ7Gav6PVS",
       "durationMs": 62377,
       "playedAt": "2026-10-17T16:29:26.066Z"
-    },
-    {
-      "name": "SK's First Proposal - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/6ygx7hSGUHVRnDhOrtjoVH",
-      "durationMs": 73896,
-      "playedAt": "2026-10-17T16:26:59.914Z"
-    },
-    {
-      "name": "First Sight - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/7erpYDh90C0YBPcMqdSXJg",
-      "durationMs": 100000,
-      "playedAt": "2026-10-17T16:25:46.045Z"
     }
   ]
 }
