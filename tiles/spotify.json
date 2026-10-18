@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-10-18T02:07:44.556Z",
+  "updatedAt": "2026-10-18T02:37:47.850Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Kudikara Nenju",
+      "artists": [
+        "Jen Martin",
+        "Dhruv Vikram",
+        "Vishnu Edavan"
+      ],
+      "album": "Hi (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
+      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
+      "durationMs": 241593,
+      "playedAt": "2026-10-17T19:07:29.610Z"
+    },
     {
       "name": "Kudikara Nenju",
       "artists": [
@@ -53,17 +66,6 @@
       "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
       "durationMs": 270000,
       "playedAt": "2026-10-17T17:35:15.534Z"
-    },
-    {
-      "name": "Saw Her Again - Background Score",
-      "artists": [
-        "Anirudh Ravichander"
-      ],
-      "album": "Remo Special (Original Background Score + Additional Song)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e02e22038f3ea0b2eec51a13ceb",
-      "url": "https://open.spotify.com/track/4VE2qe66Rnvv8ZGTCY5aso",
-      "durationMs": 67843,
-      "playedAt": "2026-10-17T17:34:42.611Z"
     }
   ]
 }
