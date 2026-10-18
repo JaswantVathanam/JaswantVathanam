@@ -1,7 +1,46 @@
 {
-  "updatedAt": "2026-10-18T19:09:17.901Z",
-  "nowPlaying": null,
+  "updatedAt": "2026-10-18T19:24:55.205Z",
+  "nowPlaying": {
+    "name": "The Theme - Thee Mugam Dhaan - From \"Nerkonda Paarvai\"",
+    "artists": [
+      "Sathyan",
+      "Senthil Dass",
+      "Sarath Santosh"
+    ],
+    "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+    "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+    "url": "https://open.spotify.com/track/0PN4pSoK1yPZNxi7Id9N1d",
+    "durationMs": 187663,
+    "isPlaying": true,
+    "progressMs": 54946
+  },
   "recent": [
+    {
+      "name": "Idhayaa - Extended",
+      "artists": [
+        "Thaman S",
+        "Vishal Mishra",
+        "Vivek"
+      ],
+      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+      "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
+      "durationMs": 230250,
+      "playedAt": "2026-10-18T11:22:14.182Z"
+    },
+    {
+      "name": "Idhayaa - Extended",
+      "artists": [
+        "Thaman S",
+        "Vishal Mishra",
+        "Vivek"
+      ],
+      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+      "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
+      "durationMs": 230250,
+      "playedAt": "2026-10-18T02:13:28.114Z"
+    },
     {
       "name": "Kudikara Nenju",
       "artists": [
@@ -40,32 +79,6 @@
       "url": "https://open.spotify.com/track/7M26jsZqOWgBb4nNoLF8XY",
       "durationMs": 186551,
       "playedAt": "2026-10-17T17:48:16.889Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-17T17:47:28.955Z"
-    },
-    {
-      "name": "Idhayame Idhayame",
-      "artists": [
-        "Thaman S",
-        "Manojna",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
-      "durationMs": 270000,
-      "playedAt": "2026-10-17T17:35:15.534Z"
     }
   ]
 }
