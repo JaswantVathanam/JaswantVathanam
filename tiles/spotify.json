@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-18T01:07:45.873Z",
-  "nowPlaying": {
-    "name": "Idhayaa - Extended",
-    "artists": [
-      "Thaman S",
-      "Vishal Mishra",
-      "Vivek"
-    ],
-    "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-    "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-    "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
-    "durationMs": 230250,
-    "isPlaying": false,
-    "progressMs": 6726
-  },
+  "updatedAt": "2026-10-18T01:37:51.499Z",
+  "nowPlaying": null,
   "recent": [
     {
       "name": "Kudikara Nenju",
