@@ -1,42 +1,42 @@
 {
-  "updatedAt": "2026-10-18T07:08:19.601Z",
+  "updatedAt": "2026-10-18T07:38:13.495Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 2866,
-    "text": "47 mins",
+    "seconds": 3297,
+    "text": "54 mins",
     "languages": [
       {
         "name": "C#",
-        "seconds": 1483,
-        "percent": 51.74
+        "seconds": 1490,
+        "percent": 45.2
       },
       {
         "name": "PowerShell",
-        "seconds": 450,
-        "percent": 15.71
+        "seconds": 514,
+        "percent": 15.6
       },
       {
         "name": "Razor",
-        "seconds": 288,
-        "percent": 10.04
+        "seconds": 371,
+        "percent": 11.26
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 2592,
-        "percent": 90.43
+        "seconds": 3023,
+        "percent": 91.68
       },
       {
         "name": "VS Code",
         "seconds": 274,
-        "percent": 9.57
+        "percent": 8.32
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 2866,
+        "seconds": 3297,
         "percent": 100
       }
     ]
