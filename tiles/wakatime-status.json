@@ -1,54 +1,54 @@
 {
-  "updatedAt": "2026-10-18T19:39:21.021Z",
+  "updatedAt": "2026-10-18T20:09:21.149Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 3434,
-    "text": "57 mins",
+    "seconds": 5294,
+    "text": "1 hr 28 mins",
     "languages": [
       {
         "name": "Python",
-        "seconds": 1577,
-        "percent": 45.93
+        "seconds": 2183,
+        "percent": 41.24
+      },
+      {
+        "name": "Markdown",
+        "seconds": 1101,
+        "percent": 20.79
       },
       {
         "name": "Other",
-        "seconds": 613,
-        "percent": 17.85
-      },
-      {
-        "name": "PowerShell",
-        "seconds": 492,
-        "percent": 14.33
+        "seconds": 709,
+        "percent": 13.39
       }
     ],
     "editors": [
       {
         "name": "Claude Code",
-        "seconds": 2775,
-        "percent": 80.8
+        "seconds": 3732,
+        "percent": 70.5
       },
       {
         "name": "VS Code",
-        "seconds": 660,
-        "percent": 19.2
+        "seconds": 1562,
+        "percent": 29.5
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "seconds": 3426,
-        "percent": 99.77
+        "seconds": 5286,
+        "percent": 99.85
       },
       {
         "name": "Coding",
         "seconds": 8,
-        "percent": 0.23
+        "percent": 0.15
       }
     ]
   },
   "lastHeartbeat": {
-    "at": "2026-10-18T19:36:04.728Z",
-    "language": "Markdown",
+    "at": "2026-10-18T19:58:14.026Z",
+    "language": null,
     "category": "AI Coding"
   }
 }
