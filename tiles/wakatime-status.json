@@ -1,54 +1,16 @@
 {
-  "updatedAt": "2026-10-18T18:09:04.126Z",
+  "updatedAt": "2026-10-18T18:39:16.848Z",
   "timeZone": "Asia/Kolkata",
   "today": {
-    "seconds": 9591,
-    "text": "2 hrs 39 mins",
-    "languages": [
-      {
-        "name": "C#",
-        "seconds": 4220,
-        "percent": 44.01
-      },
-      {
-        "name": "Razor",
-        "seconds": 1666,
-        "percent": 17.37
-      },
-      {
-        "name": "Markdown",
-        "seconds": 1361,
-        "percent": 14.19
-      }
-    ],
-    "editors": [
-      {
-        "name": "Claude Code",
-        "seconds": 8494,
-        "percent": 88.57
-      },
-      {
-        "name": "VS Code",
-        "seconds": 1097,
-        "percent": 11.43
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "seconds": 8804,
-        "percent": 91.8
-      },
-      {
-        "name": "Coding",
-        "seconds": 787,
-        "percent": 8.2
-      }
-    ]
+    "seconds": 0,
+    "text": "",
+    "languages": [],
+    "editors": [],
+    "categories": []
   },
   "lastHeartbeat": {
-    "at": "2026-10-18T18:05:27.316Z",
-    "language": null,
+    "at": "2026-10-18T18:35:02.199Z",
+    "language": "Markdown",
     "category": "AI Coding"
   }
 }
