@@ -7,7 +7,7 @@
   </style>
 
   <rect width="300" height="140" fill="#000"/>
-  <text x="20" y="35" class="title">Now Playing</text>
-  <text x="20" y="75" class="name">The Theme - Thee Mugam Dhaan - From "Nerkonda Paarvai"</text>
-  <text x="20" y="105" class="artist">Sathyan, Senthil Dass, Sarath Santosh</text>
+  <text x="20" y="35" class="title">Last Played</text>
+  <text x="20" y="75" class="name">Idhayaa - Extended</text>
+  <text x="20" y="105" class="artist">Thaman S, Vishal Mishra, Vivek</text>
 </svg>
