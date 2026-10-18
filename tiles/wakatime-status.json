@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:38:43.838Z",
+  "updatedAt": "2026-10-18T12:08:38.562Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 4307,
@@ -11,9 +11,9 @@
         "percent": 38.74
       },
       {
-        "name": "Other",
-        "seconds": 644,
-        "percent": 14.94
+        "name": "Markdown",
+        "seconds": 836,
+        "percent": 19.4
       },
       {
         "name": "PowerShell",
