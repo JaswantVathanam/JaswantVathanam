@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T20:09:21.149Z",
+  "updatedAt": "2026-10-18T20:39:20.440Z",
   "timeZone": "Asia/Kolkata",
   "today": {
     "seconds": 5294,
@@ -12,13 +12,13 @@
       },
       {
         "name": "Markdown",
-        "seconds": 1101,
-        "percent": 20.79
+        "seconds": 1196,
+        "percent": 22.6
       },
       {
         "name": "Other",
-        "seconds": 709,
-        "percent": 13.39
+        "seconds": 613,
+        "percent": 11.58
       }
     ],
     "editors": [
@@ -48,7 +48,7 @@
   },
   "lastHeartbeat": {
     "at": "2026-10-18T19:58:14.026Z",
-    "language": null,
+    "language": "Markdown",
     "category": "AI Coding"
   }
 }
