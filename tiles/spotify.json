@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-10-19T07:40:12.236Z",
+  "updatedAt": "2026-10-19T08:10:15.377Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "The Theme - Thee Mugam Dhaan - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Sathyan",
+        "Senthil Dass",
+        "Sarath Santosh"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/0PN4pSoK1yPZNxi7Id9N1d",
+      "durationMs": 187663,
+      "playedAt": "2026-10-19T07:48:24.223Z"
+    },
     {
       "name": "Idhayame Idhayame",
       "artists": [
@@ -50,19 +63,6 @@
       "url": "https://open.spotify.com/track/0PN4pSoK1yPZNxi7Id9N1d",
       "durationMs": 187663,
       "playedAt": "2026-10-18T20:07:49.735Z"
-    },
-    {
-      "name": "Idhayaa - Extended",
-      "artists": [
-        "Thaman S",
-        "Vishal Mishra",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
-      "durationMs": 230250,
-      "playedAt": "2026-10-18T11:22:14.182Z"
     }
   ]
 }
