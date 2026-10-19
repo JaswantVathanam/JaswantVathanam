@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-19T00:11:57.830Z",
+  "updatedAt": "2026-10-19T00:39:43.310Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Vaanil Irul - From \"Nerkonda Paarvai\"",
+      "artists": [
+        "Dhee"
+      ],
+      "album": "Nerkonda Paarvai (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e02898b6f34962b33f6e027d46b",
+      "url": "https://open.spotify.com/track/1iDyicSSpijbqT8bdZAfi4",
+      "durationMs": 200129,
+      "playedAt": "2026-10-18T20:26:42.488Z"
+    },
     {
       "name": "Agalaathey - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -52,19 +63,6 @@
       "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
       "durationMs": 230250,
       "playedAt": "2026-10-18T02:13:28.114Z"
-    },
-    {
-      "name": "Kudikara Nenju",
-      "artists": [
-        "Jen Martin",
-        "Dhruv Vikram",
-        "Vishnu Edavan"
-      ],
-      "album": "Hi (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e022eed9156fd348ed21db7720b",
-      "url": "https://open.spotify.com/track/2abnlvMUecmff6xnQW2DT5",
-      "durationMs": 241593,
-      "playedAt": "2026-10-17T19:07:29.610Z"
     }
   ]
 }
