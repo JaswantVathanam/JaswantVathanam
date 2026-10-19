@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-10-19T05:40:01.972Z",
+  "updatedAt": "2026-10-19T06:10:10.774Z",
   "nowPlaying": null,
   "recent": [
+    {
+      "name": "Idhayame Idhayame",
+      "artists": [
+        "Thaman S",
+        "Manojna",
+        "Vivek"
+      ],
+      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
+      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
+      "url": "https://open.spotify.com/track/56EknyXI9CYcBgoJsvvwZw",
+      "durationMs": 270000,
+      "playedAt": "2026-10-19T05:46:59.733Z"
+    },
     {
       "name": "Vaanil Irul - From \"Nerkonda Paarvai\"",
       "artists": [
@@ -50,19 +63,6 @@
       "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
       "durationMs": 230250,
       "playedAt": "2026-10-18T11:22:14.182Z"
-    },
-    {
-      "name": "Idhayaa - Extended",
-      "artists": [
-        "Thaman S",
-        "Vishal Mishra",
-        "Vivek"
-      ],
-      "album": "Idhayam Murali (Original Motion Picture Soundtrack)",
-      "albumArt": "https://i.scdn.co/image/ab67616d00001e0269709eccb5e20f57af124256",
-      "url": "https://open.spotify.com/track/37m2El0eIgXO2cz2BndvOU",
-      "durationMs": 230250,
-      "playedAt": "2026-10-18T02:13:28.114Z"
     }
   ]
 }
